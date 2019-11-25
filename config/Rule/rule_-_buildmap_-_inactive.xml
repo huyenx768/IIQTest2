@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Rule created="1572527050689" id="4028868c6e13dfdc016e21ea8fc1064f" language="beanshell" modified="1573071350038" name="rule - buildmap - inactive" type="BuildMap">
+  <Description>convert inactiveIdentity to true or false  from "Y"/"N"
+
+/* This is a "BuildMap" rule (Application > Rules > BuildMap) to convert the
+        isActive attribute from Y/N to true/false, since the IC's expect true/false
+        for this attribute
+
+        BuildMap rules are used to modify the account data coming from the application
+        account prior to aggregation. You are provided a Map containing all the values
+        and you can modify this Map to change each row data.
+     */
+</Description>
+  <Signature returnType="Map">
+    <Inputs>
+      <Argument name="log">
+        <Description>
+          The log object associated with the SailPointContext.
+        </Description>
+      </Argument>
+      <Argument name="context">
+        <Description>
+          A sailpoint.api.SailPointContext object that can be used to query the database if necessary.
+        </Description>
+      </Argument>
+      <Argument name="application">
+        <Description>
+          The application whose data file is being processed.
+        </Description>
+      </Argument>
+      <Argument name="schema">
+        <Description>
+          The Schema currently in use.
+        </Description>
+      </Argument>
+      <Argument name="state">
+        <Description>
+          A Map containing state information.
+        </Description>
+      </Argument>
+      <Argument name="record">
+        <Description>
+          A List of data tokens parsed from the current line of the data file.
+        </Description>
+      </Argument>
+      <Argument name="cols">
+        <Description>
+          A List of the columns to use.
+        </Description>
+      </Argument>
+    </Inputs>
+    <Returns>
+      <Argument name="map">
+        <Description>
+          A Map of the resource object assembled from the data.
+        </Description>
+      </Argument>
+    </Returns>
+  </Signature>
+  <Source>import sailpoint.connector.DelimitedFileConnector;
+import org.apache.log4j.Logger;
+Logger logger = Logger.getLogger("huyen.rules.getAttribute.isInActive");
+
+logger.debug("In BuildMap Rule : convert inactiveIdentity to 0 or 1");
+
+/* Execute the default build map logic */
+Map map = DelimitedFileConnector.defaultBuildMap(cols, record);
+
+String isInactive = (String) map.get("inactiveIdentity");
+
+String newIsInactiveValue = "false";
+
+if (isInactive.equals("Y")) {
+	newIsInactiveValue = "true";
+}
+
+map.put("inactiveIdentity", newIsInactiveValue);
+
+return map;
+</Source>
+</Rule>

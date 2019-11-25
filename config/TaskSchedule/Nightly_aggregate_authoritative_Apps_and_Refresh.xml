@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE TaskSchedule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<TaskSchedule id="Nightly aggregate authoritative Apps and Refresh" lastExecution="1573830531201" name="Nightly aggregate authoritative Apps and Refresh" nextExecution="1573878480000">
+  <Arguments>
+    <Map>
+      <entry key="executor" value="Aggregate Authoritative Apps and Refresh"/>
+      <entry key="launcher" value="spadmin"/>
+      <entry key="nextActualFireTime" value="1573878480000"/>
+    </Map>
+  </Arguments>
+  <CronExpressions>
+    <String>0 28 23 * * ? </String>
+  </CronExpressions>
+  <Description></Description>
+</TaskSchedule>

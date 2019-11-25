@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE QuickLink PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<QuickLink action="manageAccounts" category="Access" created="1571839944691" cssClass="quicklink-manage-accounts" id="4028868c6df8e807016df8f627f30024" messageKey="quicklink_manage_accounts" modified="1573071370461" name="Manage Accounts" ordering="1">
+  <Description>quicklink_manage_accounts_desc</Description>
+  <QuickLinkOptions allowSelf="true" created="1573071370461" id="4028868c6e423c1c016e425c38dd00db">
+    <DynamicScopeRef>
+      <Reference class="sailpoint.object.DynamicScope" id="4028868c6df8e807016df8f6245a001d" name="Self Service"/>
+    </DynamicScopeRef>
+    <Attributes>
+      <Map>
+        <entry key="allowAccountOnlyRequests" value="false"/>
+        <entry key="allowManageAccountsAdditionalAccountRequests" value="false"/>
+        <entry key="allowManageExistingAccounts" value="true"/>
+      </Map>
+    </Attributes>
+  </QuickLinkOptions>
+  <QuickLinkOptions allowOther="true" created="1573071370461" id="4028868c6e423c1c016e425c38dd00dc">
+    <DynamicScopeRef>
+      <Reference class="sailpoint.object.DynamicScope" id="4028868c6df8e807016df8f625d1001e" name="Manager"/>
+    </DynamicScopeRef>
+    <Attributes>
+      <Map>
+        <entry key="allowAccountOnlyRequests" value="false"/>
+        <entry key="allowManageAccountsAdditionalAccountRequests" value="false"/>
+        <entry key="allowManageExistingAccounts" value="true"/>
+      </Map>
+    </Attributes>
+  </QuickLinkOptions>
+  <QuickLinkOptions allowOther="true" created="1573071370461" id="4028868c6e423c1c016e425c38dd00dd">
+    <DynamicScopeRef>
+      <Reference class="sailpoint.object.DynamicScope" id="4028868c6df8e807016df8f625ff001f" name="Help Desk"/>
+    </DynamicScopeRef>
+    <Attributes>
+      <Map>
+        <entry key="allowAccountOnlyRequests" value="false"/>
+        <entry key="allowManageAccountsAdditionalAccountRequests" value="false"/>
+        <entry key="allowManageExistingAccounts" value="true"/>
+      </Map>
+    </Attributes>
+  </QuickLinkOptions>
+</QuickLink>

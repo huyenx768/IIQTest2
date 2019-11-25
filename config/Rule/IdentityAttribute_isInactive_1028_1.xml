@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Rule created="1572271922847" id="4028868c6e129dfa016e12b59e9f000f" language="beanshell" modified="1573071349772" name="IdentityAttribute_isInactive_1028_1" type="IdentityAttribute">
+  <Description>Identity attribute rules are used when the value is not simply a copy of an application account attribute value.  A transformation may be necessary on the account attribute, or several account attributes may need to be combined to produce the identity attribute.
+
+This rule can be called in two ways: as a global mapping rule and an application mapping rule.  A global mapping rule is called whenever the identity is refreshed.  The rule can look at any account attributes.  An application mapping rule is called only when the identity contains an account link for that application, this link is passed in the "link" argument which is not passed in global mapping rules.</Description>
+  <Signature returnType="String">
+    <Inputs>
+      <Argument name="log">
+        <Description>
+          The log object associated with the SailPointContext.
+        </Description>
+      </Argument>
+      <Argument name="context">
+        <Description>
+          A sailpoint.api.SailPointContext object that can be used to query the database if necessary.
+        </Description>
+      </Argument>
+      <Argument name="environment" type="Map">
+        <Description>
+           Arguments passed to the aggregation or refresh task.
+        </Description>
+      </Argument>
+      <Argument name="identity">
+        <Description>
+           The Identity object that represents the user
+           that is being aggregated.
+        </Description>
+      </Argument>
+      <Argument name="attributeDefinition">
+        <Description>
+           The AttributeDefinition object for this attribute.
+        </Description>
+      </Argument>
+      <Argument name="link">
+        <Description>
+           The Link object from the Identity, if this is an application
+           mapping rule.  For global mapping rules this will be void.
+        </Description>
+      </Argument>
+      <Argument name="attributeSource">
+        <Description>
+          The AttributeSource object.
+        </Description>
+      </Argument>
+      <Argument name="oldValue">
+        <Description>
+          The original value of the application account attribute.
+        </Description>
+      </Argument>
+    </Inputs>
+    <Returns>
+      <Argument name="attributeValue">
+        <Description>
+          The value of the attribute that should be populated.
+          The rule should return this value.
+        </Description>
+      </Argument>
+    </Returns>
+  </Signature>
+  <Source>import org.apache.log4j.Logger;
+import sailpoint.object.Link;
+import sailpoint.object.Attributes;
+
+// the customlogger huyen.rules.getAttribute.isInActive is defined in the 
+// C:\SailPoint\tomcat\webapps\identityiq\WEB-INF\classes\log4j.properties
+// and is used for this rule only, it is set to DEBUG initially
+// Having a custom logger allows you to set level to DEBUG without affecting
+// the rest of IIQ logging
+
+Logger custLog = Logger.getLogger("huyen.rules.getAttribute.isInActive");
+
+// link is an input parameter that represents the account data pertaining to this
+// account (that you specified when adding this rule)
+  
+Attributes attrs = link.getAttributes();
+
+// IIQ inactive attribute is a pre-defined IIQ Identity cube attribute, and the type
+// is Bit (in the DB at least). However, in my flat file, I had the value set to a string
+// 'Y' or 'N'. Hence we need to have this rule to convert 'N' -> 0  and 'Y' -> 1
+
+// If something went wrong, the link attributes are null, make the customer inactive 
+if ( attrs == null ) {
+   custLog.debug("link.attributes is null!, setting inActive value to false...");
+   return true;
+}
+
+// Get the current value of isInactive from the account (read in from flat file)
+// getString is just a convenience method that converts the Object typed value to String
+
+String isInactiveValue = attrs.getString("inactiveIdentity");
+
+custLog.debug("link attribute inactivityIdentity is: " + isInactiveValue);
+
+if (isInactiveValue.equalsIgnoreCase("Y")) {
+	custLog.debug("Setting identity cube inActive value to true...");
+	return true;
+}
+
+custLog.debug("Setting identity cube inActive value to false...");
+return false;
+
+
+</Source>
+</Rule>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Capability PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Capability created="1571838727585" displayName="capability_role_administrator" id="4028868c6df8e21a016df8e395a100c3" modified="1573836186391" name="RoleAdministrator">
+  <Description>capability_desc_role_administrator</Description>
+  <InheritedCapabilities>
+    <Reference class="sailpoint.object.Capability" id="4028868c6df8e21a016df8e3954300c2" name="OrganizationalRoleAdministrator"/>
+    <Reference class="sailpoint.object.Capability" id="4028868c6df8e21a016df8e3950400c1" name="BusinessRoleAdministrator"/>
+    <Reference class="sailpoint.object.Capability" id="4028868c6df8e21a016df8e3947800bf" name="ITRoleAdministrator"/>
+  </InheritedCapabilities>
+  <RightRefs>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37ba00024" name="ViewApplication"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37fa70041" name="FullAccessReport"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3812e004d" name="FullAccessMitigationReport"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3810f004c" name="FullAccessWorkItemReport"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3815d004e" name="FullAccessViolationReport"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38380005e" name="FullAccessIdentityRoleReport"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3817c004f" name="FullAccessRemediationProgressReport"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e380d0004a" name="FullAccessBusinessRoleCompositionReport"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e380b10049" name="FullAccessBusinessRoleReport"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e380ef004b" name="FullAccessBusinessRoleMembershipReport"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e383ce0061" name="FullAccessRoleChangeMgmtReport"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e385060069" name="FullAccessCertificationSignoffReport"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37c2d0028" name="FullAccessRoleMining"/>
+  </RightRefs>
+</Capability>

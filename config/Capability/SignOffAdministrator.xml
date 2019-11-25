@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Capability PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Capability created="1571838728569" displayName="capability_sign_off_administrator" id="4028868c6df8e21a016df8e3997900c7" modified="1573836187157" name="SignOffAdministrator">
+  <Description>capability_desc_sign_off_administrator</Description>
+  <RightRefs>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37e210036" name="FullAccessTask"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37fc70042" name="DeleteSignOffResult"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37fa70041" name="FullAccessReport"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3810f004c" name="FullAccessWorkItemReport"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e378b20015" name="ViewDashboardChooser"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37b330021" name="ViewSignoffStatus"/>
+  </RightRefs>
+</Capability>

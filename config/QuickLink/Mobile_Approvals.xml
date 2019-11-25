@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE QuickLink PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<QuickLink action="manageWorkItems" category="Tasks" created="1571838751382" cssClass="quicklink-approvals" hidden="true" id="4028868c6df8e21a016df8e3f2960135" messageKey="quicklink_approvals" modified="1573071369430" name="Mobile Approvals">
+  <Attributes>
+    <Map>
+      <entry key="displayText" value="true"/>
+      <entry key="textAriaLabel" value="quicklink_approvals_text_aria_label"/>
+      <entry key="textScript">
+        <value>
+          <Script>
+            <Source>
+                  
+                    import sailpoint.object.WorkItem;
+                    import sailpoint.object.QueryOptions;
+                    import sailpoint.object.Filter;
+                    import java.util.List;
+                    import java.util.ArrayList;
+  
+                    QueryOptions qo = new QueryOptions();
+                    List filters = new ArrayList();
+
+                    filters.add(Filter.eq("owner", currentUser));
+                           
+                    if (currentUser.getWorkgroups() != null &amp;&amp; !currentUser.getWorkgroups().isEmpty())
+                    {
+                      filters.add(Filter.in("owner", currentUser.getWorkgroups()));
+                    }    
+
+                    //Join to IdentityRequest table for type filter
+                    List identityRequestTypes = new ArrayList();
+                    identityRequestTypes.add("AccessRequest");
+                    identityRequestTypes.add("AccountsRequest");
+                    qo.addFilter(Filter.join("identityRequestId", "IdentityRequest.name"));
+                    qo.addFilter(Filter.in("IdentityRequest.type", identityRequestTypes));  
+                    qo.addFilter(Filter.eq("type", "Approval"));
+                    qo.addFilter(Filter.or(filters));
+  
+                    int count = context.countObjects(WorkItem.class, qo);
+                    return count;
+                  
+                </Source>
+          </Script>
+        </value>
+      </entry>
+      <entry key="workItemType" value="Approval"/>
+    </Map>
+  </Attributes>
+  <QuickLinkOptions allowSelf="true" created="1573071369430" id="4028868c6e423c1c016e425c34d600d2">
+    <DynamicScopeRef>
+      <Reference class="sailpoint.object.DynamicScope" id="4028868c6df8e21a016df8e3efb8012e" name="Everyone"/>
+    </DynamicScopeRef>
+  </QuickLinkOptions>
+</QuickLink>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE DashboardContent PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<DashboardContent created="1571838742179" id="4028868c6df8e21a016df8e3cea300e7" modified="1573071398584" name="Policy Violation Chart" regionSize="0" source="dashboard/chart/chartPolicyViolations.xhtml" title="dash_title_policy_violation_chart" type="Compliance">
+  <Attributes>
+    <Map>
+      <entry key="chartDateRange" value="Current"/>
+      <entry key="chartIs3d" value="true"/>
+      <entry key="chartOrientation" value="vertical"/>
+      <entry key="chartType" value="bar"/>
+    </Map>
+  </Attributes>
+  <Description>dash_description_policy_violation_chart</Description>
+  <RequiredRights>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3793f0018" name="ViewPolicyViolationChart"/>
+  </RequiredRights>
+</DashboardContent>

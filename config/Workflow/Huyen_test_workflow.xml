@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Workflow created="1572443155493" explicitTransitions="true" id="4028868c6e13dfdc016e1cea6c250414" modified="1573071363570" monitored="true" name="Huyen test workflow" type="ScheduledAssignment">
+  <Variable editable="true" initializer="hello" name="myVariable"/>
+  <Step icon="Default" name="Generic Step" posX="20" posY="20"/>
+  <Step icon="Start" name="Start" posX="20" posY="20"/>
+  <Step icon="Start" name="Start (1)" posX="20" posY="20"/>
+  <Step icon="Start" name="Start (2)" posX="20" posY="20"/>
+  <Step icon="Start" name="Start (3)" posX="20" posY="20"/>
+  <Step icon="Start" name="Start (4)" posX="104" posY="234"/>
+  <Step icon="Stop" name="Stop" posX="20" posY="20"/>
+  <Step icon="Stop" name="Stop (1)" posX="395" posY="260"/>
+  <Step icon="Start" name="Start (5)" posX="20" posY="20"/>
+  <Step icon="Default" name="Generic Step (1)" posX="20" posY="20"/>
+  <Step icon="Task" name="Generic Step (2)" posX="233" posY="272"/>
+</Workflow>

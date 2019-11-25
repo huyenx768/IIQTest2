@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE SPRight PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<SPRight created="1571838721912" displayName="right_view_audit_log" id="4028868c6df8e21a016df8e37f780040" modified="1573836176609" name="ViewAuditLog">
+  <Description>right_desc_view_audit_log</Description>
+</SPRight>

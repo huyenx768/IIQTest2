@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<TaskDefinition created="1572639142037" id="4028868c6e13dfdc016e2898f0950a74" modified="1573071387925" name="IT Roles - HR Employees 2" resultAction="Rename" subType="task_item_type_it_role_mining" type="ITRoleMining">
+  <Attributes>
+    <Map>
+      <entry key="applications" value="Contractor Feed, HR System - Employees"/>
+      <entry key="identityFilter" value="&lt;List>&#xA;  &lt;Filter operation=&quot;IN&quot; property=&quot;links.application.id&quot;>&#xA;    &lt;Value>&#xA;      &lt;List>&#xA;        &lt;String>Contractor Feed&lt;/String>&#xA;        &lt;String>HR System - Employees&lt;/String>&#xA;      &lt;/List>&#xA;    &lt;/Value>&#xA;  &lt;/Filter>&#xA;&lt;/List>&#xA;"/>
+      <entry key="includedEntitlements"/>
+      <entry key="isExcluded">
+        <value>
+          <Boolean>true</Boolean>
+        </value>
+      </entry>
+      <entry key="itRoleMiningResultName" value="IT Roles - HR Employees 2"/>
+      <entry key="maxCandidateRoles">
+        <value>
+          <Integer>1000</Integer>
+        </value>
+      </entry>
+      <entry key="minEntitlementsPerRole">
+        <value>
+          <Integer>0</Integer>
+        </value>
+      </entry>
+      <entry key="minIdentitiesPerRole">
+        <value>
+          <Integer>0</Integer>
+        </value>
+      </entry>
+      <entry key="populationName"/>
+      <entry key="roleMiningFilterType" value="searchByAttributes"/>
+    </Map>
+  </Attributes>
+  <Description>
+      IT Role Mining based on a population, List of applications/entitlements and thresholds.
+    </Description>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" id="4028868c6df8e21a016df8e3d68200fc" name="spadmin"/>
+  </Owner>
+  <Parent>
+    <Reference class="sailpoint.object.TaskDefinition" id="4028868c6df8e21a016df8e4348201c2" name="New IT Role Mining"/>
+  </Parent>
+</TaskDefinition>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Capability PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Capability created="1571838729303" displayName="capability_managed_attribute_provisioning_admin" id="4028868c6df8e21a016df8e39c5700d2" modified="1573836188156" name="ManagedAttributeProvisioningAdmin">
+  <Description>capability_desc_managed_attribute_provisioning_admin</Description>
+  <RightRefs>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38c9800a0" name="ManagedAttributePropertyAdministrator"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38cb700a1" name="ManagedAttributeProvisioningAdministrator"/>
+  </RightRefs>
+</Capability>

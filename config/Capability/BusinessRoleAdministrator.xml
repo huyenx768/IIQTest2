@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Capability PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Capability created="1571838727428" displayName="capability_business_role_administrator" id="4028868c6df8e21a016df8e3950400c1" modified="1573836186172" name="BusinessRoleAdministrator">
+  <Description>capability_desc_business_role_administrator</Description>
+  <RightRefs>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37bee0026" name="ViewRole"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37c0d0027" name="ManageRole"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37d940032" name="ManageBusinessRoles"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38cd600a2" name="FullAccessForms"/>
+  </RightRefs>
+</Capability>

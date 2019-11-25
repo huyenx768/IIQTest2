@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE QuickLink PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<QuickLink action="createIdentity" category="Manage" created="1571839945098" cssClass="quicklink-create-identity" id="4028868c6df8e807016df8f6298a002e" messageKey="quicklink_create_identity" modified="1573071370836" name="Create Identity" ordering="5">
+  <Description>quicklink_create_identity_desc</Description>
+  <QuickLinkOptions allowOther="true" created="1573071370836" id="4028868c6e423c1c016e425c3a5400e2">
+    <DynamicScopeRef>
+      <Reference class="sailpoint.object.DynamicScope" id="4028868c6df8e807016df8f625d1001e" name="Manager"/>
+    </DynamicScopeRef>
+  </QuickLinkOptions>
+  <QuickLinkOptions allowOther="true" created="1573071370836" id="4028868c6e423c1c016e425c3a5400e3">
+    <DynamicScopeRef>
+      <Reference class="sailpoint.object.DynamicScope" id="4028868c6df8e807016df8f625ff001f" name="Help Desk"/>
+    </DynamicScopeRef>
+  </QuickLinkOptions>
+</QuickLink>

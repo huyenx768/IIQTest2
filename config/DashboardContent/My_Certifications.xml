@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE DashboardContent PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<DashboardContent created="1571838742210" id="4028868c6df8e21a016df8e3cec200e8" modified="1573071398611" name="My Certifications" regionSize="0" source="dashboard/contentMyCertifications.xhtml" title="dash_title_my_cert" type="My">
+  <Attributes>
+    <Map>
+      <entry key="chartIs3d" value="true"/>
+      <entry key="chartOrientation" value="horizontal"/>
+      <entry key="chartType" value="pie"/>
+      <entry key="viewDetails" value="false"/>
+    </Map>
+  </Attributes>
+  <Description>dash_description_my_cert</Description>
+</DashboardContent>

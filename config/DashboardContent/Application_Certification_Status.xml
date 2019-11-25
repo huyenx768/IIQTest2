@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE DashboardContent PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<DashboardContent created="1571838742366" id="4028868c6df8e21a016df8e3cf5e00eb" modified="1573071398700" name="Application Certification Status" regionSize="0" source="dashboard/contentApplicationCertPercent.xhtml" title="dash_title_app_cert_status" type="Compliance">
+  <Description>dash_description_app_cert_status</Description>
+  <RequiredRights>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e379ea001b" name="ViewApplicationCertificationStatus"/>
+  </RequiredRights>
+</DashboardContent>

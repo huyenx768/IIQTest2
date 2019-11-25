@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Capability PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Capability created="1571838728975" displayName="capability_certification_administrator" id="4028868c6df8e21a016df8e39b0f00cb" modified="1573836187484" name="CertificationAdministrator">
+  <Description>capability_desc_certification_administrator</Description>
+  <RightRefs>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e378b20015" name="ViewDashboardChooser"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3795e0019" name="ViewCertificationOwnerStatus"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e379bc001a" name="ViewAllIdentitiesCertificationOwnerStatus"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e379ea001b" name="ViewApplicationCertificationStatus"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37a0a001c" name="ViewGroupCertificationStatus"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37a39001d" name="ViewCertificationCompletionChart"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37aa6001e" name="ViewCertificationCompletionStatus"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37ae5001f" name="ViewCertificationDecisionChart"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37b810023" name="ViewCertificationsDashboardGrid"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37fa70041" name="FullAccessReport"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3819b0050" name="FullAccessManagerCertificationReport"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e381bb0051" name="FullAccessApplicationOwnerCertificationReport"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e381f90053" name="FullAccessAdvancedCertificationReport"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e382180054" name="FullAccessCertificationDecisionReport"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e382470055" name="FullAccessApplicationCentricCertificationReport"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e385060069" name="FullAccessCertificationSignoffReport"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e373d00004" name="CertifyAllCertifications"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37eec003c" name="ViewCertifications"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e373240003" name="FullAccessCertifications"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38e8c00b0" name="CertificationCampaignsWidget"/>
+  </RightRefs>
+</Capability>

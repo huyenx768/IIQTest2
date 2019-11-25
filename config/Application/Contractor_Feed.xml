@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Application PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Application authoritative="true" connector="sailpoint.connector.DelimitedFileConnector" created="1571852166989" featuresString="DIRECT_PERMISSIONS, NO_RANDOM_ACCESS, DISCOVER_SCHEMA" icon="enterpriseIcon" id="4028868c6df90c1d016df9b0a74d0060" modified="1573830561165" name="Contractor Feed" profileClass="" type="DelimitedFile">
+  <Attributes>
+    <Map>
+      <entry key="acctAggregationEnd">
+        <value>
+          <Date>1573830560282</Date>
+        </value>
+      </entry>
+      <entry key="acctAggregationStart">
+        <value>
+          <Date>1573830555499</Date>
+        </value>
+      </entry>
+      <entry key="buildMapRule" value="rule - buildmap - inactive"/>
+      <entry key="compositeDefinition"/>
+      <entry key="delimiter" value=","/>
+      <entry key="file" value="C:\SailPoint\data\contractors_sample_list.csv"/>
+      <entry key="filetransport" value="local"/>
+      <entry key="filterEmptyRecords">
+        <value>
+          <Boolean>true</Boolean>
+        </value>
+      </entry>
+      <entry key="group.filetransport" value="local"/>
+      <entry key="group.filterEmptyRecords">
+        <value>
+          <Boolean>true</Boolean>
+        </value>
+      </entry>
+      <entry key="group.partitionMode" value="auto"/>
+      <entry key="hasHeader">
+        <value>
+          <Boolean>true</Boolean>
+        </value>
+      </entry>
+      <entry key="isCaseInsensitiveMerge">
+        <value>
+          <Boolean></Boolean>
+        </value>
+      </entry>
+      <entry key="isSortedByIndexColumn">
+        <value>
+          <Boolean></Boolean>
+        </value>
+      </entry>
+      <entry key="managerCorrelationFilter">
+        <value>
+          <Filter operation="EQ" property="empId" value="managerId"/>
+        </value>
+      </entry>
+      <entry key="mergeRows">
+        <value>
+          <Boolean></Boolean>
+        </value>
+      </entry>
+      <entry key="nativeChangeDetectionAttributeScope" value="entitlements"/>
+      <entry key="nativeChangeDetectionAttributes"/>
+      <entry key="nativeChangeDetectionEnabled">
+        <value>
+          <Boolean></Boolean>
+        </value>
+      </entry>
+      <entry key="nativeChangeDetectionOperations"/>
+      <entry key="parseType" value="delimited"/>
+      <entry key="partitionMode" value="auto"/>
+      <entry key="stopIfLineHasWrongColumnLength">
+        <value>
+          <Boolean></Boolean>
+        </value>
+      </entry>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US"/>
+          </Map>
+        </value>
+      </entry>
+      <entry key="templateApplication" value="DelimitedFile Template"/>
+      <entry key="transportUser" value="spadmin"/>
+      <entry key="transportUserPassword" value="1:p+qvPBo4Rig8PYlNWbr3Zg=="/>
+    </Map>
+  </Attributes>
+  <CreationRule>
+    <Reference class="sailpoint.object.Rule" id="4028868c6df90c1d016df9a279870058" name="Creation Rule - Set Password"/>
+  </CreationRule>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" id="4028868c6e13dfdc016e22037de40661" name="Employees and Contractor HR App owners"/>
+  </Owner>
+  <Schemas>
+    <Schema created="1573071365649" displayAttribute="fullName" id="4028868c6e423c1c016e425c261100c4" identityAttribute="employeeId" instanceAttribute="" nativeObjectType="account" objectType="account" permissionsRemediationModificationType="None">
+      <AttributeDefinition name="employeeId" type="string"/>
+      <AttributeDefinition name="firstName" type="string"/>
+      <AttributeDefinition name="lastName" type="string"/>
+      <AttributeDefinition name="managerId" type="string"/>
+      <AttributeDefinition name="fullName" type="string"/>
+      <AttributeDefinition name="email" type="string"/>
+      <AttributeDefinition name="department" type="string"/>
+      <AttributeDefinition name="region" type="string"/>
+      <AttributeDefinition name="location" type="string"/>
+      <AttributeDefinition name="inactiveIdentity" type="string"/>
+      <AttributeDefinition multi="true" name="costcenter" type="string"/>
+    </Schema>
+  </Schemas>
+  <ApplicationScorecard created="1573071365649" id="4028868c6e423c1c016e425c261100c3"/>
+</Application>

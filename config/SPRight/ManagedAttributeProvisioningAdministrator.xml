@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE SPRight PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<SPRight created="1571838725303" displayName="right_managed_attribute_provisioning_admin" id="4028868c6df8e21a016df8e38cb700a1" modified="1573836182688" name="ManagedAttributeProvisioningAdministrator">
+  <Description>right_desc_managed_attribute_provisioning_admin</Description>
+</SPRight>

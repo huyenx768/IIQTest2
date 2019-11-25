@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Identity PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Identity created="1572528684516" id="4028868c6e13dfdc016e22037de40661" modified="1572528685016" name="Employees and Contractor HR App owners" workgroup="true">
+  <Attributes>
+    <Map>
+      <entry key="displayName" value="Employees and Contractor HR App owners"/>
+    </Map>
+  </Attributes>
+  <Capabilities>
+    <Reference class="sailpoint.object.Capability" id="4028868c6df8e21a016df8e3918a00ba" name="ApplicationAdministrator"/>
+  </Capabilities>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" id="4028868c6df8e21a016df8e3d68200fc" name="spadmin"/>
+  </Owner>
+  <Preferences>
+    <Map>
+      <entry key="workgroupNotificationOption">
+        <value>
+          <WorkgroupNotifationOption>Both</WorkgroupNotifationOption>
+        </value>
+      </entry>
+    </Map>
+  </Preferences>
+</Identity>

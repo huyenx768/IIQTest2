@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<TaskDefinition created="1571838769867" executor="sailpoint.task.FullTextIndexer" id="4028868c6df8e21a016df8e43acb01d5" modified="1573071383486" name="Full Text Index Refresh" progressMode="String" subType="task_item_type_system" type="System">
+  <Description>
+          Build full-text indexes for roles and managed attributes.
+        </Description>
+</TaskDefinition>

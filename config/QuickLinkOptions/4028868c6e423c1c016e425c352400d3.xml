@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE QuickLinkOptions PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<QuickLinkOptions allowSelf="true" created="1573071369508" id="4028868c6e423c1c016e425c352400d3">
+  <DynamicScopeRef>
+    <Reference class="sailpoint.object.DynamicScope" id="4028868c6df8e21a016df8e3efb8012e" name="Everyone"/>
+  </DynamicScopeRef>
+</QuickLinkOptions>

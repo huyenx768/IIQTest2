@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE DashboardContent PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<DashboardContent created="1571838742257" id="4028868c6df8e21a016df8e3cef100e9" modified="1573071398647" name="Certification Owner Status" regionSize="0" source="dashboard/contentOwnerCerts.xhtml" title="dash_title_cert_owner_status" type="My">
+  <Description>dash_description_cert_owner_status</Description>
+  <RequiredRights>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3795e0019" name="ViewCertificationOwnerStatus"/>
+    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e379bc001a" name="ViewAllIdentitiesCertificationOwnerStatus"/>
+  </RequiredRights>
+</DashboardContent>
