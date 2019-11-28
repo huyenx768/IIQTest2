@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838768820" deprecated="true" executor="sailpoint.task.CEFDataExportExecutor" formPath="/monitor/tasks/cefDataExportInclude.xhtml" id="4028868c6df8e21a016df8e436b401ca" modified="1573836222437" name="CEF Data Export" progressInterval="5000" progressMode="String" subType="task_item_type_generic" template="true" type="Generic">
+<TaskDefinition deprecated="true" executor="sailpoint.task.CEFDataExportExecutor" formPath="/monitor/tasks/cefDataExportInclude.xhtml" name="CEF Data Export" progressInterval="5000" progressMode="String" subType="task_item_type_generic" template="true" type="Generic">
   <Description>
             Template for creating a CEF data export task.
         </Description>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<EmailTemplate created="1571838754523" id="4028868c6df8e21a016df8e3fedb0153" modified="1573836246755" name="Work Item Escalation">
+<EmailTemplate name="Work Item Escalation">
   <Body>The work item "$workItemName" escalated.  It previously belonged to $oldOwner and was due on $spTools.formatDate($oldDueDate,3,1).
 
 It has now been assigned to you#if ($newDueDate), and its due date has been extended to $spTools.formatDate($newDueDate,3,1)#end.

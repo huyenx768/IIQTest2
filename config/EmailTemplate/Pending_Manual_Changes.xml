@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<EmailTemplate created="1571838757554" id="4028868c6df8e21a016df8e40ab20173" modified="1573836280922" name="Pending Manual Changes">
+<EmailTemplate name="Pending Manual Changes">
   <Body>
       
 $launcher is requesting the following changes for '$identityDisplayName' be manually made by you.

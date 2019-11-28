@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Form PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Form created="1571838759648" id="4028868c6df8e21a016df8e412e00186" modified="1573836283860" name="LCM Identity Approval" type="Workflow">
+<Form name="LCM Identity Approval" type="Workflow">
   <Attributes>
     <Map>
       <entry key="subtitle" value="lcm_identity_approval_subtitle"/>

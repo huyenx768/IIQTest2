@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Configuration PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Configuration created="1571838741038" id="4028868c6df8e21a016df8e3ca2e00dd" modified="1573071397926" name="ProvisioningTargetCollectorRegistry">
+<Configuration name="ProvisioningTargetCollectorRegistry">
   <Attributes>
     <Map>
       <entry key="ACF2 - Full">

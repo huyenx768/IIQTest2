@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE SPRight PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<SPRight created="1571838722194" displayName="right_application_activity_report" id="4028868c6df8e21a016df8e380920048" modified="1573836177096" name="FullAccessApplicationActivityReport">
+<SPRight displayName="right_application_activity_report" name="FullAccessApplicationActivityReport">
   <Description>right_desc_application_activity_report</Description>
 </SPRight>

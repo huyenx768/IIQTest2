@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<EmailTemplate created="1571838754476" id="4028868c6df8e21a016df8e3feac0152" modified="1573836246708" name="Work Item Reminder">
-  <Body>This is your $ordinalNumReminders reminder that the work item $workItemName #if($requester)requested by $requester.displayableName, and #{end}created on $spTools.formatDate($created,3,1), #if($expiration)#if($expiration.getTime() > $nowDate.getTime())is due on $spTools.formatDate($expiration,3,1).#{else}was due on $spTools.formatDate($expiration,3,1).#{end}#{else}was due on $spTools.formatDate($oldDueDate,3,1).#{end}
+<EmailTemplate name="Work Item Reminder">
+  <Body>This is your $ordinalNumReminders reminder that the work item $workItemName #if($requester)requested by $requester.displayableName, and #{end}created on $spTools.formatDate($created,3,1), #if($expiration)#if($expiration.getTime() &gt; $nowDate.getTime())is due on $spTools.formatDate($expiration,3,1).#{else}was due on $spTools.formatDate($expiration,3,1).#{end}#{else}was due on $spTools.formatDate($oldDueDate,3,1).#{end}
 
-#if ($newDueDate > $expiration)
+#if ($newDueDate &gt; $expiration)
 The due date has been extended to $spTools.formatDate($newDueDate,3,1).
 
 #end
-#if ($remindersRemaining > 0)
+#if ($remindersRemaining &gt; 0)
 This work item will escalate after $remindersRemaining more reminder(s).
 
 #end

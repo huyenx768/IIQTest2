@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<EmailTemplate created="1571838754898" id="4028868c6df8e21a016df8e40052015e" modified="1573836247427" name="Challenge Accepted">
+<EmailTemplate name="Challenge Accepted">
   <Body>$certifierName has accepted the challenge for '$challengeItem' and will change the decision.
 
 Comments from $certifierName:

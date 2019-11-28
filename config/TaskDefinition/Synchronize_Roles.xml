@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838770305" executor="sailpoint.task.RoleSynchronizer" id="4028868c6df8e21a016df8e43c8101e0" modified="1573071383882" name="Synchronize Roles" subType="task_item_type_system" type="System">
+<TaskDefinition executor="sailpoint.task.RoleSynchronizer" name="Synchronize Roles" subType="task_item_type_system" type="System">
   <Description>
             Synchronize roles with identity management systems.
         </Description>

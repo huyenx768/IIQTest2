@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE SPRight PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<SPRight created="1571838724991" displayName="right_webservice_remotelogin" id="4028868c6df8e21a016df8e38b7f0098" modified="1573836182000" name="RemoteLoginWebService">
+<SPRight displayName="right_webservice_remotelogin" name="RemoteLoginWebService">
   <Description>right_desc_webservice_remotelogin</Description>
 </SPRight>

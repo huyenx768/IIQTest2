@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Workflow configForm="Identity Update Config Form" created="1571838758617" id="4028868c6df8e21a016df8e40ed9017d" libraries="Identity" modified="1573836236613" name="Identity Update" type="IdentityUpdate">
+<Workflow configForm="Identity Update Config Form" libraries="Identity" name="Identity Update" type="IdentityUpdate">
   <Variable initializer="false" name="trace">
     <Description>
       Used for debugging this workflow and when set to true trace
@@ -182,7 +182,7 @@
     </Description>
     <Return name="project" to="project"/>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e21a016df8e409f70172" name="Do Provisioning Forms"/>
+      <Reference class="sailpoint.object.Workflow" name="Do Provisioning Forms"/>
     </WorkflowRef>
     <Transition to="Start Provisioning Process"/>
   </Step>
@@ -240,7 +240,7 @@
       to an integrated IDM system.
     </Description>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e21a016df8e40ad10174" name="Do Manual Actions"/>
+      <Reference class="sailpoint.object.Workflow" name="Do Manual Actions"/>
     </WorkflowRef>
     <Transition to="Refresh Identity"/>
   </Step>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838773399" executor="sailpoint.reporting.LiveReportExecutor" id="4028868c6df8e21a016df8e4489701e9" modified="1573836224265" name="Configured Applications Details Report" progressMode="Percentage" resultAction="Rename" subType="Configured Resource Reports" template="true" type="LiveReport">
+<TaskDefinition executor="sailpoint.reporting.LiveReportExecutor" name="Configured Applications Details Report" progressMode="Percentage" resultAction="Rename" subType="Configured Resource Reports" template="true" type="LiveReport">
   <Attributes>
     <Map>
       <entry key="report">
@@ -13,7 +13,7 @@
               </QueryParameters>
             </DataSource>
             <ReportForm>
-              <Reference class="sailpoint.object.Form" id="4028868c6df8e21a016df8e4486801e8" name="Applications Detail Report Form"/>
+              <Reference class="sailpoint.object.Form" name="Applications Detail Report Form"/>
             </ReportForm>
             <Columns>
               <ReportColumnConfig field="application" header="rept_app_grid_col_app" property="name" sortable="true" width="110"/>
@@ -43,7 +43,7 @@
   </Attributes>
   <Description>A detailed view of all configured applications.</Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e382e30059" name="FullAccessApplicationReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessApplicationReport"/>
   </RequiredRights>
   <Signature>
     <Inputs>

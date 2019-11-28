@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Configuration PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Configuration created="1571838741007" id="4028868c6df8e21a016df8e3ca0f00dc" modified="1573071397902" name="TargetCollectorRegistry">
+<Configuration name="TargetCollectorRegistry">
   <Attributes>
     <Map>
       <entry key="Lieberman Collector">

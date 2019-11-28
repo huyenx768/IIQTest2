@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Workflow created="1571839955848" handler="sailpoint.api.StandardWorkflowHandler" id="4028868c6df8e807016df8f65388005b" libraries="Identity,BatchRequest,IdentityRequest" modified="1573836286110" name="Batch Request Wrapper" taskType="LCM" type="BatchProvisioning">
+<Workflow handler="sailpoint.api.StandardWorkflowHandler" libraries="Identity,BatchRequest,IdentityRequest" name="Batch Request Wrapper" taskType="LCM" type="BatchProvisioning">
   <Variable initializer="parallelPoll" input="true" name="approvalMode">
     <Description>
      A string that specifies how we should handle the approvals.
@@ -78,8 +78,8 @@
     </Description>
   </Variable>
   <RuleLibraries>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e404f50170" name="Approval Library"/>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e410bd0183" name="LCM Workflow Library"/>
+    <Reference class="sailpoint.object.Rule" name="Approval Library"/>
+    <Reference class="sailpoint.object.Rule" name="LCM Workflow Library"/>
   </RuleLibraries>
   <Step icon="Start" name="Start" posX="25" posY="131">
     <Transition to="Approve" when="script:requireBatchRequestApproval"/>
@@ -105,7 +105,7 @@
     <Return name="approvalSet" to="approvalSet"/>
     <Return name="workItemComments"/>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e807016df8f63f44003e" name="Identity Request Approve"/>
+      <Reference class="sailpoint.object.Workflow" name="Identity Request Approve"/>
     </WorkflowRef>
     <Transition to="Batch Request Rejected" when="script:approvalSet.hasRejected()"/>
     <Transition to="Launch Batch Workflows"/>

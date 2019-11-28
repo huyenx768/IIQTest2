@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571839955895" executor="sailpoint.task.BatchRequestTaskExecutor" hidden="true" id="4028868c6df8e807016df8f653b7005c" modified="1573836286251" name="Batch Request Processing Task" subType="task_item_type_system" template="true" type="System">
+<TaskDefinition executor="sailpoint.task.BatchRequestTaskExecutor" hidden="true" name="Batch Request Processing Task" subType="task_item_type_system" template="true" type="System">
   <Description>
           Process batch requests
       </Description>

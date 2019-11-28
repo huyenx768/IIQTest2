@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Form PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Form created="1571838774258" hidden="true" id="4028868c6df8e21a016df8e44bf201ee" modified="1573836245833" name="Base Identity Report Form" type="Report">
+<Form hidden="true" name="Base Identity Report Form" type="Report">
   <Section columns="2" label="rept_users_auth_section_identity_props" name="Identity Attributes"/>
   <Section columns="2" label="rept_users_auth_section_extended" name="Identity Extended Attributes"/>
   <Section columns="2" label="rept_identity_roles_section_props" name="Identity Properties">

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Form PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Form created="1571838804356" id="4028868c6df8e21a016df8e4c184029f" modified="1573836244302" name="Identity Update" type="Workflow">
+<Form name="Identity Update" type="Workflow">
   <Attributes>
     <Map>
       <entry key="pageTitle" value="Request provisioning form for $(identityName)"/>
     </Map>
   </Attributes>
   <Section type="text">
-    <Field value="&#xA;          Please supply initial values for account attributes in the forms below.&#xA;        "/>
+    <Field value="&#xa;          Please supply initial values for account attributes in the forms below.&#xa;        "/>
   </Section>
   <Section label="Request Information" type="datatable">
     <Attributes>
@@ -48,7 +48,7 @@
           String names = null;
 
           if (identity != null) {
-              List&lt;String> roleNames = new ArrayList&lt;String>();
+              List&lt;String&gt; roleNames = new ArrayList&lt;String&gt;();
 
               for (Bundle bundle : Util.iterate(identity.getAssignedRoles())) {
                   roleNames.add(bundle.getDisplayableName());

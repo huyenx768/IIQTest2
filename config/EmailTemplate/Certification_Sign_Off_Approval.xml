@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<EmailTemplate created="1571838754304" id="4028868c6df8e21a016df8e3fe00014e" modified="1573836246552" name="Certification Sign Off Approval">
+<EmailTemplate name="Certification Sign Off Approval">
   <Body>$certification.name was signed by $certifier.displayableName and requires your approval.
 
 Login and view your work item inbox to complete this request.

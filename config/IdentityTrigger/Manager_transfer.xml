@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE IdentityTrigger PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<IdentityTrigger created="1571839942692" disabled="true" handler="sailpoint.api.WorkflowTriggerHandler" id="4028868c6df8e807016df8f62024001a" modified="1572888096135" name="Manager transfer" type="ManagerTransfer">
+<IdentityTrigger disabled="true" handler="sailpoint.api.WorkflowTriggerHandler" name="Manager transfer" type="ManagerTransfer">
   <Description>Disable all accounts when manager transfer occurs.</Description>
   <HandlerParameters>
     <Attributes>

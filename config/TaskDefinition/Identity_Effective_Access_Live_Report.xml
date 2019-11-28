@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838778289" executor="sailpoint.reporting.LiveReportExecutor" id="4028868c6df8e21a016df8e45bb10232" modified="1573836228797" name="Identity Effective Access Live Report" progressMode="String" resultAction="Rename" subType="Identity and User Reports" template="true" type="LiveReport">
+<TaskDefinition executor="sailpoint.reporting.LiveReportExecutor" name="Identity Effective Access Live Report" progressMode="String" resultAction="Rename" subType="Identity and User Reports" template="true" type="LiveReport">
   <Attributes>
     <Map>
       <entry key="report">
@@ -49,7 +49,7 @@
               </QueryParameters>
             </DataSource>
             <ReportForm>
-              <Reference class="sailpoint.object.Form" id="4028868c6df8e21a016df8e45b920231" name="Identity Effective Access Options Form"/>
+              <Reference class="sailpoint.object.Form" name="Identity Effective Access Options Form"/>
             </ReportForm>
             <Columns>
               <ReportColumnConfig field="identity" header="identity" property="name" sortable="true" width="110"/>
@@ -65,7 +65,7 @@
               <ReportColumnConfig field="assignedRole" header="rept_identity_effective_access_report_header_assigned_role" width="110"/>
             </Columns>
             <InitializationRule>
-              <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e4497101ed" name="Identity Report Form Customizer"/>
+              <Reference class="sailpoint.object.Rule" name="Identity Report Form Customizer"/>
             </InitializationRule>
           </LiveReport>
         </value>
@@ -74,7 +74,7 @@
   </Attributes>
   <Description>Displays the effective access of an identity</Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e384b80067" name="FullAccessIdentityEffectiveAccessReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessIdentityEffectiveAccessReport"/>
   </RequiredRights>
   <Signature>
     <Inputs>

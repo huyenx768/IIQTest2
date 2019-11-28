@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE SPRight PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<SPRight created="1571838724412" displayName="right_view_workgroup" id="4028868c6df8e21a016df8e3893c0088" modified="1573836180953" name="ViewWorkgroup">
+<SPRight displayName="right_view_workgroup" name="ViewWorkgroup">
   <Description>right_desc_view_workgroup</Description>
 </SPRight>

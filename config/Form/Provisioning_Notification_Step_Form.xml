@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Form PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Form created="1571838764102" hidden="true" id="4028868c6df8e21a016df8e42446019e" modified="1573836273214" name="Provisioning Notification Step Form" type="WorkflowConfig">
+<Form hidden="true" name="Provisioning Notification Step Form" type="WorkflowConfig">
   <Attributes>
     <Map>
       <entry key="maxWidth" value="500"/>

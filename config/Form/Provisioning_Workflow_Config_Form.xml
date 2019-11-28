@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Form PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Form created="1571839953879" hidden="true" id="4028868c6df8e807016df8f64bd7004e" modified="1573836285735" name="Provisioning Workflow Config Form" type="WorkflowConfig">
+<Form hidden="true" name="Provisioning Workflow Config Form" type="WorkflowConfig">
   <Section label="wf_config_provisioning_approval_section">
     <Field displayName="wf_config_provisioning_approval_none" helpKey="help_wf_provisioning_approval_disable" name="disableApprovals" postBack="true" type="boolean">
       <Script>

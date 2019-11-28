@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Workflow created="1571839951567" explicitTransitions="true" id="4028868c6df8e807016df8f642cf0043" modified="1573836285172" name="Approve and Provision Subprocess" type="Subprocess">
+<Workflow explicitTransitions="true" name="Approve and Provision Subprocess" type="Subprocess">
   <Variable input="true" name="identityName">
     <Description>The name of the identity being updated.</Description>
   </Variable>
@@ -276,7 +276,7 @@
   </Variable>
   <Description>Subprocess to approve and provision immediately. This is used after splitting an ApprovalSet into individual items to run in parallel.</Description>
   <RuleLibraries>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e410bd0183" name="LCM Workflow Library"/>
+    <Reference class="sailpoint.object.Rule" name="LCM Workflow Library"/>
   </RuleLibraries>
   <Step icon="Start" name="Start" posX="20" posY="20">
     <Transition to="Compile Project"/>
@@ -346,7 +346,7 @@
     <Return name="workItemComments"/>
     <Return name="project"/>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e21a016df8e424f101a0" name="Provisioning Approval Subprocess"/>
+      <Reference class="sailpoint.object.Workflow" name="Provisioning Approval Subprocess"/>
     </WorkflowRef>
     <Transition to="Update Ticket Post Approval"/>
   </Step>
@@ -368,7 +368,7 @@
 
         </Description>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e21a016df8e40bfa0177" name="Manage Ticket"/>
+      <Reference class="sailpoint.object.Workflow" name="Manage Ticket"/>
     </WorkflowRef>
     <Transition to="Provision"/>
   </Step>
@@ -400,7 +400,7 @@
         </Description>
     <Return name="project" to="project"/>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e807016df8f6405e0040" name="Identity Request Provision"/>
+      <Reference class="sailpoint.object.Workflow" name="Identity Request Provision"/>
     </WorkflowRef>
     <Transition to="Update Ticket Post Provision"/>
   </Step>
@@ -422,7 +422,7 @@
 
         </Description>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e21a016df8e40bfa0177" name="Manage Ticket"/>
+      <Reference class="sailpoint.object.Workflow" name="Manage Ticket"/>
     </WorkflowRef>
   </Step>
 </Workflow>

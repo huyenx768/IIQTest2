@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838766414" executor="sailpoint.task.CertificationExecutor" hidden="true" id="4028868c6df8e21a016df8e42d3e01b3" modified="1573836220656" name="Certification Manager" progressMode="String" subType="task_item_type_certification" template="true" type="Certification">
+<TaskDefinition executor="sailpoint.task.CertificationExecutor" hidden="true" name="Certification Manager" progressMode="String" subType="task_item_type_certification" template="true" type="Certification">
   <Description>
             Template Task for scheduling access certifications.
         </Description>

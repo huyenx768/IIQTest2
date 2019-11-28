@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE SPRight PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<SPRight created="1571838725194" displayName="right_manage_help_desk_requests" id="4028868c6df8e21a016df8e38c4a009e" modified="1573836182562" name="ManageHelpDeskRequests">
+<SPRight displayName="right_manage_help_desk_requests" name="ManageHelpDeskRequests">
   <Description>right_desc_manage_help_desk_requests</Description>
 </SPRight>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838765617" executor="sailpoint.task.IdentityRequestMaintenance" id="4028868c6df8e21a016df8e42a3101a7" modified="1573836219812" name="Identity Request Maintenance" progressMode="String" resultAction="Delete" subType="task_item_type_system" template="true" type="System">
+<TaskDefinition executor="sailpoint.task.IdentityRequestMaintenance" name="Identity Request Maintenance" progressMode="String" resultAction="Delete" subType="task_item_type_system" template="true" type="System">
   <Description>Prune and Verify Identity Request objects.
         </Description>
   <Signature>

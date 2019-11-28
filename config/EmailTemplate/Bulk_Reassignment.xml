@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<EmailTemplate created="1571838754070" id="4028868c6df8e21a016df8e3fd160148" modified="1573836246318" name="Bulk Reassignment">
+<EmailTemplate name="Bulk Reassignment">
   <Body>$!requesterName has assigned $numNewIdentities users to you for access certification.  These have been added to $certificationName.
 
 Description: $!description

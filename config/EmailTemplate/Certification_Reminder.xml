@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<EmailTemplate created="1571838754351" id="4028868c6df8e21a016df8e3fe2f014f" modified="1573836246568" name="Certification Reminder">
+<EmailTemplate name="Certification Reminder">
   <Body>$recipient.displayableName,
 
 The certification "$certification.name" is still open and needs to be completed.#if ($certification.expiration)  This certification must be finished by $spTools.formatDate($certification.expiration,3,1).#{end}  Please login to IdentityIQ to complete your work.

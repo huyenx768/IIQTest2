@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE SPRight PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<SPRight created="1571838719865" displayName="right_monitor_identity_activity" id="4028868c6df8e21a016df8e377790010" modified="1573836170781" name="MonitorIdentityActivity">
+<SPRight displayName="right_monitor_identity_activity" name="MonitorIdentityActivity">
   <Description>right_desc_monitor_identity_activity</Description>
 </SPRight>

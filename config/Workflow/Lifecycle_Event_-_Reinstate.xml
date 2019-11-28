@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Workflow created="1571839952832" explicitTransitions="true" id="4028868c6df8e807016df8f647c0004a" libraries="Identity" modified="1573836284313" name="Lifecycle Event - Reinstate" type="IdentityLifecycle">
+<Workflow explicitTransitions="true" libraries="Identity" name="Lifecycle Event - Reinstate" type="IdentityLifecycle">
   <Variable input="true" name="trigger">
     <Description>The IdentityTrigger</Description>
   </Variable>
@@ -99,7 +99,7 @@
   </Variable>
   <Description>Enable all accounts when an employee is reinstated.</Description>
   <RuleLibraries>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e410bd0183" name="LCM Workflow Library"/>
+    <Reference class="sailpoint.object.Rule" name="LCM Workflow Library"/>
   </RuleLibraries>
   <Step action="call:buildEventPlan" name="Build Provisioning Plan" posX="50" posY="10" resultVariable="plan">
     <Arg name="identityName" value="ref:identityName"/>
@@ -131,7 +131,7 @@
     <Return name="identityRequestId" to="identityRequestId"/>
     <Return name="policyViolations" to="policyViolations"/>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e807016df8f63e5a003d" name="Identity Request Initialize"/>
+      <Reference class="sailpoint.object.Workflow" name="Identity Request Initialize"/>
     </WorkflowRef>
     <Transition to="Provision"/>
   </Step>
@@ -158,7 +158,7 @@
     </Description>
     <Return name="project" to="project"/>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e807016df8f6405e0040" name="Identity Request Provision"/>
+      <Reference class="sailpoint.object.Workflow" name="Identity Request Provision"/>
     </WorkflowRef>
     <Transition to="Finalize"/>
   </Step>
@@ -172,7 +172,7 @@
       Call the standard subprocess that can audit/finalize the request.
     </Description>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e807016df8f640cb0041" name="Identity Request Finalize"/>
+      <Reference class="sailpoint.object.Workflow" name="Identity Request Finalize"/>
     </WorkflowRef>
     <Transition to="end"/>
   </Step>

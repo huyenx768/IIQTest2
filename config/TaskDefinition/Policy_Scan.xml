@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838766226" executor="sailpoint.task.IdentityRefreshExecutor" id="4028868c6df8e21a016df8e42c9201af" modified="1573836220374" name="Policy Scan" subType="task_item_type_identity" template="true" type="Identity">
+<TaskDefinition executor="sailpoint.task.IdentityRefreshExecutor" name="Policy Scan" subType="task_item_type_identity" template="true" type="Identity">
   <Attributes>
     <Map>
       <entry key="correlateEntitlements" value="true"/>

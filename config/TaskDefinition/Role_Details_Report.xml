@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838775664" executor="sailpoint.reporting.LiveReportExecutor" id="4028868c6df8e21a016df8e451700200" modified="1573836225812" name="Role Details Report" progressMode="Percentage" resultAction="Rename" subType="Role Management Reports" template="true" type="LiveReport">
+<TaskDefinition executor="sailpoint.reporting.LiveReportExecutor" name="Role Details Report" progressMode="Percentage" resultAction="Rename" subType="Role Management Reports" template="true" type="LiveReport">
   <Attributes>
     <Map>
       <entry key="report">
@@ -15,7 +15,7 @@
               </QueryParameters>
             </DataSource>
             <ReportForm>
-              <Reference class="sailpoint.object.Form" id="4028868c6df8e21a016df8e4515101ff" name="Role Profiles Details Report Custom Fields"/>
+              <Reference class="sailpoint.object.Form" name="Role Profiles Details Report Custom Fields"/>
             </ReportForm>
             <Columns>
               <ReportColumnConfig field="role" header="rept_role_details_col_role" property="name" sortable="true" width="110"/>
@@ -47,7 +47,7 @@
   </Attributes>
   <Description>Displays information about each role in detailed format.</Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e380b10049" name="FullAccessBusinessRoleReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessBusinessRoleReport"/>
   </RequiredRights>
   <Signature>
     <Inputs>

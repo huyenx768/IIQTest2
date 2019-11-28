@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571839955067" executor="sailpoint.reporting.LiveReportExecutor" id="4028868c6df8e807016df8f6507b0056" modified="1573836295472" name="Access Request Status Report" progressMode="Percentage" resultAction="Rename" subType="Lifecycle Manager Reports" template="true" type="LiveReport">
+<TaskDefinition executor="sailpoint.reporting.LiveReportExecutor" name="Access Request Status Report" progressMode="Percentage" resultAction="Rename" subType="Lifecycle Manager Reports" template="true" type="LiveReport">
   <Attributes>
     <Map>
       <entry key="auditEventTypes">
@@ -50,7 +50,7 @@
                                 terminatedStateOps.addFilter(filter);
 
                                 int terminatedCount = context.countObjects(IdentityRequestItem.class, terminatedStateOps);
-                                if (terminatedCount > 0) {
+                                if (terminatedCount &gt; 0) {
                                     Map val = new HashMap();
                                     val.put("category", "identity_request_terminated");
                                     val.put("value", terminatedCount);
@@ -86,7 +86,7 @@
             </Chart>
             <DataSource dataSourceClass="sailpoint.reporting.datasource.LcmIdentityRequestStatusJavaDataSource" objectType="sailpoint.object.IdentityRequestItem" type="Java"/>
             <ReportForm>
-              <Reference class="sailpoint.object.Form" id="4028868c6df8e807016df8f64d7d0050" name="Access Request Status Form"/>
+              <Reference class="sailpoint.object.Form" name="Access Request Status Form"/>
             </ReportForm>
             <Columns>
               <ReportColumnConfig field="requestId" header="rept_lcm_request_status_col_request_id" property="requestId" sortable="true" valueClass="java.lang.String" width="110"/>
@@ -116,7 +116,7 @@
   </Attributes>
   <Description>Displays information about access requests from LCM in detailed format.</Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e383ed0062" name="FullAccessEntitlementRequestStatusReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessEntitlementRequestStatusReport"/>
   </RequiredRights>
   <Signature>
     <Inputs>

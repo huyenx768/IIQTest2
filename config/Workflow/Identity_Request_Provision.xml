@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Workflow created="1571839950942" id="4028868c6df8e807016df8f6405e0040" libraries="Identity,IdentityRequest" modified="1573836294347" name="Identity Request Provision" type="Subprocess">
+<Workflow libraries="Identity,IdentityRequest" name="Identity Request Provision" type="Subprocess">
   <Variable editable="true" initializer="false" input="true" name="optimisticProvisioning">
     <Description>
       Set to true to enable optimistic provisioning.  This will cause
@@ -143,7 +143,7 @@
 
   </Description>
   <RuleLibraries>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e410bd0183" name="LCM Workflow Library"/>
+    <Reference class="sailpoint.object.Rule" name="LCM Workflow Library"/>
   </RuleLibraries>
   <Step icon="Start" name="Start" posX="15" posY="12">
     <Transition to="Start Provisioning Process"/>
@@ -178,7 +178,7 @@
     </Description>
     <Return name="project" to="project"/>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e21a016df8e409f70172" name="Do Provisioning Forms"/>
+      <Reference class="sailpoint.object.Workflow" name="Do Provisioning Forms"/>
     </WorkflowRef>
     <Transition to="Pre Provision"/>
   </Step>
@@ -214,7 +214,7 @@
     <Return name="retries" to="retries"/>
     <Return name="project" to="project"/>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e21a016df8e40b8d0175" name="Provision with retries"/>
+      <Reference class="sailpoint.object.Workflow" name="Provision with retries"/>
     </WorkflowRef>
     <Transition to="Wait for Queued Items"/>
   </Step>
@@ -224,7 +224,7 @@
     <Arg name="trace" value="ref:trace"/>
     <Return name="project" to="project"/>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e21a016df8e40bbc0176" name="Check Status of queued items"/>
+      <Reference class="sailpoint.object.Workflow" name="Check Status of queued items"/>
     </WorkflowRef>
     <Transition to="Post Provision"/>
   </Step>

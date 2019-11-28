@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<EmailTemplate created="1571838754835" id="4028868c6df8e21a016df8e40013015c" modified="1573836247208" name="Account Group Challenge Creation Notification">
+<EmailTemplate name="Account Group Challenge Creation Notification">
   <Body>It has been determined that permissions on account group '$entityName' will be limited or removed
 completely.  You have $timeRemaining to challenge this decision.
 

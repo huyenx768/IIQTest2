@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE AuditConfig PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<AuditConfig created="1571838747429" id="4028868c6df8e21a016df8e3e325010e" modified="1573836276778" name="AuditConfig">
+<AuditConfig name="AuditConfig">
   <AuditActions>
     <AuditAction displayName="audit_action_login" enabled="true" name="login"/>
     <AuditAction displayName="audit_action_logout" name="logout"/>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838777992" executor="sailpoint.reporting.LiveReportExecutor" id="4028868c6df8e21a016df8e45a88022b" modified="1573836228422" name="Identity Status Summary Report" progressMode="Percentage" resultAction="Rename" subType="Identity and User Reports" template="true" type="LiveReport">
+<TaskDefinition executor="sailpoint.reporting.LiveReportExecutor" name="Identity Status Summary Report" progressMode="Percentage" resultAction="Rename" subType="Identity and User Reports" template="true" type="LiveReport">
   <Attributes>
     <Map>
       <entry key="report">
@@ -89,6 +89,6 @@
   </Attributes>
   <Description>Displays summary of active, inactive, correlated, uncorrelated, and total identities</Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3848a0066" name="FullAccessIdentityCubeSummaryReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessIdentityCubeSummaryReport"/>
   </RequiredRights>
 </TaskDefinition>

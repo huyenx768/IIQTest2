@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838776149" executor="sailpoint.reporting.CertificationDetailReport" formPath="/analyze/reports/certificationReportArgs.xhtml" id="4028868c6df8e21a016df8e45355020b" modified="1573836226343" name="Access Review Decision Report" progressMode="Percentage" resultAction="Rename" subType="Access Review and Certification Reports" template="true" type="Report">
+<TaskDefinition executor="sailpoint.reporting.CertificationDetailReport" formPath="/analyze/reports/certificationReportArgs.xhtml" name="Access Review Decision Report" progressMode="Percentage" resultAction="Rename" subType="Access Review and Certification Reports" template="true" type="Report">
   <Attributes>
     <Map>
       <entry key="handlerPageSize" value="25"/>
@@ -11,7 +11,7 @@
             Displays information on current certifications in the systems and the decisions made by system users in detailed format.
         </Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e382180054" name="FullAccessCertificationDecisionReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessCertificationDecisionReport"/>
   </RequiredRights>
   <Signature>
     <Inputs>

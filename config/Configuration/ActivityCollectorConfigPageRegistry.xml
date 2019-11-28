@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Configuration PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Configuration created="1571838740975" id="4028868c6df8e21a016df8e3c9ef00db" modified="1573071397877" name="ActivityCollectorConfigPageRegistry">
+<Configuration name="ActivityCollectorConfigPageRegistry">
   <Attributes>
     <Map>
       <entry key="CEF Log File" value="logFileCollectorConfig.xhtml"/>

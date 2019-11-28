@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838778039" executor="sailpoint.reporting.IdentityHistoryExport" hidden="true" id="4028868c6df8e21a016df8e45ab7022c" modified="1573836228531" name="Identity History Export" resultAction="Rename" subType="Search" template="true" type="GridReport">
+<TaskDefinition executor="sailpoint.reporting.IdentityHistoryExport" hidden="true" name="Identity History Export" resultAction="Rename" subType="Search" template="true" type="GridReport">
   <Attributes>
     <Map>
       <entry key="jasperTemplate" value="IdentityHistoryExport"/>

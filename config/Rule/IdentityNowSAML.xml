@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Rule created="1571838752632" id="4028868c6df8e21a016df8e3f7780146" language="beanshell" modified="1573836231533" name="IdentityNowSAML" type="SAMLCorrelation">
+<Rule language="beanshell" name="IdentityNowSAML" type="SAMLCorrelation">
   <Signature>
     <Inputs>
       <Argument name="log">

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<EmailTemplate created="1571838754445" id="4028868c6df8e21a016df8e3fe8d0151" modified="1573836246677" name="Continuous Certification Escalation">
+<EmailTemplate name="Continuous Certification Escalation">
   <Body>"$ItemName" in "$item.certification.name" has been escalated to you.  It previously belonged to $oldOwner.#if ($newDueDate)  If this is not completed by $spTools.formatDate($newDueDate,3,1) it will escalate again.#end
 
 

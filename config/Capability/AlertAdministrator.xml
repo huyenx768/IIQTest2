@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Capability PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Capability created="1571838729819" displayName="capability_alert_admin" id="4028868c6df8e21a016df8e39e5b00d6" modified="1573836190221" name="AlertAdministrator">
+<Capability displayName="capability_alert_admin" name="AlertAdministrator">
   <Description>capability_desc_alert_admin</Description>
   <RightRefs>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38f5700b6" name="ViewAlert"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38f7600b7" name="FullAccessAlertDefinition"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewAlert"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessAlertDefinition"/>
   </RightRefs>
 </Capability>

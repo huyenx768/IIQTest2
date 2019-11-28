@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE SPRight PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<SPRight created="1571838719303" displayName="right_set_identity_forwarding" id="4028868c6df8e21a016df8e375470008" modified="1573836169968" name="SetIdentityForwarding">
+<SPRight displayName="right_set_identity_forwarding" name="SetIdentityForwarding">
   <Description>right_desc_set_identity_forwarding</Description>
 </SPRight>

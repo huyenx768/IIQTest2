@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE DynamicScope PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<DynamicScope created="1571839944145" id="4028868c6df8e807016df8f625d1001e" modified="1573071368039" name="Manager">
+<DynamicScope name="Manager">
   <ApplicationRequestControl>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e41c370197" name="Objects in Requestor&apos;s Authorized Scopes"/>
+    <Reference class="sailpoint.object.Rule" name="Objects in Requestor's Authorized Scopes"/>
   </ApplicationRequestControl>
   <ManagedAttributeRequestControl>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e4203e019b" name="All Objects"/>
+    <Reference class="sailpoint.object.Rule" name="All Objects"/>
   </ManagedAttributeRequestControl>
   <PopulationRequestAuthority>
     <MatchConfig enableSubordinateControl="true" maxHierarchyDepth="10" subordinateOption="directOrIndirect"/>
   </PopulationRequestAuthority>
   <RoleRequestControl>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e41c370197" name="Objects in Requestor&apos;s Authorized Scopes"/>
+    <Reference class="sailpoint.object.Rule" name="Objects in Requestor's Authorized Scopes"/>
   </RoleRequestControl>
   <Selector>
     <IdentitySelector>

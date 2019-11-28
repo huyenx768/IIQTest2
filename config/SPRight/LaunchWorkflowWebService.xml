@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE SPRight PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<SPRight created="1571838724897" displayName="right_webservice_launchworkflow" id="4028868c6df8e21a016df8e38b210096" modified="1573836181781" name="LaunchWorkflowWebService">
+<SPRight displayName="right_webservice_launchworkflow" name="LaunchWorkflowWebService">
   <Description>right_desc_webservice_launchworkflow</Description>
 </SPRight>

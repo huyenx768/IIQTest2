@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE SPRight PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<SPRight created="1571838725100" displayName="right_webservice_getworkitemcount" id="4028868c6df8e21a016df8e38bec009b" modified="1573836182328" name="GetWorkItemCountWebService">
+<SPRight displayName="right_webservice_getworkitemcount" name="GetWorkItemCountWebService">
   <Description>right_desc_webservice_getworkitemcount</Description>
 </SPRight>

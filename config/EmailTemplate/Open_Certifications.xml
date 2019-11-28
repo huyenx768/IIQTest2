@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<EmailTemplate created="1571838755039" id="4028868c6df8e21a016df8e400df0162" modified="1573836247615" name="Open Certifications">
+<EmailTemplate name="Open Certifications">
   <Body>Dear $certifier,
 
 You have $certification_count certification(s) outstanding.  Please login to

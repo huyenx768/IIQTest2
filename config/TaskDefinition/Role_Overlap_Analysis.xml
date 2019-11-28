@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838770352" id="4028868c6df8e21a016df8e43cb001e1" modified="1573071383920" name="Role Overlap Analysis" resultRenderer="impactAnalysis.xhtml" subType="task_item_type_system" type="System">
+<TaskDefinition name="Role Overlap Analysis" resultRenderer="impactAnalysis.xhtml" subType="task_item_type_system" type="System">
   <Attributes>
     <Map>
       <entry key="baseResultName" value="Overlap Analysis - "/>
@@ -12,7 +12,7 @@
             Run overlap analysis on a selected role.
         </Description>
   <Parent>
-    <Reference class="sailpoint.object.TaskDefinition" id="4028868c6df8e21a016df8e4334901bd" name="Impact Analysis"/>
+    <Reference class="sailpoint.object.TaskDefinition" name="Impact Analysis"/>
   </Parent>
   <Signature>
     <Inputs>

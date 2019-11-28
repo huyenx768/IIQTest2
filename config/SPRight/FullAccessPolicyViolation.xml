@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE SPRight PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<SPRight created="1571838723553" displayName="right_full_access_policy_violation" id="4028868c6df8e21a016df8e385e1006d" modified="1573836179312" name="FullAccessPolicyViolation">
+<SPRight displayName="right_full_access_policy_violation" name="FullAccessPolicyViolation">
   <Description>right_desc_full_access_policy_violation</Description>
 </SPRight>

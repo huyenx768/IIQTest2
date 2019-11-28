@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Rule created="1571838777633" id="4028868c6df8e21a016df8e459210225" language="beanshell" modified="1573836269870" name="Privileged Access Report Validation Rule" type="ReportValidator">
+<Rule language="beanshell" name="Privileged Access Report Validation Rule" type="ReportValidator">
   <Description>
       This rule validates the Privileged Access Report Form
     </Description>

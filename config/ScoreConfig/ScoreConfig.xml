@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE ScoreConfig PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<ScoreConfig created="1571838746132" id="4028868c6df8e21a016df8e3de1400ff" maximumNumberOfBands="6" maximumScore="1000" modified="1573071402108" name="ScoreConfig">
+<ScoreConfig maximumNumberOfBands="6" maximumScore="1000" name="ScoreConfig">
   <ApplicationScores>
     <ScoreDefinition displayName="score_def_serviceAccount_name" name="serviceAccount" scorer="sailpoint.score.LinkAttributeScorer" weight="10">
       <Attributes>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838767789" executor="sailpoint.task.EntitlementRoleGenerator" id="4028868c6df8e21a016df8e432ad01bb" modified="1573836221421" name="Entitlement Role Generator" subType="task_item_type_generic" template="true" type="Generic">
+<TaskDefinition executor="sailpoint.task.EntitlementRoleGenerator" name="Entitlement Role Generator" subType="task_item_type_generic" template="true" type="Generic">
   <Description>
         Automatically creates an Entitlement Role for every entitlement found in the specified application(s)
       </Description>

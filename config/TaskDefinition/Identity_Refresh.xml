@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838765414" executor="sailpoint.task.IdentityRefreshExecutor" id="4028868c6df8e21a016df8e4296601a4" modified="1573836277224" name="Identity Refresh" progressInterval="5000" progressMode="String" subType="task_item_type_identity" template="true" type="Identity">
+<TaskDefinition executor="sailpoint.task.IdentityRefreshExecutor" name="Identity Refresh" progressInterval="5000" progressMode="String" subType="task_item_type_identity" template="true" type="Identity">
   <Description>
             Template for identity refresh scans.
         </Description>

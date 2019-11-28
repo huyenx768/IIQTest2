@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<EmailTemplate cc="$!identity.manager.email" created="1571838754242" id="4028868c6df8e21a016df8e3fdb4014c" modified="1573836246474" name="Remediation Notification">
+<EmailTemplate cc="$!identity.manager.email" name="Remediation Notification">
   <Body>$requesterName has revoked one or more entitlements from you.
 
 Comments from $requesterName:
@@ -9,7 +9,7 @@ $!comments
 --------------------------------------------------------------------------------
 
 #if ($remediationDetails.nonModifyAccountRequests &amp;&amp;
-     $remediationDetails.getNonModifyAccountRequests().size() > 0)
+     $remediationDetails.getNonModifyAccountRequests().size() &gt; 0)
 
 Account Requests:
 -----------------
@@ -21,7 +21,7 @@ Application: $acctReq.applicationName
 #end
 #end
 #if ($remediationDetails.modifyAccountRequests &amp;&amp;
-     $remediationDetails.getModifyAccountRequests().size() > 0)
+     $remediationDetails.getModifyAccountRequests().size() &gt; 0)
 
 Modification Requests:
 ----------------------

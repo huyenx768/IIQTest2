@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Application PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Application connector="sailpoint.connector.DelimitedFileConnector" created="1572463362501" featuresString="DIRECT_PERMISSIONS, NO_RANDOM_ACCESS, DISCOVER_SCHEMA" icon="enterpriseIcon" id="4028868c6e13dfdc016e1e1ec1c5049c" modified="1573071400228" name="PAM" profileClass="" type="DelimitedFile">
+<Application connector="sailpoint.connector.DelimitedFileConnector" featuresString="DIRECT_PERMISSIONS, NO_RANDOM_ACCESS, DISCOVER_SCHEMA" icon="enterpriseIcon" name="PAM" profileClass="" type="DelimitedFile">
   <Attributes>
     <Map>
       <entry key="compositeDefinition"/>
@@ -27,23 +27,23 @@
       </entry>
       <entry key="group.isCaseInsensitiveMerge">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="group.isSortedByIndexColumn">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="group.mergeRows">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="group.partitionMode" value="auto"/>
       <entry key="group.stopIfLineHasWrongColumnLength">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="hasHeader">
@@ -54,7 +54,7 @@
       <entry key="indexColumn" value="User ID"/>
       <entry key="isCaseInsensitiveMerge">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="isSortedByIndexColumn">
@@ -78,7 +78,7 @@
       <entry key="nativeChangeDetectionAttributes"/>
       <entry key="nativeChangeDetectionEnabled">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="nativeChangeDetectionOperations"/>
@@ -86,7 +86,7 @@
       <entry key="partitionMode" value="auto"/>
       <entry key="stopIfLineHasWrongColumnLength">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="sysDescriptions">
@@ -102,14 +102,14 @@
     </Map>
   </Attributes>
   <Owner>
-    <Reference class="sailpoint.object.Identity" id="4028868c6df8e21a016df8e3d68200fc" name="spadmin"/>
+    <Reference class="sailpoint.object.Identity" name="spadmin"/>
   </Owner>
   <Remediators>
-    <Reference class="sailpoint.object.Identity" id="4028868c6df8e21a016df8e3d68200fc" name="spadmin"/>
+    <Reference class="sailpoint.object.Identity" name="spadmin"/>
   </Remediators>
   <Schemas>
-    <Schema created="1573071365836" displayAttribute="User Name" id="4028868c6e423c1c016e425c26cc00c7" identityAttribute="User ID" instanceAttribute="" nativeObjectType="account" objectType="account" permissionsRemediationModificationType="None"/>
-    <Schema created="1573071365820" displayAttribute="Permission Group" id="4028868c6e423c1c016e425c26bc00c5" identityAttribute="Permission Group" instanceAttribute="" nativeObjectType="group" objectType="group" permissionsRemediationModificationType="None"/>
+    <Schema displayAttribute="User Name" identityAttribute="User ID" instanceAttribute="" nativeObjectType="account" objectType="account" permissionsRemediationModificationType="None"/>
+    <Schema displayAttribute="Permission Group" identityAttribute="Permission Group" instanceAttribute="" nativeObjectType="group" objectType="group" permissionsRemediationModificationType="None"/>
   </Schemas>
-  <ApplicationScorecard created="1573071365820" id="4028868c6e423c1c016e425c26bc00c6"/>
+  <ApplicationScorecard/>
 </Application>

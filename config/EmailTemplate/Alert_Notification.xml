@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<EmailTemplate created="1571838755460" id="4028868c6df8e21a016df8e40284016e" modified="1573836248193" name="Alert Notification">
+<EmailTemplate name="Alert Notification">
   <Body>Alert '$alert.name'#if ($alert.displayName != null) ['$alert.displayName']#{end}  has been received#if ($alert.targetType != null ) for '$alert.targetType' '$alert.targetDisplayName'#{end}.
   </Body>
   <Description>

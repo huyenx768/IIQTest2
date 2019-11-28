@@ -1,3 +1,3 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Policy PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Policy certificationActions="Remediated,Mitigated,Delegated" configPage="entitlementPolicy.xhtml" created="1571838747929" executor="sailpoint.policy.EntitlementSODPolicyExecutor" id="4028868c6df8e21a016df8e3e5190111" modified="1573071388654" name="Entitlement SOD Template" state="Inactive" template="true" type="EntitlementSOD" typeKey="policy_type_entitlement_sod" violationOwnerType="Manager"/>
+<Policy certificationActions="Remediated,Mitigated,Delegated" configPage="entitlementPolicy.xhtml" executor="sailpoint.policy.EntitlementSODPolicyExecutor" name="Entitlement SOD Template" state="Inactive" template="true" type="EntitlementSOD" typeKey="policy_type_entitlement_sod" violationOwnerType="Manager"/>

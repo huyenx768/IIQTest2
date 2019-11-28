@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838775433" executor="sailpoint.reporting.BusinessRoleReport" formPath="/analyze/reports/businessrolereportargs.xhtml" id="4028868c6df8e21a016df8e4508901fa" modified="1573836229468" name="Role Archive Report" progressMode="Percentage" resultAction="Rename" subType="Role Management Reports" template="true" type="Report">
+<TaskDefinition executor="sailpoint.reporting.BusinessRoleReport" formPath="/analyze/reports/businessrolereportargs.xhtml" name="Role Archive Report" progressMode="Percentage" resultAction="Rename" subType="Role Management Reports" template="true" type="Report">
   <Attributes>
     <Map>
       <entry key="jasperTemplate" value="BusinessRoleMainReport"/>
@@ -10,7 +10,7 @@
       Displays role information in archive format.
     </Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e380b10049" name="FullAccessBusinessRoleReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessBusinessRoleReport"/>
   </RequiredRights>
   <Signature>
     <Inputs>

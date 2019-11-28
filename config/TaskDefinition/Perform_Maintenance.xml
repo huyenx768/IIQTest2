@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838769508" id="4028868c6df8e21a016df8e4396401cf" modified="1573855204191" name="Perform Maintenance" subType="task_item_type_system" type="System">
+<TaskDefinition name="Perform Maintenance" subType="task_item_type_system" type="System">
   <Attributes>
     <Map>
       <entry key="TaskDefinition.runLengthAverage" value="1"/>
-      <entry key="TaskDefinition.runLengthTotal" value="82"/>
-      <entry key="TaskDefinition.runs" value="61"/>
+      <entry key="TaskDefinition.runLengthTotal" value="2682"/>
+      <entry key="TaskDefinition.runs" value="2531"/>
       <entry key="automaticallyCloseCertifications" value="true"/>
       <entry key="denormalizeScopes" value="true"/>
       <entry key="finishCertifications" value="true"/>
@@ -24,6 +24,6 @@
   <Description>Prune identity snapshots, task results, and certifications. Perform other background maintenance tasks.
         </Description>
   <Parent>
-    <Reference class="sailpoint.object.TaskDefinition" id="4028868c6df8e21a016df8e429f301a6" name="System Maintenance"/>
+    <Reference class="sailpoint.object.TaskDefinition" name="System Maintenance"/>
   </Parent>
 </TaskDefinition>

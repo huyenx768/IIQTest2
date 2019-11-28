@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838776492" executor="sailpoint.reporting.LiveReportExecutor" id="4028868c6df8e21a016df8e454ac020e" modified="1573836226421" name="Application Owner Access Review Live Report" progressMode="Percentage" resultAction="Rename" subType="Access Review and Certification Reports" template="true" type="LiveReport">
+<TaskDefinition executor="sailpoint.reporting.LiveReportExecutor" name="Application Owner Access Review Live Report" progressMode="Percentage" resultAction="Rename" subType="Access Review and Certification Reports" template="true" type="LiveReport">
   <Attributes>
     <Map>
       <entry key="report">
@@ -19,7 +19,7 @@
               </QueryParameters>
             </DataSource>
             <ReportForm>
-              <Reference class="sailpoint.object.Form" id="4028868c6df8e21a016df8e4544f020d" name="Application Owner Access Review Report Form"/>
+              <Reference class="sailpoint.object.Form" name="Application Owner Access Review Report Form"/>
             </ReportForm>
             <Columns>
               <ReportColumnConfig field="nativeIdentity" header="rept_cert_col_account_id" property="exceptionEntitlements.nativeIdentity" sortable="true" width="110"/>
@@ -92,7 +92,7 @@
               </ReportColumnConfig>
             </Columns>
             <InitializationRule>
-              <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e453a3020c" name="Certification Report Customizer"/>
+              <Reference class="sailpoint.object.Rule" name="Certification Report Customizer"/>
             </InitializationRule>
             <ReportSummary title="rept_cert_summary_title">
               <DataSourceScript>
@@ -139,7 +139,7 @@
   </Attributes>
   <Description>Displays information about all application owner certifications in detailed format.</Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e381bb0051" name="FullAccessApplicationOwnerCertificationReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessApplicationOwnerCertificationReport"/>
   </RequiredRights>
   <Signature>
     <Inputs>

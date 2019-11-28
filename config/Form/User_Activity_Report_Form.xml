@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Form PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Form created="1571838775477" hidden="true" id="4028868c6df8e21a016df8e450b501fb" modified="1573836244583" name="User Activity Report Form" type="Report">
+<Form hidden="true" name="User Activity Report Form" type="Report">
   <Section columns="2" label="rept_identity_roles_section_props" name="Identity Properties">
     <Field columnSpan="1" displayName="report_filter_ids" helpKey="rept_input_app_activity_report_identities" multi="true" name="identities" type="Identity" value="ref:identities"/>
     <Field columnSpan="1" displayName="report_filter_apps" helpKey="rept_input_app_activity_report_apps" multi="true" name="applications" type="Application" value="ref:applications"/>

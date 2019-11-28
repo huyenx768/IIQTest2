@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838766586" executor="sailpoint.task.UnstructuredTargetScan" formPath="/monitor/tasks/targetAggregationTask.xhtml" id="4028868c6df8e21a016df8e42dfa01b4" modified="1573836220703" name="Target Aggregation" progressInterval="5000" progressMode="String" subType="task_item_type_target_aggregation" template="true" type="TargetAggregation">
+<TaskDefinition executor="sailpoint.task.UnstructuredTargetScan" formPath="/monitor/tasks/targetAggregationTask.xhtml" name="Target Aggregation" progressInterval="5000" progressMode="String" subType="task_item_type_target_aggregation" template="true" type="TargetAggregation">
   <Description>
             Template Task for running target aggregations.
         </Description>

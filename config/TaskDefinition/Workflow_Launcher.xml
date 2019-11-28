@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838768023" executor="sailpoint.task.WorkflowExecutor" hidden="true" id="4028868c6df8e21a016df8e4339701bf" modified="1573836221687" name="Workflow Launcher" resultRenderer="workflow.xhtml" subType="task_item_type_workflow" type="Workflow">
+<TaskDefinition executor="sailpoint.task.WorkflowExecutor" hidden="true" name="Workflow Launcher" resultRenderer="workflow.xhtml" subType="task_item_type_workflow" type="Workflow">
   <Description>Workflow Case</Description>
   <Signature>
     <Inputs>

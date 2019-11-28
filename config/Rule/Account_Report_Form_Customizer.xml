@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Rule created="1571838774774" id="4028868c6df8e21a016df8e44df601f2" language="beanshell" modified="1573836269151" name="Account Report Form Customizer" type="ReportCustomizer">
+<Rule language="beanshell" name="Account Report Form Customizer" type="ReportCustomizer">
   <Description>
     This rule populates a form with fields for all searchable account fields.
   </Description>

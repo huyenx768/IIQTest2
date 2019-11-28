@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Workflow configForm="Provisioning Workflow Config Form" created="1571839952254" handler="sailpoint.api.StandardWorkflowHandler" id="4028868c6df8e807016df8f6457e0046" libraries="Identity,BatchRequest" modified="1573836283438" name="LCM Registration" taskType="LCM" type="LCMRegistration">
+<Workflow configForm="Provisioning Workflow Config Form" handler="sailpoint.api.StandardWorkflowHandler" libraries="Identity,BatchRequest" name="LCM Registration" taskType="LCM" type="LCMRegistration">
   <Variable initializer="true" name="transient">
     <Description>
       Set to false to cause workflow-related objects, such as approval
@@ -242,8 +242,8 @@
     </Description>
   </Variable>
   <RuleLibraries>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e404f50170" name="Approval Library"/>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e410bd0183" name="LCM Workflow Library"/>
+    <Reference class="sailpoint.object.Rule" name="Approval Library"/>
+    <Reference class="sailpoint.object.Rule" name="LCM Workflow Library"/>
   </RuleLibraries>
   <Step icon="Start" name="Start" posX="15" posY="12">
     <Transition to="Initialize"/>
@@ -343,7 +343,7 @@
       Call the LCM Create and Update workflow with the plan that was created.
     </Description>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e807016df8f644940045" name="LCM Create and Update"/>
+      <Reference class="sailpoint.object.Workflow" name="LCM Create and Update"/>
     </WorkflowRef>
     <Transition to="end"/>
   </Step>

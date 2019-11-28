@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<EmailTemplate created="1571838754773" id="4028868c6df8e21a016df8e3ffd5015a" modified="1573836247099" name="Challenge Period End">
+<EmailTemplate name="Challenge Period End">
   <Body>The challenge period has ended for '$certificationName'.  Login to IdentityIQ to
 complete and sign off on the certification.
     </Body>

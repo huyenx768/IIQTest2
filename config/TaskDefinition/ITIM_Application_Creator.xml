@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838766773" executor="sailpoint.task.ITIMApplicationGenerator" id="4028868c6df8e21a016df8e42eb501b8" modified="1573836221062" name="ITIM Application Creator" subType="task_item_type_system" template="true" type="System">
+<TaskDefinition executor="sailpoint.task.ITIMApplicationGenerator" name="ITIM Application Creator" subType="task_item_type_system" template="true" type="System">
   <Description>
             Automatically creates ITIM account applications using connection
             information from an authoritative ITIM application.

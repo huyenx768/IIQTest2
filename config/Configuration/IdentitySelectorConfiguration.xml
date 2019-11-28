@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Configuration PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Configuration created="1571838749366" id="4028868c6df8e21a016df8e3eab60124" modified="1573071398061" name="IdentitySelectorConfiguration">
+<Configuration name="IdentitySelectorConfiguration">
   <Attributes>
     <Map>
       <entry key="identityFilters">
@@ -116,7 +116,7 @@
                                   (firstname.startsWithIgnoreCase("$parts.get(1)") &amp;&amp; lastname.startsWithIgnoreCase("$parts.get(0)")) ||
                                   displayName.startsWithIgnoreCase("$parts.get(0) $parts.get(1)") ||
                                   firstname.startsWithIgnoreCase("$parts.get(0) $parts.get(1)") || name.startsWithIgnoreCase("$parts.get(0) $parts.get(1)")
-                              #elseif($parts.size() > 2)
+                              #elseif($parts.size() &gt; 2)
                                 #foreach($part in $parts)
                                     firstname.startsWithIgnoreCase("$part") ||
                                       lastname.startsWithIgnoreCase("$part") ||
@@ -180,7 +180,7 @@
                           <Value>
                             <List>
                               <Boolean>true</Boolean>
-                              <Boolean></Boolean>
+                              <Boolean/>
                             </List>
                           </Value>
                         </Filter>
@@ -245,7 +245,7 @@
                             if ((null != popQueryOptions) &amp;&amp; !Util.isEmpty(popQueryOptions.getRestrictions())) {
                                 List popFilters = popQueryOptions.getRestrictions();
                                 Filter subFilter =
-                                    (popFilters.size() > 0) ? Filter.and(popFilters)
+                                    (popFilters.size() &gt; 0) ? Filter.and(popFilters)
                                                             : (Filter) popFilters.get(0);
                                 Filter f = Filter.subquery("id", Identity.class, "manager.id", subFilter);
                                 qo.addFilter(f);

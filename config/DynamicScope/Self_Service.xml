@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE DynamicScope PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<DynamicScope allowAll="true" created="1571839943770" id="4028868c6df8e807016df8f6245a001d" modified="1573071367961" name="Self Service">
+<DynamicScope allowAll="true" name="Self Service">
   <ApplicationRequestControl>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e41c370197" name="Objects in Requestor&apos;s Authorized Scopes"/>
+    <Reference class="sailpoint.object.Rule" name="Objects in Requestor's Authorized Scopes"/>
   </ApplicationRequestControl>
   <ManagedAttributeRequestControl>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e4203e019b" name="All Objects"/>
+    <Reference class="sailpoint.object.Rule" name="All Objects"/>
   </ManagedAttributeRequestControl>
   <RoleRequestControl>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e41c370197" name="Objects in Requestor&apos;s Authorized Scopes"/>
+    <Reference class="sailpoint.object.Rule" name="Objects in Requestor's Authorized Scopes"/>
   </RoleRequestControl>
 </DynamicScope>

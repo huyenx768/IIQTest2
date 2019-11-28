@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE SPRight PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<SPRight created="1571838725913" displayName="right_view_oauth_client_configuration" id="4028868c6df8e21a016df8e38f1900b4" modified="1573836184187" name="ViewOAuthClientConfiguration">
+<SPRight displayName="right_view_oauth_client_configuration" name="ViewOAuthClientConfiguration">
   <Description>right_desc_view_oauth_client_configuration</Description>
 </SPRight>

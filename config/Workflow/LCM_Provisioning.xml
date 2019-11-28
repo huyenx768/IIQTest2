@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Workflow configForm="Provisioning Workflow Config Form" created="1571839951723" handler="sailpoint.api.StandardWorkflowHandler" id="4028868c6df8e807016df8f6436b0044" libraries="Identity,Role,PolicyViolation,LCM,BatchRequest" modified="1573836282750" name="LCM Provisioning" taskType="LCM" type="LCMProvisioning">
+<Workflow configForm="Provisioning Workflow Config Form" handler="sailpoint.api.StandardWorkflowHandler" libraries="Identity,Role,PolicyViolation,LCM,BatchRequest" name="LCM Provisioning" taskType="LCM" type="LCMProvisioning">
   <Variable input="true" name="identityName">
     <Description>The name of the identity being updated.</Description>
   </Variable>
@@ -367,7 +367,7 @@
   </Variable>
   <Variable name="splitProjects">
     <Description>
-          Variable to store the returns if approvalSplitPoint is set. This will contain a List&lt;ProvisioningProject>
+          Variable to store the returns if approvalSplitPoint is set. This will contain a List&lt;ProvisioningProject&gt;
       </Description>
   </Variable>
   <Variable name="splitApprovalSet">
@@ -381,7 +381,7 @@
       </Description>
   </Variable>
   <RuleLibraries>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e410bd0183" name="LCM Workflow Library"/>
+    <Reference class="sailpoint.object.Rule" name="LCM Workflow Library"/>
   </RuleLibraries>
   <Step icon="Start" name="Start" posX="25" posY="10">
     <Transition to="Initialize"/>
@@ -417,7 +417,7 @@
     <Return name="violationReviewDecision" to="violationReviewDecision"/>
     <Return merge="true" name="workItemComments" to="workItemComments"/>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e807016df8f63e5a003d" name="Identity Request Initialize"/>
+      <Reference class="sailpoint.object.Workflow" name="Identity Request Initialize"/>
     </WorkflowRef>
     <Transition to="Exit On Manual Work Items" when="script:(isTrue(endOnManualWorkItems) &amp;&amp; (project.getUnmanagedPlan() != null))"/>
     <Transition to="Exit On Provisioning Form" when="script:(isTrue(endOnProvisioningForms) &amp;&amp; (project.hasQuestions()))"/>
@@ -441,7 +441,7 @@
     </Description>
     <Return name="ticketId" to="externalTicketId"/>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e21a016df8e40bfa0177" name="Manage Ticket"/>
+      <Reference class="sailpoint.object.Workflow" name="Manage Ticket"/>
     </WorkflowRef>
     <Transition to="Pre Split Approve" when="script:(!isNull(approvalSplitPoint) &amp;&amp; csvToList(approvalScheme).contains(approvalSplitPoint))"/>
     <Transition to="Approve and Provision"/>
@@ -457,7 +457,7 @@
               import sailpoint.tools.Util;
 
               List schemes = Util.csvToList(approvalScheme);
-              List preSchemes = new ArrayList&lt;String>();
+              List preSchemes = new ArrayList&lt;String&gt;();
               for (String s : Util.safeIterable(schemes)) {
                 if (s.equals(approvalSplitPoint)) {
                     break;
@@ -510,7 +510,7 @@
     <Return name="workItemComments"/>
     <Return name="project"/>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e21a016df8e424f101a0" name="Provisioning Approval Subprocess"/>
+      <Reference class="sailpoint.object.Workflow" name="Provisioning Approval Subprocess"/>
     </WorkflowRef>
     <Transition to="Split Plan"/>
   </Step>
@@ -594,7 +594,7 @@
     <Return name="workItemComments" to="splitWorkItemComments"/>
     <Return name="approvalSet" to="splitApprovalSet"/>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e807016df8f642cf0043" name="Approve and Provision Subprocess"/>
+      <Reference class="sailpoint.object.Workflow" name="Approve and Provision Subprocess"/>
     </WorkflowRef>
     <Transition to="Assimilate Splits"/>
   </Step>
@@ -659,7 +659,7 @@
     <Return name="approvalSet" to="approvalSet"/>
     <Return name="workItemComments" to="workItemComments"/>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e807016df8f642cf0043" name="Approve and Provision Subprocess"/>
+      <Reference class="sailpoint.object.Workflow" name="Approve and Provision Subprocess"/>
     </WorkflowRef>
     <Transition to="Refresh Identity"/>
   </Step>
@@ -698,7 +698,7 @@
       actors based on notification scheme.
     </Description>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e807016df8f63fe1003f" name="Identity Request Notify"/>
+      <Reference class="sailpoint.object.Workflow" name="Identity Request Notify"/>
     </WorkflowRef>
     <Transition to="end"/>
   </Step>
@@ -729,7 +729,7 @@
       Call the standard subprocess that can audit/finalize the request.
     </Description>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e807016df8f640cb0041" name="Identity Request Finalize"/>
+      <Reference class="sailpoint.object.Workflow" name="Identity Request Finalize"/>
     </WorkflowRef>
   </Step>
   <Step icon="Stop" name="end" posX="1131" posY="253"/>

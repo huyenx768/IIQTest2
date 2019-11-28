@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838774664" executor="sailpoint.reporting.LiveReportExecutor" id="4028868c6df8e21a016df8e44d8801f1" modified="1573836224953" name="Identity Roles Report" progressMode="Percentage" resultAction="Rename" subType="Role Management Reports" template="true" type="LiveReport">
+<TaskDefinition executor="sailpoint.reporting.LiveReportExecutor" name="Identity Roles Report" progressMode="Percentage" resultAction="Rename" subType="Role Management Reports" template="true" type="LiveReport">
   <Attributes>
     <Map>
       <entry key="report">
@@ -42,7 +42,7 @@
               </QueryParameters>
             </DataSource>
             <ReportForm>
-              <Reference class="sailpoint.object.Form" id="4028868c6df8e21a016df8e44bf201ee" name="Base Identity Report Form"/>
+              <Reference class="sailpoint.object.Form" name="Base Identity Report Form"/>
             </ReportForm>
             <Columns>
               <ReportColumnConfig field="identity" header="rept_id_roles_col_identity" property="identity.displayName" sortable="true" width="110"/>
@@ -58,7 +58,7 @@
               <ReportColumnConfig field="lastCertification" header="rept_id_roles_last_cert" property="certificationItem.parent.certification.signed" sortable="true" width="110"/>
             </Columns>
             <InitializationRule>
-              <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e44cdc01f0" name="Identity Entitlement Identity Report Form Customizer"/>
+              <Reference class="sailpoint.object.Rule" name="Identity Entitlement Identity Report Form Customizer"/>
             </InitializationRule>
           </LiveReport>
         </value>
@@ -67,7 +67,7 @@
   </Attributes>
   <Description>Displays the roles that each identity is a member of.</Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38380005e" name="FullAccessIdentityRoleReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessIdentityRoleReport"/>
   </RequiredRights>
   <Signature>
     <Inputs>

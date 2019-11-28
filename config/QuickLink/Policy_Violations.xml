@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE QuickLink PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<QuickLink action="listViolations" category="Tasks" created="1571838751663" cssClass="quicklink-policy-violations" id="4028868c6df8e21a016df8e3f3af013d" messageKey="quicklink_policy_violations" modified="1573071369805" name="Policy Violations">
+<QuickLink action="listViolations" category="Tasks" cssClass="quicklink-policy-violations" messageKey="quicklink_policy_violations" name="Policy Violations">
   <Attributes>
     <Map>
       <entry key="displayText" value="true"/>
@@ -49,9 +49,9 @@
     </Map>
   </Attributes>
   <Description>quicklink_policy_violations_desc</Description>
-  <QuickLinkOptions allowSelf="true" created="1573071369805" id="4028868c6e423c1c016e425c364d00d6">
+  <QuickLinkOptions allowSelf="true">
     <DynamicScopeRef>
-      <Reference class="sailpoint.object.DynamicScope" id="4028868c6df8e21a016df8e3efb8012e" name="Everyone"/>
+      <Reference class="sailpoint.object.DynamicScope" name="Everyone"/>
     </DynamicScopeRef>
   </QuickLinkOptions>
 </QuickLink>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838766367" executor="sailpoint.task.ApplyCertificationDefinitionChangesTask" hidden="true" id="4028868c6df8e21a016df8e42d1f01b2" modified="1573836220609" name="Apply Certification Definition Changes" progressMode="String" subType="task_item_type_certification" template="true" type="Certification">
+<TaskDefinition executor="sailpoint.task.ApplyCertificationDefinitionChangesTask" hidden="true" name="Apply Certification Definition Changes" progressMode="String" subType="task_item_type_certification" template="true" type="Certification">
   <Description>
             Task for applying changes made to a CertificationDefinition to the related Certifications and WorkItems.
         </Description>

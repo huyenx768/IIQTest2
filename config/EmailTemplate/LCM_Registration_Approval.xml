@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<EmailTemplate created="1571838760070" id="4028868c6df8e21a016df8e41486018e" modified="1573836280765" name="LCM Registration Approval">
+<EmailTemplate name="LCM Registration Approval">
   <Body>
       
 A user is attempting to register a new identity for '$identityDisplayName'.

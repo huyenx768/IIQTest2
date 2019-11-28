@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838778977" executor="sailpoint.reporting.LiveReportExecutor" id="4028868c6df8e21a016df8e45e610239" modified="1573836229172" name="Detailed Provisioning Transaction Object Report" progressMode="Percentage" resultAction="Rename" subType="Administration Reports" template="true" type="LiveReport">
+<TaskDefinition executor="sailpoint.reporting.LiveReportExecutor" name="Detailed Provisioning Transaction Object Report" progressMode="Percentage" resultAction="Rename" subType="Administration Reports" template="true" type="LiveReport">
   <Attributes>
     <Map>
       <entry key="report">
@@ -66,7 +66,7 @@
               </QueryParameters>
             </DataSource>
             <ReportForm>
-              <Reference class="sailpoint.object.Form" id="4028868c6df8e21a016df8e45d480237" name="Provisioning Transaction Report Form"/>
+              <Reference class="sailpoint.object.Form" name="Provisioning Transaction Report Form"/>
             </ReportForm>
             <Columns>
               <ReportColumnConfig field="name" header="report_provisioning_id" property="name" sortable="true" width="110"/>
@@ -101,7 +101,7 @@
   </Attributes>
   <Description>Displays all information from provisioning transactions.</Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e385c2006c" name="FullAccessProvisioningTransactionDetailedReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessProvisioningTransactionDetailedReport"/>
   </RequiredRights>
   <Signature>
     <Inputs>

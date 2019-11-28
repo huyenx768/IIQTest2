@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE SPRight PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<SPRight created="1571838719428" displayName="right_set_identity_controlled_scope" id="4028868c6df8e21a016df8e375c4000a" modified="1573836170109" name="SetIdentityControlledScope">
+<SPRight displayName="right_set_identity_controlled_scope" name="SetIdentityControlledScope">
   <Description>right_desc_set_identity_controlled_scope</Description>
 </SPRight>

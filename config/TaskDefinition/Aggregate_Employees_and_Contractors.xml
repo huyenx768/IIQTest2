@@ -1,8 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571853278494" formPath="/monitor/tasks/accountAggregationTask.xhtml" id="4028868c6df90c1d016df9c19d1e006a" modified="1573071387770" name="Aggregate Employees and Contractors" resultAction="Delete" subType="task_item_type_acct_aggregation" type="AccountAggregation">
+<TaskDefinition formPath="/monitor/tasks/accountAggregationTask.xhtml" name="Aggregate Employees and Contractors" resultAction="Delete" subType="task_item_type_acct_aggregation" type="AccountAggregation">
   <Attributes>
     <Map>
+      <entry key="TaskDefinition.runLengthAverage" value="14"/>
+      <entry key="TaskDefinition.runLengthTotal" value="175"/>
+      <entry key="TaskDefinition.runs" value="12"/>
       <entry key="applications" value="HR System - Employees, Contractor Feed"/>
       <entry key="checkDeleted" value="true"/>
       <entry key="checkHistory" value="false"/>
@@ -29,9 +32,9 @@
   <Description>Aggregate Employees from HR Data and Contractors from
 Contractor Feed.</Description>
   <Owner>
-    <Reference class="sailpoint.object.Identity" id="4028868c6df8e21a016df8e3d68200fc" name="spadmin"/>
+    <Reference class="sailpoint.object.Identity" name="spadmin"/>
   </Owner>
   <Parent>
-    <Reference class="sailpoint.object.TaskDefinition" id="4028868c6df8e21a016df8e4276201a3" name="Account Aggregation"/>
+    <Reference class="sailpoint.object.TaskDefinition" name="Account Aggregation"/>
   </Parent>
 </TaskDefinition>

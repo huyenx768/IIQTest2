@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Capability PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Capability created="1571838727069" displayName="capability_identity_request_administrator" id="4028868c6df8e21a016df8e3939d00bc" modified="1573836185641" name="IdentityRequestAdministrator">
+<Capability displayName="capability_identity_request_administrator" name="IdentityRequestAdministrator">
   <Description>capability_desc_identity_request_administrator</Description>
   <RightRefs>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3866e0072" name="FullAccessIdentityRequest"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e380340045" name="ViewIdentityRequest"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37fa70041" name="FullAccessReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3844b0064" name="FullAccessAttributeRequestStatusReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3840c0063" name="FullAccessAccountRequestStatusReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38c69009f" name="FullAccessPasswordManagementReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e383ed0062" name="FullAccessEntitlementRequestStatusReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37b520022" name="ViewAccessRequest"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessIdentityRequest"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewIdentityRequest"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessAttributeRequestStatusReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessAccountRequestStatusReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessPasswordManagementReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessEntitlementRequestStatusReport"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewAccessRequest"/>
   </RightRefs>
 </Capability>

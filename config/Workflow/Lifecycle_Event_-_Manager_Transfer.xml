@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Workflow created="1571839952957" explicitTransitions="true" id="4028868c6df8e807016df8f6483d004b" libraries="Identity" modified="1573836284454" name="Lifecycle Event - Manager Transfer" type="IdentityLifecycle">
+<Workflow explicitTransitions="true" libraries="Identity" name="Lifecycle Event - Manager Transfer" type="IdentityLifecycle">
   <Variable input="true" name="trigger">
     <Description>The IdentityTrigger</Description>
   </Variable>

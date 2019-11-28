@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Workflow created="1571838758726" id="4028868c6df8e21a016df8e40f46017e" libraries="Identity" modified="1573836236832" name="Scheduled Assignment" resultExpiration="-1" type="ScheduledAssignment">
+<Workflow libraries="Identity" name="Scheduled Assignment" resultExpiration="-1" type="ScheduledAssignment">
   <Variable input="true" name="identity">
     <Description>The database id of the target identity</Description>
   </Variable>
@@ -153,7 +153,7 @@ plan evaluator.
     </Description>
     <Return name="project" to="project"/>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e21a016df8e409f70172" name="Do Provisioning Forms"/>
+      <Reference class="sailpoint.object.Workflow" name="Do Provisioning Forms"/>
     </WorkflowRef>
     <Transition to="Process Project Pre-Actions"/>
   </Step>
@@ -182,7 +182,7 @@ plan evaluator.
     </Description>
     <Return name="project" to="project"/>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e21a016df8e40b8d0175" name="Provision with retries"/>
+      <Reference class="sailpoint.object.Workflow" name="Provision with retries"/>
     </WorkflowRef>
     <Transition to="Refresh Identity"/>
   </Step>
@@ -211,7 +211,7 @@ detected roles if the provisioning was done synchronously.
       to an integrated IDM system.
     </Description>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e21a016df8e40ad10174" name="Do Manual Actions"/>
+      <Reference class="sailpoint.object.Workflow" name="Do Manual Actions"/>
     </WorkflowRef>
     <Transition to="end"/>
   </Step>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Rule created="1387809647533" id="4028868c6df8e21a016df8e4d7fa02a6" language="beanshell" modified="1573836271495" name="CEFTransformRule" type="ActivityTransformer">
+<Rule language="beanshell" name="CEFTransformRule" type="ActivityTransformer">
   <Description>ActivityTransformation Rules are used by the LogFileCollector to transform fields parsed from a text file into our ApplicationActivity model.</Description>
   <Signature returnType="String">
     <Inputs>

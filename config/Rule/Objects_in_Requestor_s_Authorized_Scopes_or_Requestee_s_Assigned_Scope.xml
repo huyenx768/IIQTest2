@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Rule created="1571838762664" id="4028868c6df8e21a016df8e41ea80199" language="beanshell" modified="1573836292316" name="Objects in Requestor&apos;s Authorized Scopes or Requestee&apos;s Assigned Scope" type="RequestObjectSelector">
+<Rule language="beanshell" name="Objects in Requestor's Authorized Scopes or Requestee's Assigned Scope" type="RequestObjectSelector">
   <Description>This rule returns a Filter that restricts roles to those in the requestor's authorized scopes or the requestee's assigned scope</Description>
   <Signature returnType="sailpoint.object.QueryInfo">
     <Inputs>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838766179" executor="sailpoint.task.RoleChangePropagator" id="4028868c6df8e21a016df8e42c6301ae" modified="1573836220327" name="Propagate Role Changes" progressInterval="5000" progressMode="String" subType="task_item_type_identity" template="true" type="Identity">
+<TaskDefinition executor="sailpoint.task.RoleChangePropagator" name="Propagate Role Changes" progressInterval="5000" progressMode="String" subType="task_item_type_identity" template="true" type="Identity">
   <Description>
             Template for role propagation.
         </Description>

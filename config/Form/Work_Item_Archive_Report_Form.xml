@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Form PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Form created="1571838775867" hidden="true" id="4028868c6df8e21a016df8e4523b0205" modified="1573836244693" name="Work Item Archive Report Form" type="Report">
+<Form hidden="true" name="Work Item Archive Report Form" type="Report">
   <Section columns="2" label="rept_workitem_section_workitem_props" name="customProperties">
     <Field displayName="report_filter_owners" helpKey="rept_input_work_item_report_owners" multi="true" name="owners" type="Identity" value="ref:owners">
       <Attributes>

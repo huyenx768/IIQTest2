@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<EmailTemplate created="1571838754163" id="4028868c6df8e21a016df8e3fd73014a" modified="1573836246396" name="Delegation Revocation">
+<EmailTemplate name="Delegation Revocation">
   <Body>$requesterName has revoked the following work item from you: $workItemName.  This work item will no longer appear in your queue.
     </Body>
   <Description>

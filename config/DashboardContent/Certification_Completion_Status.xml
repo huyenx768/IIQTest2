@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE DashboardContent PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<DashboardContent created="1571838742882" id="4028868c6df8e21a016df8e3d16200f2" modified="1573071398904" name="Certification Completion Status" regionSize="0" source="dashboard/contentCertificationCompletionStatus.xhtml" title="dash_title_cert_completion_status" type="Compliance">
+<DashboardContent name="Certification Completion Status" regionSize="0" source="dashboard/contentCertificationCompletionStatus.xhtml" title="dash_title_cert_completion_status" type="Compliance">
   <Description>dash_description_cert_completion_status</Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37aa6001e" name="ViewCertificationCompletionStatus"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewCertificationCompletionStatus"/>
   </RequiredRights>
 </DashboardContent>

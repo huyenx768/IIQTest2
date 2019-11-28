@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Workflow created="1571838757773" id="4028868c6df8e21a016df8e40b8d0175" libraries="Identity,IdentityRequest" modified="1573836235566" name="Provision with retries" type="Subprocess">
+<Workflow libraries="Identity,IdentityRequest" name="Provision with retries" type="Subprocess">
   <Variable input="true" name="project" output="true" required="true">
     <Description>
       Project that will be provisioned.

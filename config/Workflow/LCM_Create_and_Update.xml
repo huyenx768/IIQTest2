@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Workflow configForm="Provisioning Workflow Config Form" created="1571839952020" handler="sailpoint.api.StandardWorkflowHandler" id="4028868c6df8e807016df8f644940045" libraries="Identity,BatchRequest" modified="1573836283235" name="LCM Create and Update" taskType="LCM" type="LCMIdentity">
+<Workflow configForm="Provisioning Workflow Config Form" handler="sailpoint.api.StandardWorkflowHandler" libraries="Identity,BatchRequest" name="LCM Create and Update" taskType="LCM" type="LCMIdentity">
   <Variable input="true" name="identityName">
     <Description>The name of the identity we're supposed to update.</Description>
   </Variable>
@@ -264,8 +264,8 @@
     </Description>
   </Variable>
   <RuleLibraries>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e404f50170" name="Approval Library"/>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e410bd0183" name="LCM Workflow Library"/>
+    <Reference class="sailpoint.object.Rule" name="Approval Library"/>
+    <Reference class="sailpoint.object.Rule" name="LCM Workflow Library"/>
   </RuleLibraries>
   <Step icon="Start" name="Start" posX="14" posY="12">
     <Transition to="Build Approval Set"/>
@@ -309,7 +309,7 @@
     <Return name="identityRequestId" to="identityRequestId"/>
     <Return name="project" to="project"/>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e807016df8f63e5a003d" name="Identity Request Initialize"/>
+      <Reference class="sailpoint.object.Workflow" name="Identity Request Initialize"/>
     </WorkflowRef>
     <Transition to="Exit On Manual Work Items" when="script:(isTrue(endOnManualWorkItems) &amp;&amp; (project.getUnmanagedPlan() != null))"/>
     <Transition to="Exit On Provisioning Form" when="script:(isTrue(endOnProvisioningForms) &amp;&amp; (project.hasQuestions()))"/>
@@ -333,7 +333,7 @@
     </Description>
     <Return name="ticketId" to="externalTicketId"/>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e21a016df8e40bfa0177" name="Manage Ticket"/>
+      <Reference class="sailpoint.object.Workflow" name="Manage Ticket"/>
     </WorkflowRef>
     <Transition to="Approve"/>
   </Step>
@@ -362,7 +362,7 @@
     <Return name="plan"/>
     <Return name="workItemComments"/>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e807016df8f641190042" name="Identity Request Approve Identity Changes"/>
+      <Reference class="sailpoint.object.Workflow" name="Identity Request Approve Identity Changes"/>
     </WorkflowRef>
     <Transition to="Update Ticket Post Approval"/>
   </Step>
@@ -384,7 +384,7 @@
 
     </Description>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e21a016df8e40bfa0177" name="Manage Ticket"/>
+      <Reference class="sailpoint.object.Workflow" name="Manage Ticket"/>
     </WorkflowRef>
     <Transition to="Process Approval Decisions"/>
   </Step>
@@ -445,7 +445,7 @@
     </Description>
     <Return name="project" to="project"/>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e807016df8f6405e0040" name="Identity Request Provision"/>
+      <Reference class="sailpoint.object.Workflow" name="Identity Request Provision"/>
     </WorkflowRef>
     <Transition to="Post Provision"/>
   </Step>
@@ -474,7 +474,7 @@
 
     </Description>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e21a016df8e40bfa0177" name="Manage Ticket"/>
+      <Reference class="sailpoint.object.Workflow" name="Manage Ticket"/>
     </WorkflowRef>
     <Transition to="Refresh Identity"/>
   </Step>
@@ -515,7 +515,7 @@
       actors based on notification scheme.
     </Description>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e807016df8f63fe1003f" name="Identity Request Notify"/>
+      <Reference class="sailpoint.object.Workflow" name="Identity Request Notify"/>
     </WorkflowRef>
     <Transition to="end"/>
   </Step>
@@ -546,7 +546,7 @@
       Call the standard subprocess that can audit/finalize the request.
     </Description>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e807016df8f640cb0041" name="Identity Request Finalize"/>
+      <Reference class="sailpoint.object.Workflow" name="Identity Request Finalize"/>
     </WorkflowRef>
   </Step>
   <Step icon="Stop" name="end" posX="830" posY="225"/>

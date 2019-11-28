@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Capability PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Capability created="1571838727209" displayName="capability_workgroup_administrator" id="4028868c6df8e21a016df8e3942900be" modified="1573836185781" name="WorkgroupAdministrator">
+<Capability displayName="capability_workgroup_administrator" name="WorkgroupAdministrator">
   <Description>capability_desc_workgroup_administrator</Description>
   <RightRefs>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3893c0088" name="ViewWorkgroup"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3891d0087" name="SetWorkgroupControlledScope"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e388cf0085" name="ManageWorkgroup"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewWorkgroup"/>
+    <Reference class="sailpoint.object.SPRight" name="SetWorkgroupControlledScope"/>
+    <Reference class="sailpoint.object.SPRight" name="ManageWorkgroup"/>
   </RightRefs>
 </Capability>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Rule created="1571838760633" id="4028868c6df8e21a016df8e416b90192" language="beanshell" modified="1573836289286" name="LCM Build Owner Approvals">
+<Rule language="beanshell" name="LCM Build Owner Approvals">
   <ReferencedRules>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e404f50170" name="Approval Library"/>
+    <Reference class="sailpoint.object.Rule" name="Approval Library"/>
   </ReferencedRules>
   <Source>
     
@@ -33,7 +33,7 @@
                approvals = buildApprovalsFromMap(ownerMap, identityName, launcher);
            } 
        }
-       return ( Util.size(approvals) > 0 ) ? approvals : null;
+       return ( Util.size(approvals) &gt; 0 ) ? approvals : null;
     
   </Source>
 </Rule>

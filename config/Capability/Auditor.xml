@@ -1,67 +1,67 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Capability PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Capability created="1571838728444" displayName="capability_auditor" id="4028868c6df8e21a016df8e398fc00c6" modified="1573836187047" name="Auditor">
+<Capability displayName="capability_auditor" name="Auditor">
   <Description>capability_desc_auditor</Description>
   <RightRefs>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e378b20015" name="ViewDashboardChooser"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e378e10016" name="ViewRiskScoreChart"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e379100017" name="ViewApplicationRiskScoreChart"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3793f0018" name="ViewPolicyViolationChart"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3795e0019" name="ViewCertificationOwnerStatus"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e379bc001a" name="ViewAllIdentitiesCertificationOwnerStatus"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e379ea001b" name="ViewApplicationCertificationStatus"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37a0a001c" name="ViewGroupCertificationStatus"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37a39001d" name="ViewCertificationCompletionChart"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37aa6001e" name="ViewCertificationCompletionStatus"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37ae5001f" name="ViewCertificationDecisionChart"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37b040020" name="ViewApplicationStatus"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37b330021" name="ViewSignoffStatus"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e373ff0005" name="ViewIdentity"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37bee0026" name="ViewRole"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37fa70041" name="FullAccessReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e383af0060" name="FullAccessAccountGroupMembershipReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e381bb0051" name="FullAccessApplicationOwnerCertificationReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e382470055" name="FullAccessApplicationCentricCertificationReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e382180054" name="FullAccessCertificationDecisionReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3819b0050" name="FullAccessManagerCertificationReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e380920048" name="FullAccessApplicationActivityReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3812e004d" name="FullAccessMitigationReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3810f004c" name="FullAccessWorkItemReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e382e30059" name="FullAccessApplicationReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e381f90053" name="FullAccessAdvancedCertificationReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e382660056" name="FullAccessUncorrelatedIdentitiesReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38303005a" name="FullAccessUserReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e382b50058" name="FullAccessApplicationUserReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3815d004e" name="FullAccessViolationReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38322005b" name="FullAccessApplicationRiskReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38341005c" name="FullAccessApplicationStatusReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38361005d" name="FullAccessIdentityRiskReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38380005e" name="FullAccessIdentityRoleReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3838f005f" name="FullAccessIdentityEntitlementReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3817c004f" name="FullAccessRemediationProgressReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e380d0004a" name="FullAccessBusinessRoleCompositionReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e380b10049" name="FullAccessBusinessRoleReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e380ef004b" name="FullAccessBusinessRoleMembershipReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e382860057" name="FullAccessIdentityApplicationRiskReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e383ce0061" name="FullAccessRoleChangeMgmtReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e383ed0062" name="FullAccessEntitlementRequestStatusReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3844b0064" name="FullAccessAttributeRequestStatusReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3840c0063" name="FullAccessAccountRequestStatusReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38c69009f" name="FullAccessPasswordManagementReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3846a0065" name="FullAccessBlankManagedEntitlmentDescriptionReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e385060069" name="FullAccessCertificationSignoffReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e381e90052" name="FullAccessApplicationAccountAttributesReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3838f005f" name="FullAccessIdentityEntitlementReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37eec003c" name="ViewCertifications"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37e9e003a" name="ViewGroupCertification"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37ebd003b" name="ViewActivity"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37f780040" name="ViewAuditLog"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e380340045" name="ViewIdentityRequest"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e377990011" name="MonitorIdentityEvents"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e380720047" name="ViewLink"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e385e1006d" name="FullAccessPolicyViolation"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38620006f" name="FullAccessApplicationRisk"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38600006e" name="FullAccessIdentityRisk"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38e8c00b0" name="CertificationCampaignsWidget"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewDashboardChooser"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewRiskScoreChart"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewApplicationRiskScoreChart"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewPolicyViolationChart"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewCertificationOwnerStatus"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewAllIdentitiesCertificationOwnerStatus"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewApplicationCertificationStatus"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewGroupCertificationStatus"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewCertificationCompletionChart"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewCertificationCompletionStatus"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewCertificationDecisionChart"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewApplicationStatus"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewSignoffStatus"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewIdentity"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewRole"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessAccountGroupMembershipReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessApplicationOwnerCertificationReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessApplicationCentricCertificationReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessCertificationDecisionReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessManagerCertificationReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessApplicationActivityReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessMitigationReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessWorkItemReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessApplicationReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessAdvancedCertificationReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessUncorrelatedIdentitiesReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessUserReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessApplicationUserReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessViolationReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessApplicationRiskReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessApplicationStatusReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessIdentityRiskReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessIdentityRoleReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessIdentityEntitlementReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessRemediationProgressReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessBusinessRoleCompositionReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessBusinessRoleReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessBusinessRoleMembershipReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessIdentityApplicationRiskReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessRoleChangeMgmtReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessEntitlementRequestStatusReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessAttributeRequestStatusReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessAccountRequestStatusReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessPasswordManagementReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessBlankManagedEntitlmentDescriptionReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessCertificationSignoffReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessApplicationAccountAttributesReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessIdentityEntitlementReport"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewCertifications"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewGroupCertification"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewActivity"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewAuditLog"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewIdentityRequest"/>
+    <Reference class="sailpoint.object.SPRight" name="MonitorIdentityEvents"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewLink"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessPolicyViolation"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessApplicationRisk"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessIdentityRisk"/>
+    <Reference class="sailpoint.object.SPRight" name="CertificationCampaignsWidget"/>
   </RightRefs>
 </Capability>

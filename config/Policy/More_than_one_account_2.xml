@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Policy PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Policy certificationActions="Mitigated,Delegated" configPage="genericpolicy.xhtml" created="1572550465370" executor="sailpoint.policy.AccountPolicyExecutor" id="4028868c6e13dfdc016e234fd75a072b" modified="1573071389069" name="More than one account 2" state="Active" type="Account" typeKey="policy_type_account" violationOwnerType="Manager">
+<Policy certificationActions="Mitigated,Delegated" configPage="genericpolicy.xhtml" executor="sailpoint.policy.AccountPolicyExecutor" name="More than one account 2" state="Active" type="Account" typeKey="policy_type_account" violationOwnerType="Manager">
   <PolicyAlert escalationStyle="none">
     <NotificationEmailTemplateRef>
-      <Reference class="sailpoint.object.EmailTemplate" id="4028868c6df8e21a016df8e3ff480157" name="Policy Violation"/>
+      <Reference class="sailpoint.object.EmailTemplate" name="Policy Violation"/>
     </NotificationEmailTemplateRef>
     <Owners>
-      <Reference class="sailpoint.object.Identity" id="4028868c6df90c1d016df9c1ca860093" name="Bertha Beck"/>
+      <Reference class="sailpoint.object.Identity" name="Bertha Beck"/>
     </Owners>
   </PolicyAlert>
   <Attributes>
@@ -21,9 +21,9 @@
     </Map>
   </Attributes>
   <Owner>
-    <Reference class="sailpoint.object.Identity" id="4028868c6df8e21a016df8e3d68200fc" name="spadmin"/>
+    <Reference class="sailpoint.object.Identity" name="spadmin"/>
   </Owner>
   <GenericConstraints>
-    <GenericConstraint created="1572550465370" id="4028868c6e13dfdc016e234fd75a072c" modified="1573071389156" name="Multiple Application Accounts" violationOwnerType="None"/>
+    <GenericConstraint name="Multiple Application Accounts" violationOwnerType="None"/>
   </GenericConstraints>
 </Policy>

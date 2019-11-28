@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Workflow created="1571839950207" id="4028868c6df8e807016df8f63d7f003c" modified="1573836294800" name="Identity Request Violation Review" type="Subprocess">
+<Workflow name="Identity Request Violation Review" type="Subprocess">
   <Variable initializer="false" name="trace">
     <Description>
       The name of the identity object being modified.
@@ -149,7 +149,7 @@
    control is returned to the calling process.
   </Description>
   <RuleLibraries>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e410bd0183" name="LCM Workflow Library"/>
+    <Reference class="sailpoint.object.Rule" name="LCM Workflow Library"/>
   </RuleLibraries>
   <Step icon="Start" name="Start" posX="22" posY="13">
     <Transition to="Save Original Plan"/>

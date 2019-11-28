@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838775195" executor="sailpoint.reporting.LiveReportExecutor" formPath="/analyze/reports/userreportargs.xhtml" id="4028868c6df8e21a016df8e44f9b01f6" modified="1573836225296" name="Identity Risk Live Report" progressMode="Percentage" resultAction="Rename" subType="Risk Reports" template="true" type="LiveReport">
+<TaskDefinition executor="sailpoint.reporting.LiveReportExecutor" formPath="/analyze/reports/userreportargs.xhtml" name="Identity Risk Live Report" progressMode="Percentage" resultAction="Rename" subType="Risk Reports" template="true" type="LiveReport">
   <Attributes>
     <Map>
       <entry key="report">
@@ -90,7 +90,7 @@
               </QueryParameters>
             </DataSource>
             <ReportForm>
-              <Reference class="sailpoint.object.Form" id="4028868c6df8e21a016df8e44f7c01f5" name="Identity Risk Report Form"/>
+              <Reference class="sailpoint.object.Form" name="Identity Risk Report Form"/>
             </ReportForm>
             <Columns>
               <ReportColumnConfig field="username" header="rept_id_risk_col_username" property="name" sortable="true" width="110"/>
@@ -103,7 +103,7 @@
               <ReportColumnConfig field="certRisk" header="rept_id_risk_col_certification" property="scorecard.certificationScore" sortable="true" width="110"/>
             </Columns>
             <InitializationRule>
-              <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e4497101ed" name="Identity Report Form Customizer"/>
+              <Reference class="sailpoint.object.Rule" name="Identity Report Form Customizer"/>
             </InitializationRule>
           </LiveReport>
         </value>
@@ -112,7 +112,7 @@
   </Attributes>
   <Description>A detailed view of the risk associated with each identity detected by IdentityIQ.</Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38361005d" name="FullAccessIdentityRiskReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessIdentityRiskReport"/>
   </RequiredRights>
   <Signature>
     <Inputs>

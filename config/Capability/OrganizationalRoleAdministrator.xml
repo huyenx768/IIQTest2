@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Capability PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Capability created="1571838727491" displayName="capability_organizational_role_administrator" id="4028868c6df8e21a016df8e3954300c2" modified="1573836186250" name="OrganizationalRoleAdministrator">
+<Capability displayName="capability_organizational_role_administrator" name="OrganizationalRoleAdministrator">
   <Description>capability_desc_organization_role_administrator</Description>
   <RightRefs>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37bee0026" name="ViewRole"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37c0d0027" name="ManageRole"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37db30033" name="ManageOrganizationalRoles"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38cd600a2" name="FullAccessForms"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewRole"/>
+    <Reference class="sailpoint.object.SPRight" name="ManageRole"/>
+    <Reference class="sailpoint.object.SPRight" name="ManageOrganizationalRoles"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessForms"/>
   </RightRefs>
 </Capability>

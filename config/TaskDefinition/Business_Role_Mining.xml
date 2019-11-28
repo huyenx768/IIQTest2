@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838768086" executor="sailpoint.task.BusinessFunctionalRoleGenerator" hidden="true" id="4028868c6df8e21a016df8e433d601c0" modified="1573836221749" name="Business Role Mining" resultAction="Rename" subType="task_item_type_role_mining" type="RoleMining">
+<TaskDefinition executor="sailpoint.task.BusinessFunctionalRoleGenerator" hidden="true" name="Business Role Mining" resultAction="Rename" subType="task_item_type_role_mining" type="RoleMining">
   <Description>
         Mine Business Roles based on organizational and functional identity attributes
       </Description>

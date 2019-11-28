@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<EmailTemplate created="1571838754632" id="4028868c6df8e21a016df8e3ff480157" modified="1573836246974" name="Policy Violation">
+<EmailTemplate name="Policy Violation">
   <Body>A violation of policy '$policyName' rule '$constraintName' was detected on user '$identityName'.
     </Body>
   <Description>

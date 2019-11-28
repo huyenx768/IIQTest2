@@ -1,30 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Capability PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Capability created="1571838729116" displayName="capability_ws_executor" id="4028868c6df8e21a016df8e39b9c00cd" modified="1573836187609" name="WebServicesExecutor">
+<Capability displayName="capability_ws_executor" name="WebServicesExecutor">
   <Description>capability_desc_ws_executor</Description>
   <InheritedCapabilities>
-    <Reference class="sailpoint.object.Capability" id="4028868c6df8e21a016df8e39b3e00cc" name="SCIMExecutor"/>
+    <Reference class="sailpoint.object.Capability" name="SCIMExecutor"/>
   </InheritedCapabilities>
   <RightRefs>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3895c0089" name="WebServices"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3898b008a" name="PingWebService"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e389aa008b" name="GetConfigurationWebService"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e389c9008c" name="CheckRolePoliciesWebService"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e389f8008d" name="RolesAssignablePermitsWebService"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38a17008e" name="ShowIdentityWebService"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38a37008f" name="GetIdentityListWebService"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38a560090" name="CheckAuthorizationWebService"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38a750091" name="GetTaskResultStatusWebService"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38a940092" name="GetLinksWebService"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38ac30093" name="CheckPasswordPolicyWebService"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38ae20094" name="IdentityCreateWebService"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38b020095" name="AggregateAccountWebService"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38b210096" name="LaunchWorkflowWebService"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38b310097" name="CancelWorkflowWebService"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38b7f0098" name="RemoteLoginWebService"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38b9e0099" name="PasswordInterceptWebService"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38bbe009a" name="IdentityCreateOrUpdateWebService"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38bec009b" name="GetWorkItemCountWebService"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38c0b009c" name="GetIdentityNameByLinkWebService"/>
+    <Reference class="sailpoint.object.SPRight" name="WebServices"/>
+    <Reference class="sailpoint.object.SPRight" name="PingWebService"/>
+    <Reference class="sailpoint.object.SPRight" name="GetConfigurationWebService"/>
+    <Reference class="sailpoint.object.SPRight" name="CheckRolePoliciesWebService"/>
+    <Reference class="sailpoint.object.SPRight" name="RolesAssignablePermitsWebService"/>
+    <Reference class="sailpoint.object.SPRight" name="ShowIdentityWebService"/>
+    <Reference class="sailpoint.object.SPRight" name="GetIdentityListWebService"/>
+    <Reference class="sailpoint.object.SPRight" name="CheckAuthorizationWebService"/>
+    <Reference class="sailpoint.object.SPRight" name="GetTaskResultStatusWebService"/>
+    <Reference class="sailpoint.object.SPRight" name="GetLinksWebService"/>
+    <Reference class="sailpoint.object.SPRight" name="CheckPasswordPolicyWebService"/>
+    <Reference class="sailpoint.object.SPRight" name="IdentityCreateWebService"/>
+    <Reference class="sailpoint.object.SPRight" name="AggregateAccountWebService"/>
+    <Reference class="sailpoint.object.SPRight" name="LaunchWorkflowWebService"/>
+    <Reference class="sailpoint.object.SPRight" name="CancelWorkflowWebService"/>
+    <Reference class="sailpoint.object.SPRight" name="RemoteLoginWebService"/>
+    <Reference class="sailpoint.object.SPRight" name="PasswordInterceptWebService"/>
+    <Reference class="sailpoint.object.SPRight" name="IdentityCreateOrUpdateWebService"/>
+    <Reference class="sailpoint.object.SPRight" name="GetWorkItemCountWebService"/>
+    <Reference class="sailpoint.object.SPRight" name="GetIdentityNameByLinkWebService"/>
   </RightRefs>
 </Capability>

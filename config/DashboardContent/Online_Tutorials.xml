@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE DashboardContent PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<DashboardContent created="1571838742913" id="4028868c6df8e21a016df8e3d18100f3" modified="1573836295972" name="Online Tutorials" regionSize="0" source="dashboard/contentFlashBasedTraining.xhtml" title="dash_title_online_tutorials" type="My">
+<DashboardContent name="Online Tutorials" regionSize="0" source="dashboard/contentFlashBasedTraining.xhtml" title="dash_title_online_tutorials" type="My">
   <Attributes>
     <Map>
       <entry key="tutorials">

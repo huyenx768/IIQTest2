@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<EmailTemplate created="1571838755179" id="4028868c6df8e21a016df8e4016b0166" modified="1573836247771" name="Account Selection Notification">
+<EmailTemplate name="Account Selection Notification">
   <Body>The accounts that are being targeted for changes must be selected for $identityDisplayName before the provisioning request can be completed.
 
 Please login to IdentityIQ and view your work item inbox to complete this form at your earliest convenience.</Body>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838764898" executor="sailpoint.task.ResourceIdentityScan" formPath="/monitor/tasks/accountAggregationTask.xhtml" id="4028868c6df8e21a016df8e4276201a3" modified="1573836218890" name="Account Aggregation" progressInterval="5000" progressMode="String" subType="task_item_type_acct_aggregation" template="true" type="AccountAggregation">
+<TaskDefinition executor="sailpoint.task.ResourceIdentityScan" formPath="/monitor/tasks/accountAggregationTask.xhtml" name="Account Aggregation" progressInterval="5000" progressMode="String" subType="task_item_type_acct_aggregation" template="true" type="AccountAggregation">
   <Description>
             Task template for application account scanning.
         </Description>

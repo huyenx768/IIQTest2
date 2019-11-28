@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<EmailTemplate created="1571838759882" id="4028868c6df8e21a016df8e413ca018a" modified="1573836280453" name="Batch Approval">
+<EmailTemplate name="Batch Approval">
   <Body>
       
 $launcher is requesting approval to run in a batch request file.

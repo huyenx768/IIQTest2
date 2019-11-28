@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Form PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Form created="1571838804246" id="4028868c6df8e21a016df8e4c116029e" modified="1573836244193" name="Identity Refresh" type="Workflow">
+<Form name="Identity Refresh" type="Workflow">
   <Attributes>
     <Map>
       <entry key="pageTitle" value="Automatic provisioning form for $(identityName)"/>
     </Map>
   </Attributes>
   <Section type="text">
-    <Field value="&#xA;          During identity refresh, missing entitlements were detected&#xA;          for one or more assigned roles.  Provisioning these entitlements&#xA;          requires the creation of new accounts on one or more applications.&#xA;          Please supply initial values for account attributes in the forms below.&#xA;        "/>
+    <Field value="&#xa;          During identity refresh, missing entitlements were detected&#xa;          for one or more assigned roles.  Provisioning these entitlements&#xa;          requires the creation of new accounts on one or more applications.&#xa;          Please supply initial values for account attributes in the forms below.&#xa;        "/>
   </Section>
   <Section label="Target Identity" type="datatable">
     <Attributes>

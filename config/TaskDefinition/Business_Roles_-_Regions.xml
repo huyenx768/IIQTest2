@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1572633429436" id="4028868c6e13dfdc016e2841c5bc09f3" modified="1573071387811" name="Business Roles - Regions" resultAction="Rename" subType="Business Role Mining" type="RoleMining">
+<TaskDefinition name="Business Roles - Regions" resultAction="Rename" subType="Business Role Mining" type="RoleMining">
   <Attributes>
     <Map>
       <entry key="bfrPrefix" value="Region"/>
@@ -24,9 +24,9 @@
         Mine Business Roles based on organizational and functional identity attributes
       </Description>
   <Owner>
-    <Reference class="sailpoint.object.Identity" id="4028868c6df8e21a016df8e3d68200fc" name="spadmin"/>
+    <Reference class="sailpoint.object.Identity" name="spadmin"/>
   </Owner>
   <Parent>
-    <Reference class="sailpoint.object.TaskDefinition" id="4028868c6df8e21a016df8e433d601c0" name="Business Role Mining"/>
+    <Reference class="sailpoint.object.TaskDefinition" name="Business Role Mining"/>
   </Parent>
 </TaskDefinition>

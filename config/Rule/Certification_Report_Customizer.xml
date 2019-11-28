@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Rule created="1571838776227" id="4028868c6df8e21a016df8e453a3020c" language="beanshell" modified="1573836270432" name="Certification Report Customizer" type="ReportCustomizer">
+<Rule language="beanshell" name="Certification Report Customizer" type="ReportCustomizer">
   <Source>
        
         import sailpoint.object.*;

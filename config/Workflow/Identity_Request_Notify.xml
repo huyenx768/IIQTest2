@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Workflow created="1571839950817" id="4028868c6df8e807016df8f63fe1003f" libraries="IdentityRequest" modified="1573836294175" name="Identity Request Notify" type="Subprocess">
+<Workflow libraries="IdentityRequest" name="Identity Request Notify" type="Subprocess">
   <Variable input="true" name="identityName" required="true">
     <Description>
       The name of the identity object being modified.

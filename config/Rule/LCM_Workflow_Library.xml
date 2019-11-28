@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Rule created="1571838759101" id="4028868c6df8e21a016df8e410bd0183" language="beanshell" modified="1573836290722" name="LCM Workflow Library">
+<Rule language="beanshell" name="LCM Workflow Library">
   <Source>
     
       import sailpoint.api.Provisioner;
@@ -37,7 +37,7 @@
        */
       public void auditWorkItemOwnerHistory(WorkItem item) {
           List ownerHistories = item.getOwnerHistory();
-          if ( Util.size(ownerHistories) > 0 ) {
+          if ( Util.size(ownerHistories) &gt; 0 ) {
               String action = "Forward";
               if ( Auditor.isEnabled(action) ) {
                   for ( OwnerHistory history : ownerHistories ) {
@@ -76,7 +76,7 @@
        */
       public void auditWorkItemComments(WorkItem item) {
           List comments = item.getComments();
-          if ( Util.size(comments) > 0 ) {
+          if ( Util.size(comments) &gt; 0 ) {
               String action = "Comment";
               if ( Auditor.isEnabled(action) ) {
                   AuditEvent event = new AuditEvent();
@@ -131,7 +131,7 @@
           // there is only one Signoff, duplicated for each approval item
           SignOffHistory signoff = null;
           List signoffs = item.getSignOffs();
-          if (signoffs != null &amp;&amp; signoffs.size() > 0)
+          if (signoffs != null &amp;&amp; signoffs.size() &gt; 0)
               signoff = (SignOffHistory)signoffs.get(0);
 
           ApprovalSet approvalSet = (ApprovalSet)item.get("approvalSet");
@@ -200,7 +200,7 @@
                   event.setAttribute("requester", launcher);
 
                   List comments = it.getComments();
-                  if ( Util.size(comments) > 0 ) {
+                  if ( Util.size(comments) &gt; 0 ) {
                       event.setAttribute("completionComments", comments);
                   }
 
@@ -230,7 +230,7 @@
               ApprovalSet set = (ApprovalSet)item.get("approvalSet");
               if ( set != null ) {
                   List items = set.getItems();
-                  if ( Util.size(items) > 0 ) {
+                  if ( Util.size(items) &gt; 0 ) {
                       int num = 0 ;
                       for ( ApprovalItem it : items  ) { 
                           num++;
@@ -240,12 +240,12 @@
                           event.setAttribute("requester", wfcontext.getString("launcher"));
                           event.setAttribute("op", it.getOperation());
                           List comments = it.getComments();
-                          if ( Util.size(comments) > 0 ) {
+                          if ( Util.size(comments) &gt; 0 ) {
                               event.setAttribute("completionComments", comments);
                           }
                           Auditor.log(event);
                       }
-                      if ( num > 0 ) 
+                      if ( num &gt; 0 ) 
                           wfcontext.getSailPointContext().commitTransaction();
                   }
               } else {
@@ -294,7 +294,7 @@
       public boolean isApprovalEnabled(String approvalScheme, String approvalType) {
           if ( approvalScheme != null )  {
               List schemes = Util.csvToList(approvalScheme);
-              if ( Util.size(schemes) > 0 ) {
+              if ( Util.size(schemes) &gt; 0 ) {
                   if ( schemes.contains(approvalType) ) {
                       return true;
                   }
@@ -336,7 +336,7 @@
                   }
               }
  
-              if ( Util.size(items) > 0 )  {
+              if ( Util.size(items) &gt; 0 )  {
                   for ( ApprovalItem item : items ) {
                       if ( forceDecision ) { 
                           item.setState(null);

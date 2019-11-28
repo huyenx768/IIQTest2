@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Workflow created="1571838758914" explicitTransitions="true" id="4028868c6df8e21a016df8e410020182" modified="1573836237394" name="Alert - Disable Account" type="Alert">
+<Workflow explicitTransitions="true" name="Alert - Disable Account" type="Alert">
   <Variable input="true" name="alertDefinition" required="true">
     <Description>The alertDefinition object that matched the alert.</Description>
   </Variable>

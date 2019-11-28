@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Rule created="1572271922847" id="4028868c6e129dfa016e12b59e9f000f" language="beanshell" modified="1573071349772" name="IdentityAttribute_isInactive_1028_1" type="IdentityAttribute">
+<Rule language="beanshell" name="IdentityAttribute_isInactive_1028_1" type="IdentityAttribute">
   <Description>Identity attribute rules are used when the value is not simply a copy of an application account attribute value.  A transformation may be necessary on the account attribute, or several account attributes may need to be combined to produce the identity attribute.
 
 This rule can be called in two ways: as a global mapping rule and an application mapping rule.  A global mapping rule is called whenever the identity is refreshed.  The rule can look at any account attributes.  An application mapping rule is called only when the identity contains an account link for that application, this link is passed in the "link" argument which is not passed in global mapping rules.</Description>
@@ -77,7 +77,7 @@ Attributes attrs = link.getAttributes();
 
 // IIQ inactive attribute is a pre-defined IIQ Identity cube attribute, and the type
 // is Bit (in the DB at least). However, in my flat file, I had the value set to a string
-// 'Y' or 'N'. Hence we need to have this rule to convert 'N' -> 0  and 'Y' -> 1
+// 'Y' or 'N'. Hence we need to have this rule to convert 'N' -&gt; 0  and 'Y' -&gt; 1
 
 // If something went wrong, the link attributes are null, make the customer inactive 
 if ( attrs == null ) {

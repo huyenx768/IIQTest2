@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE IdentityTrigger PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<IdentityTrigger created="1573160782886" handler="sailpoint.api.WorkflowTriggerHandler" id="4028868c6e377172016e47b08c260777" name="huyenlcmevent1" type="Create">
+<IdentityTrigger handler="sailpoint.api.WorkflowTriggerHandler" name="huyenlcmevent1" type="Create">
   <Description>sefafsa</Description>
   <Owner>
-    <Reference class="sailpoint.object.Identity" id="4028868c6df8e21a016df8e3d68200fc" name="spadmin"/>
+    <Reference class="sailpoint.object.Identity" name="spadmin"/>
   </Owner>
   <HandlerParameters>
     <Attributes>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Workflow created="1571839952567" explicitTransitions="true" id="4028868c6df8e807016df8f646b70048" libraries="Identity" modified="1573836283922" name="Lifecycle Event - Joiner" type="IdentityLifecycle">
+<Workflow explicitTransitions="true" libraries="Identity" name="Lifecycle Event - Joiner" type="IdentityLifecycle">
   <Variable input="true" name="trigger">
     <Description>The IdentityTrigger</Description>
   </Variable>

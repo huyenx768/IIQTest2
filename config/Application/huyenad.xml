@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Application PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Application authoritative="true" connector="sailpoint.connector.ADLDAPConnector" created="1572974176830" featuresString="PROVISIONING, SYNC_PROVISIONING, AUTHENTICATE, MANAGER_LOOKUP, SEARCH, UNSTRUCTURED_TARGETS, UNLOCK, ENABLE, PASSWORD, CURRENT_PASSWORD" icon="directory1Icon" id="4028868c6e377172016e3c912a3e0256" modified="1573071366195" name="huyenad" profileClass="" type="Active Directory - Direct">
+<Application authoritative="true" connector="sailpoint.connector.ADLDAPConnector" featuresString="PROVISIONING, SYNC_PROVISIONING, AUTHENTICATE, MANAGER_LOOKUP, SEARCH, UNSTRUCTURED_TARGETS, UNLOCK, ENABLE, PASSWORD, CURRENT_PASSWORD" icon="directory1Icon" name="huyenad" profileClass="" type="Active Directory - Direct">
   <Attributes>
     <Map>
       <entry key="ExchHost"/>
@@ -37,7 +37,7 @@
               </entry>
               <entry key="useSSL">
                 <value>
-                  <Boolean></Boolean>
+                  <Boolean/>
                 </value>
               </entry>
               <entry key="user" value="foo"/>
@@ -52,19 +52,19 @@
       <entry key="lyncAttributes" value="RegistrarPool,SipAddressType,SipAddress,SipDomain,msRTCSIP-UserEnabled"/>
       <entry key="manageLync">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="manageRecycleBin">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="nativeChangeDetectionAttributeScope" value="entitlements"/>
       <entry key="nativeChangeDetectionAttributes"/>
       <entry key="nativeChangeDetectionEnabled">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="nativeChangeDetectionOperations"/>
@@ -95,7 +95,7 @@
     </Map>
   </Attributes>
   <Owner>
-    <Reference class="sailpoint.object.Identity" id="4028868c6df8e21a016df8e3d68200fc" name="spadmin"/>
+    <Reference class="sailpoint.object.Identity" name="spadmin"/>
   </Owner>
   <ProvisioningForms>
     <Form name="Account" objectType="account" type="Create">
@@ -202,7 +202,7 @@
     </Form>
   </ProvisioningForms>
   <Schemas>
-    <Schema created="1573071366195" displayAttribute="sAMAccountName" id="4028868c6e423c1c016e425c283300ca" identityAttribute="distinguishedName" instanceAttribute="" nativeObjectType="User" objectType="account">
+    <Schema displayAttribute="sAMAccountName" identityAttribute="distinguishedName" instanceAttribute="" nativeObjectType="User" objectType="account">
       <AttributeDefinition name="businessCategory" type="string">
         <Description>business category</Description>
       </AttributeDefinition>
@@ -399,7 +399,7 @@
         <Description>Name of the entity in the format "NetBIOS domain name\sAMAccountName"</Description>
       </AttributeDefinition>
     </Schema>
-    <Schema created="1573071366195" displayAttribute="sAMAccountName" featuresString="PROVISIONING, GROUPS_HAVE_MEMBERS" hierarchyAttribute="memberOf" id="4028868c6e423c1c016e425c283300c8" identityAttribute="distinguishedName" instanceAttribute="" nativeObjectType="Group" objectType="group">
+    <Schema displayAttribute="sAMAccountName" featuresString="PROVISIONING, GROUPS_HAVE_MEMBERS" hierarchyAttribute="memberOf" identityAttribute="distinguishedName" instanceAttribute="" nativeObjectType="Group" objectType="group">
       <AttributeDefinition name="cn" type="string">
         <Description>common name(s) for which the entity is known by</Description>
       </AttributeDefinition>
@@ -443,5 +443,5 @@
       </Attributes>
     </Schema>
   </Schemas>
-  <ApplicationScorecard created="1573071366195" id="4028868c6e423c1c016e425c283300c9"/>
+  <ApplicationScorecard/>
 </Application>

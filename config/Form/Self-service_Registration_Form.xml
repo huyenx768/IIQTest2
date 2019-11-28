@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Form PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Form created="1571839774261" hidden="true" id="4028868c6df8e807016df8f38e350007" modified="1573836270854" name="Self-service Registration Form" type="RegisterIdentity">
+<Form hidden="true" name="Self-service Registration Form" type="RegisterIdentity">
   <Attributes>
     <Map>
       <entry key="pageTitle" value="new_user_registration_title"/>
@@ -11,7 +11,7 @@
   <Section>
     <Field displayName="user_name" name="name" required="true" type="string">
       <ValidationRule>
-        <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e418100194" name="LCM Validate Identity Name"/>
+        <Reference class="sailpoint.object.Rule" name="LCM Validate Identity Name"/>
       </ValidationRule>
     </Field>
     <Field displayName="first_name" name="firstname" required="true" type="string"/>
@@ -25,7 +25,7 @@
     </Field>
     <Field displayName="label_password" name="password" required="true" type="secret">
       <ValidationRule>
-        <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e4189d0195" name="LCM Validate Password"/>
+        <Reference class="sailpoint.object.Rule" name="LCM Validate Password"/>
       </ValidationRule>
     </Field>
     <Field displayName="label_confirm_password" name="confirmPassword" required="true" type="secret">

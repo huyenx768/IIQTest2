@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<EmailTemplate created="1571838754679" id="4028868c6df8e21a016df8e3ff770158" modified="1573836247021" name="Policy Violation Delegation">
+<EmailTemplate name="Policy Violation Delegation">
   <Body>A violation of policy '$violation.policyName' rule '$violation.constraintName' for user '$violation.identity.name' has been delegated to you for action.
     </Body>
   <Description>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571839955770" executor="sailpoint.reporting.LiveReportExecutor" id="4028868c6df8e807016df8f6533a005a" modified="1573836295753" name="Registration Requests Status Report" progressMode="Percentage" resultAction="Rename" subType="Lifecycle Manager Reports" template="true" type="LiveReport">
+<TaskDefinition executor="sailpoint.reporting.LiveReportExecutor" name="Registration Requests Status Report" progressMode="Percentage" resultAction="Rename" subType="Lifecycle Manager Reports" template="true" type="LiveReport">
   <Attributes>
     <Map>
       <entry key="auditEventTypes">
@@ -15,7 +15,7 @@
           <LiveReport title="rept_lcm_registration_request_status_title">
             <DataSource dataSourceClass="sailpoint.reporting.datasource.LcmIdentityRequestStatusJavaDataSource" type="Java"/>
             <ReportForm>
-              <Reference class="sailpoint.object.Form" id="4028868c6df8e807016df8f64fa00055" name="Registration Request Report Form"/>
+              <Reference class="sailpoint.object.Form" name="Registration Request Report Form"/>
             </ReportForm>
             <Columns>
               <ReportColumnConfig field="requestId" header="rept_lcm_request_status_col_request_id" property="requestId" sortable="true" valueClass="java.lang.String" width="110"/>
@@ -38,7 +38,7 @@
   </Attributes>
   <Description>Displays information about registration requests from LCM in detailed format.</Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3844b0064" name="FullAccessAttributeRequestStatusReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessAttributeRequestStatusReport"/>
   </RequiredRights>
   <Signature>
     <Inputs>

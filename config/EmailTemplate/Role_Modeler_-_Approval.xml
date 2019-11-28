@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<EmailTemplate created="1571838758351" id="4028868c6df8e21a016df8e40dcf017a" modified="1573836236441" name="Role Modeler - Approval">
+<EmailTemplate name="Role Modeler - Approval">
   <Body>An approval is required for a modification of the role '$(roleName)' made by $(launcher).  
 
 Login and view your work item inbox to complete this approval.

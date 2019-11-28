@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838765508" executor="sailpoint.task.SequentialTaskExecutor" formPath="/monitor/tasks/sequentialTask.xhtml" id="4028868c6df8e21a016df8e429c401a5" modified="1573836219640" name="Sequential Task Launcher" progressInterval="5000" progressMode="String" subType="task_item_type_generic" template="true" type="Generic">
+<TaskDefinition executor="sailpoint.task.SequentialTaskExecutor" formPath="/monitor/tasks/sequentialTask.xhtml" name="Sequential Task Launcher" progressInterval="5000" progressMode="String" subType="task_item_type_generic" template="true" type="Generic">
   <Description>
             Template for creating a task that runs multiple other tasks.
         </Description>

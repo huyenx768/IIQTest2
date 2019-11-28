@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Rule created="1571838756617" id="4028868c6df8e21a016df8e407090171" language="beanshell" modified="1573836233940" name="Build Manual Action Approvals">
+<Rule language="beanshell" name="Build Manual Action Approvals">
   <ReferencedRules>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e404f50170" name="Approval Library"/>
+    <Reference class="sailpoint.object.Rule" name="Approval Library"/>
   </ReferencedRules>
   <Source>
     
@@ -56,11 +56,11 @@
                    String permComments = getRequesterComments(account.getPermissionRequests());
                    
                    //only one of these should be set... ideally
-                   if(attrComments.length() > 0) {
+                   if(attrComments.length() &gt; 0) {
                       requesterComments = attrComments;
                    }
                    
-                   if(permComments.length() > 0) {
+                   if(permComments.length() &gt; 0) {
                       requesterComments = permComments;
                    }
 

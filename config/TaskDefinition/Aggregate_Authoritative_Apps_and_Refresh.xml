@@ -1,8 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1572880954070" formPath="/monitor/tasks/sequentialTask.xhtml" id="4028868c6e13dfdc016e3702b2d61142" modified="1573071387966" name="Aggregate Authoritative Apps and Refresh" resultAction="Delete" subType="task_item_type_generic" type="Generic">
+<TaskDefinition formPath="/monitor/tasks/sequentialTask.xhtml" name="Aggregate Authoritative Apps and Refresh" resultAction="Delete" subType="task_item_type_generic" type="Generic">
   <Attributes>
     <Map>
+      <entry key="TaskDefinition.runLengthAverage" value="37"/>
+      <entry key="TaskDefinition.runLengthTotal" value="447"/>
+      <entry key="TaskDefinition.runs" value="12"/>
       <entry key="exitOnError" value="false"/>
       <entry key="taskCompletionEmailNotify" value="Disabled"/>
       <entry key="taskCompletionEmailRecipients"/>
@@ -13,9 +16,9 @@
   </Attributes>
   <Description>Template for creating a task that runs multiple other tasks.</Description>
   <Owner>
-    <Reference class="sailpoint.object.Identity" id="4028868c6df8e21a016df8e3d68200fc" name="spadmin"/>
+    <Reference class="sailpoint.object.Identity" name="spadmin"/>
   </Owner>
   <Parent>
-    <Reference class="sailpoint.object.TaskDefinition" id="4028868c6df8e21a016df8e429c401a5" name="Sequential Task Launcher"/>
+    <Reference class="sailpoint.object.TaskDefinition" name="Sequential Task Launcher"/>
   </Parent>
 </TaskDefinition>

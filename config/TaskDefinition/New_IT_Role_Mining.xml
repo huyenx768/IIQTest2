@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838768258" executor="sailpoint.task.ITRoleMiningTask" hidden="true" id="4028868c6df8e21a016df8e4348201c2" modified="1573836221890" name="New IT Role Mining" resultAction="Rename" subType="task_item_type_it_role_mining" type="ITRoleMining">
+<TaskDefinition executor="sailpoint.task.ITRoleMiningTask" hidden="true" name="New IT Role Mining" resultAction="Rename" subType="task_item_type_it_role_mining" type="ITRoleMining">
   <Description>
       IT Role Mining based on a population, List of applications/entitlements and thresholds.
     </Description>

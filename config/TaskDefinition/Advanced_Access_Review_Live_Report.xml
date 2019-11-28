@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838776727" executor="sailpoint.reporting.LiveReportExecutor" id="4028868c6df8e21a016df8e455970212" modified="1573836226625" name="Advanced Access Review Live Report" progressMode="Percentage" resultAction="Rename" subType="Access Review and Certification Reports" template="true" type="LiveReport">
+<TaskDefinition executor="sailpoint.reporting.LiveReportExecutor" name="Advanced Access Review Live Report" progressMode="Percentage" resultAction="Rename" subType="Access Review and Certification Reports" template="true" type="LiveReport">
   <Attributes>
     <Map>
       <entry key="report">
@@ -18,7 +18,7 @@
               </QueryParameters>
             </DataSource>
             <ReportForm>
-              <Reference class="sailpoint.object.Form" id="4028868c6df8e21a016df8e455680211" name="Advanced Access Review Report Form"/>
+              <Reference class="sailpoint.object.Form" name="Advanced Access Review Report Form"/>
             </ReportForm>
             <Columns>
               <ReportColumnConfig field="nativeIdentity" header="rept_cert_col_account_id" property="exceptionEntitlements.nativeIdentity" sortable="true" width="110"/>
@@ -83,7 +83,7 @@
                           if (value != null){
                             List archivedEntities = value.fetchArchivedEntities(context);
                             if (archivedEntities != null
-                                &amp;&amp; archivedEntities.size() > 0
+                                &amp;&amp; archivedEntities.size() &gt; 0
                                 &amp;&amp; archivedEntities.get(0) != null) {
                               return archivedEntities.get(0).getExplanation();
                             }
@@ -94,7 +94,7 @@
               </ReportColumnConfig>
             </Columns>
             <InitializationRule>
-              <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e453a3020c" name="Certification Report Customizer"/>
+              <Reference class="sailpoint.object.Rule" name="Certification Report Customizer"/>
             </InitializationRule>
           </LiveReport>
         </value>
@@ -103,7 +103,7 @@
   </Attributes>
   <Description>Displays information about all advanced certifications in detailed format.</Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e381f90053" name="FullAccessAdvancedCertificationReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessAdvancedCertificationReport"/>
   </RequiredRights>
   <Signature>
     <Inputs>

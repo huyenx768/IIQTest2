@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838776633" executor="sailpoint.reporting.LiveReportExecutor" id="4028868c6df8e21a016df8e455390210" modified="1573836226562" name="Manager Access Review Live Report" progressMode="Percentage" resultAction="Rename" subType="Access Review and Certification Reports" template="true" type="LiveReport">
+<TaskDefinition executor="sailpoint.reporting.LiveReportExecutor" name="Manager Access Review Live Report" progressMode="Percentage" resultAction="Rename" subType="Access Review and Certification Reports" template="true" type="LiveReport">
   <Attributes>
     <Map>
       <entry key="report">
@@ -30,7 +30,7 @@
               </QueryParameters>
             </DataSource>
             <ReportForm>
-              <Reference class="sailpoint.object.Form" id="4028868c6df8e21a016df8e4551a020f" name="Manager Access Review Report Form"/>
+              <Reference class="sailpoint.object.Form" name="Manager Access Review Report Form"/>
             </ReportForm>
             <Columns>
               <ReportColumnConfig field="nativeIdentity" header="rept_cert_col_account_id" property="exceptionEntitlements.nativeIdentity" sortable="true" width="110"/>
@@ -96,7 +96,7 @@
               </ReportColumnConfig>
             </Columns>
             <InitializationRule>
-              <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e453a3020c" name="Certification Report Customizer"/>
+              <Reference class="sailpoint.object.Rule" name="Certification Report Customizer"/>
             </InitializationRule>
             <ReportSummary title="rept_cert_summary_title">
               <DataSourceScript>
@@ -143,7 +143,7 @@
   </Attributes>
   <Description>Displays information about all manager certifications in detailed format.</Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3819b0050" name="FullAccessManagerCertificationReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessManagerCertificationReport"/>
   </RequiredRights>
   <Signature>
     <Inputs>

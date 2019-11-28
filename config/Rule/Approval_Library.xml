@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Rule created="1571838756085" id="4028868c6df8e21a016df8e404f50170" language="beanshell" modified="1573836233533" name="Approval Library">
+<Rule language="beanshell" name="Approval Library">
   <Source>
     
 
@@ -73,7 +73,7 @@
     }
         
     public void flattenAttributeRequests(List attributeRequests, List flat) {
-        if ( Util.size(attributeRequests) > 0 ) {
+        if ( Util.size(attributeRequests) &gt; 0 ) {
             for (AttributeRequest attr : attributeRequests ) {
                 if( !attr.getName().equals(ProvisioningPlan.ATT_IIQ_PASSWORD) &amp;&amp;
                     !attr.getBoolean(ProvisioningPlan.ARG_SECRET) &amp;&amp;
@@ -115,7 +115,7 @@
                             }
                             
                         }
-                        if ( Util.size(val) > 0 ) 
+                        if ( Util.size(val) &gt; 0 ) 
                             flat.add(displayName+ " = '"+Util.listToCsv(val)+"'");
                     } else {
                         flat.add(attr.getDisplayValue());
@@ -160,7 +160,7 @@
     }
 
     /**
-     * Convert a List&lt;PermissionRequests> into a List&lt;String>
+     * Convert a List&lt;PermissionRequests&gt; into a List&lt;String&gt;
      * with each string formatted as "target='right,right,right'"
      * This is similar to flattenAttributeRequests above but 
      * kept distinct in case we need to change the rendering of permissions.
@@ -178,7 +178,7 @@
     }
 
     /**
-     * Convert a Map&lt;String,ApprovalSet> into Approval objects. 
+     * Convert a Map&lt;String,ApprovalSet&gt; into Approval objects. 
      * One Approval object for each of the keys in the map.
      *
      * Used only by rules that calculate approval structures such
@@ -237,7 +237,7 @@
     }
 
     /**
-     * Build a Map&lt;String,ApprovalSet> each key representing a unique owner.
+     * Build a Map&lt;String,ApprovalSet&gt; each key representing a unique owner.
      * Use a Map here to allow us to easily merge any items for the same owner.
      *
      * Used by rules to build approval structures, normally followed by
@@ -270,7 +270,7 @@
             // Build an approval set or add an ApprovalItem 
             // to an existing set
             //
-            if ( Util.size(approvers) > 0 ) {
+            if ( Util.size(approvers) &gt; 0 ) {
                 for ( String approver : approvers ) {
                     ApprovalSet set = (ApprovalSet)ownerToSet.get(approver);
                     if ( set == null ) {
@@ -446,7 +446,7 @@
         // a ManagedAttribute 
         String attrName = item.getName();
         List vals = item.getValueList();
-        if ( ( attrName != null ) &amp;&amp; ( Util.size(vals) > 0 ) ) {
+        if ( ( attrName != null ) &amp;&amp; ( Util.size(vals) &gt; 0 ) ) {
             // there should just be one value in each record... 
             // log something
             String val = (String)vals.get(0);
@@ -499,7 +499,7 @@
     private String resolveRoleOwner(ApprovalItem item) {
         String approverName = null;
         List values = item.getValueList();
-        if ( Util.size(values) > 0 ) {
+        if ( Util.size(values) &gt; 0 ) {
             if ( Util.size(values) != 1 ) 
                 throw new Exception("More then one value found in an approval item");
 
@@ -571,7 +571,7 @@
                         approverNames.add(planManager);
                     } 
                 }
-        return ( approverNames.size() > 0 ) ? approverNames : null;
+        return ( approverNames.size() &gt; 0 ) ? approverNames : null;
     }
 
     /**

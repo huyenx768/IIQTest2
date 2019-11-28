@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Workflow created="1571839953129" explicitTransitions="true" id="4028868c6df8e807016df8f648e9004d" libraries="Identity" modified="1573836284704" name="Lifecycle Event - Manager Approval for all native changes" type="IdentityLifecycle">
+<Workflow explicitTransitions="true" libraries="Identity" name="Lifecycle Event - Manager Approval for all native changes" type="IdentityLifecycle">
   <Variable input="true" name="trigger">
     <Description>The IdentityTrigger</Description>
   </Variable>
@@ -111,7 +111,7 @@
   provisioned.    
   </Description>
   <RuleLibraries>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e410bd0183" name="LCM Workflow Library"/>
+    <Reference class="sailpoint.object.Rule" name="LCM Workflow Library"/>
   </RuleLibraries>
   <Step icon="Start" name="start" posX="23" posY="129">
     <Script>
@@ -207,7 +207,7 @@
     <Return name="identityRequestId" to="identityRequestId"/>
     <Return merge="true" name="workItemComments" to="workItemComments"/>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e807016df8f6436b0044" name="LCM Provisioning"/>
+      <Reference class="sailpoint.object.Workflow" name="LCM Provisioning"/>
     </WorkflowRef>
     <Transition to="end"/>
   </Step>
@@ -221,7 +221,7 @@
       Call the standard subprocess that can audit/finalize the request if they are in play. 
     </Description>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e807016df8f640cb0041" name="Identity Request Finalize"/>
+      <Reference class="sailpoint.object.Workflow" name="Identity Request Finalize"/>
     </WorkflowRef>
     <Transition to="end"/>
   </Step>

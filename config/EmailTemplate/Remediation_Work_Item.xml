@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<EmailTemplate created="1571838754273" id="4028868c6df8e21a016df8e3fde1014d" modified="1573836246521" name="Remediation Work Item">
+<EmailTemplate name="Remediation Work Item">
   <Body>$!requesterName has assigned a new remediation work item to you: $!workItemName.
 
 Comments from $!requesterName:

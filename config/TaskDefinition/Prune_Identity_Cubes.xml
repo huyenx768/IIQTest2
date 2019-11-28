@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838769476" executor="sailpoint.task.IdentityCleanser" id="4028868c6df8e21a016df8e4394401ce" modified="1573071383188" name="Prune Identity Cubes" progressInterval="5000" progressMode="String" subType="task_item_type_identity" type="Identity">
+<TaskDefinition executor="sailpoint.task.IdentityCleanser" name="Prune Identity Cubes" progressInterval="5000" progressMode="String" subType="task_item_type_identity" type="Identity">
   <Description>
             Delete identities that have no account links and have no important references.
         </Description>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838777946" executor="sailpoint.reporting.LiveReportExecutor" id="4028868c6df8e21a016df8e45a5a022a" modified="1573836228375" name="User Authentication Question Status Report" progressMode="Percentage" resultAction="Rename" subType="Identity and User Reports" template="true" type="LiveReport">
+<TaskDefinition executor="sailpoint.reporting.LiveReportExecutor" name="User Authentication Question Status Report" progressMode="Percentage" resultAction="Rename" subType="Identity and User Reports" template="true" type="LiveReport">
   <Attributes>
     <Map>
       <entry key="report">
@@ -51,7 +51,7 @@
               </QueryParameters>
             </DataSource>
             <ReportForm>
-              <Reference class="sailpoint.object.Form" id="4028868c6df8e21a016df8e45a3a0229" name="User Authentication Question Status Report Form"/>
+              <Reference class="sailpoint.object.Form" name="User Authentication Question Status Report Form"/>
             </ReportForm>
             <Columns>
               <ReportColumnConfig field="username" header="rept_users_auth_col_user" property="name" sortable="true" width="110"/>
@@ -80,7 +80,7 @@
               </ReportColumnConfig>
             </Columns>
             <InitializationRule>
-              <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e4497101ed" name="Identity Report Form Customizer"/>
+              <Reference class="sailpoint.object.Rule" name="Identity Report Form Customizer"/>
             </InitializationRule>
           </LiveReport>
         </value>
@@ -89,7 +89,7 @@
   </Attributes>
   <Description>Displays information about users with insufficient challenge questions.</Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e382b50058" name="FullAccessApplicationUserReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessApplicationUserReport"/>
   </RequiredRights>
   <Signature>
     <Inputs>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838766133" executor="sailpoint.task.ActivityDataSourceScan" id="4028868c6df8e21a016df8e42c3501ad" modified="1573836220281" name="Activity Aggregation" progressInterval="5000" progressMode="String" subType="task_item_type_activity_aggregation" template="true" type="ActivityAggregation">
+<TaskDefinition executor="sailpoint.task.ActivityDataSourceScan" name="Activity Aggregation" progressInterval="5000" progressMode="String" subType="task_item_type_activity_aggregation" template="true" type="ActivityAggregation">
   <Description>
             Template for activity scanning. This task will iterate over
             an application's activity datasource, correlate the activity

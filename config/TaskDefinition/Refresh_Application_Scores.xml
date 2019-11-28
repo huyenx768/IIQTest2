@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838769555" executor="sailpoint.task.ApplicationScorer" id="4028868c6df8e21a016df8e4399301d0" modified="1573071383272" name="Refresh Application Scores" progressInterval="5000" progressMode="String" subType="task_item_type_scoring" type="Scoring">
+<TaskDefinition executor="sailpoint.task.ApplicationScorer" name="Refresh Application Scores" progressInterval="5000" progressMode="String" subType="task_item_type_scoring" type="Scoring">
   <Description>
             Refresh application scores.
         </Description>

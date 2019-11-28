@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838766039" executor="sailpoint.task.AlertAggregationTask" formPath="/monitor/tasks/alertAggregationTask.xhtml" id="4028868c6df8e21a016df8e42bd701ab" modified="1573836220187" name="Alert Aggregation" progressMode="String" resultAction="Delete" subType="task_item_type_activity_alerts" template="true" type="ActivityAlert">
+<TaskDefinition executor="sailpoint.task.AlertAggregationTask" formPath="/monitor/tasks/alertAggregationTask.xhtml" name="Alert Aggregation" progressMode="String" resultAction="Delete" subType="task_item_type_activity_alerts" template="true" type="ActivityAlert">
   <Description>
       Aggregate Alert Objects from External Sources and optionally process.
     </Description>

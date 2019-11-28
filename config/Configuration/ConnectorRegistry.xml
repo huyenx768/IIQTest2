@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Configuration PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Configuration created="1571838733835" id="4028868c6df8e21a016df8e3ae0b00d8" modified="1573836265369" name="ConnectorRegistry">
+<Configuration name="ConnectorRegistry">
   <Attributes>
     <Map>
       <entry key="applicationTemplates">
@@ -1082,7 +1082,7 @@
               <PasswordPolicies>
                 <PasswordPolicyHolder name="default">
                   <PolicyRef>
-                    <Reference class="sailpoint.object.PasswordPolicy" id="4028868c6df8e21a016df8e39f5500d7" name="RACF Default Password Policy"/>
+                    <Reference class="sailpoint.object.PasswordPolicy" name="RACF Default Password Policy"/>
                   </PolicyRef>
                 </PasswordPolicyHolder>
               </PasswordPolicies>
@@ -3390,7 +3390,7 @@ on-premises directory</Description>
                         <entry key="passwd: Authentication token manipulation error" value="Invalid current user password."/>
                         <entry key="passwd: Password too short" value="Password too short"/>
                         <entry key="passwd: The password must contain at least 1 numeric or special character(s)." value="The password must contain at least 1 numeric or special character(s)."/>
-                        <entry key="passwd: They don&apos;t match." value="Password don&apos;t match."/>
+                        <entry key="passwd: They don't match." value="Password don't match."/>
                       </Map>
                     </value>
                   </entry>
@@ -3443,7 +3443,7 @@ on-premises directory</Description>
                     </value>
                   </entry>
                   <entry key="SSHLoginTimeout" value="1000"/>
-                  <entry key="SetPrompt" value="PS1=&apos;SAILPOINT>&apos;"/>
+                  <entry key="SetPrompt" value="PS1='SAILPOINT>'"/>
                   <entry key="ShadowDBFormat">
                     <value>
                       <List>
@@ -3463,10 +3463,10 @@ on-premises directory</Description>
                   <entry key="SudoBasicErrorCode" value="127"/>
                   <entry key="SudoError" value="Sorry, try again."/>
                   <entry key="SudoErrorCode" value="1"/>
-                  <entry key="aggregation.account" value="cat /etc/passwd | grep -v &apos;^+&apos; | grep -v &apos;^-&apos;"/>
-                  <entry key="aggregation.group" value="cat /etc/group | grep -v &apos;^+&apos; | grep -v &apos;^-&apos;"/>
-                  <entry key="aggregation.passwd" value="cat /etc/shadow | grep -v &apos;^+&apos; | grep -v &apos;^-&apos;"/>
-                  <entry key="aggregation.userattr" value="cat /etc/user_attr | grep -v &apos;^+&apos; | grep -v &apos;^-&apos;"/>
+                  <entry key="aggregation.account" value="cat /etc/passwd | grep -v '^+' | grep -v '^-'"/>
+                  <entry key="aggregation.group" value="cat /etc/group | grep -v '^+' | grep -v '^-'"/>
+                  <entry key="aggregation.passwd" value="cat /etc/shadow | grep -v '^+' | grep -v '^-'"/>
+                  <entry key="aggregation.userattr" value="cat /etc/user_attr | grep -v '^+' | grep -v '^-'"/>
                   <entry key="change.password" value="passwd"/>
                   <entry key="changepassword.resetmode" value="passwd -f"/>
                   <entry key="chmod g-">
@@ -3522,12 +3522,12 @@ on-premises directory</Description>
                   <entry key="enable.account" value="passwd -u"/>
                   <entry key="encrypted" value="SudoUserPassword,PassphraseForPrivateKey"/>
                   <entry key="formPath" value="UnixAttributesForm.xhtml"/>
-                  <entry key="get.AllowedLoginRetries" value="grep -i &apos;RETRIES=&apos; /etc/default/login | grep -v &apos;#&apos;"/>
-                  <entry key="get.RemoteDate" value="date &apos;+%m/%d/%Y %H:%M:%S&apos;"/>
+                  <entry key="get.AllowedLoginRetries" value="grep -i 'RETRIES=' /etc/default/login | grep -v '#'"/>
+                  <entry key="get.RemoteDate" value="date '+%m/%d/%Y %H:%M:%S'"/>
                   <entry key="get.group" value="getent group"/>
-                  <entry key="get.loginRetrySetting" value="grep -i &apos;Lock_After_Retries=&apos; /etc/security/policy.conf | grep -v &apos;#&apos;"/>
+                  <entry key="get.loginRetrySetting" value="grep -i 'Lock_After_Retries=' /etc/security/policy.conf | grep -v '#'"/>
                   <entry key="get.oldaccountgroups" value="groups"/>
-                  <entry key="get.oldaccountval" value="cat /etc/user_attr | grep -v &apos;type=role&apos; | grep"/>
+                  <entry key="get.oldaccountval" value="cat /etc/user_attr | grep -v 'type=role' | grep"/>
                   <entry key="get.userpwdrow" value="cat /etc/passwd | grep"/>
                   <entry key="get.usershadowrow" value="cat /etc/shadow | grep"/>
                   <entry key="groupadd">
@@ -5732,7 +5732,7 @@ on-premises directory</Description>
               <PasswordPolicies>
                 <PasswordPolicyHolder name="default">
                   <PolicyRef>
-                    <Reference class="sailpoint.object.PasswordPolicy" id="4028868c6df8e21a016df8e39f5500d7" name="RACF Default Password Policy"/>
+                    <Reference class="sailpoint.object.PasswordPolicy" name="RACF Default Password Policy"/>
                   </PolicyRef>
                 </PasswordPolicyHolder>
               </PasswordPolicies>
@@ -7042,7 +7042,7 @@ on-premises directory</Description>
                   </entry>
                   <entry key="Prompt" value="SAILPOINT>"/>
                   <entry key="SSHLoginTimeout" value="1000"/>
-                  <entry key="SetPrompt" value="PS1=&apos;SAILPOINT>&apos;"/>
+                  <entry key="SetPrompt" value="PS1='SAILPOINT>'"/>
                   <entry key="SudoBasicError" value="sudo: Command not found."/>
                   <entry key="SudoBasicErrorCode" value="127"/>
                   <entry key="SudoError" value="Sorry, try again."/>
@@ -7087,7 +7087,7 @@ on-premises directory</Description>
                   <entry key="delete.account" value="userdel"/>
                   <entry key="delete.group" value="rmgroup"/>
                   <entry key="disable.account" value="chuser account_locked=true"/>
-                  <entry key="echo &apos;TestConnection&apos;">
+                  <entry key="echo 'TestConnection'">
                     <value>
                       <Map>
                         <entry key="exitsts">
@@ -7122,7 +7122,7 @@ on-premises directory</Description>
                   <entry key="setDelay" value="1"/>
                   <entry key="sshTimeOut" value="120000"/>
                   <entry key="sshWaitTime" value="500"/>
-                  <entry key="testconnection" value="echo &apos;TestConnection&apos;"/>
+                  <entry key="testconnection" value="echo 'TestConnection'"/>
                   <entry key="unlock.account" value="chuser unsuccessful_login_count=0"/>
                   <entry key="userdel">
                     <value>
@@ -10264,12 +10264,12 @@ on-premises directory</Description>
                   <entry key="deltaIterationMode" value="dirSync"/>
                   <entry key="disableComputePreloading">
                     <value>
-                      <Boolean></Boolean>
+                      <Boolean/>
                     </value>
                   </entry>
                   <entry key="disableFspAggregation">
                     <value>
-                      <Boolean></Boolean>
+                      <Boolean/>
                     </value>
                   </entry>
                   <entry key="enableCache">
@@ -10281,7 +10281,7 @@ on-premises directory</Description>
                   <entry key="lyncAttributes" value="RegistrarPool,SipAddressType,SipAddress,SipDomain,msRTCSIP-UserEnabled"/>
                   <entry key="manageRecycleBin">
                     <value>
-                      <Boolean></Boolean>
+                      <Boolean/>
                     </value>
                   </entry>
                   <entry key="pageSize" value="100"/>
@@ -11355,7 +11355,7 @@ on-premises directory</Description>
                     </value>
                   </entry>
                   <entry key="SSHLoginTimeout" value="1000"/>
-                  <entry key="SetPrompt" value="PS1=&apos;SAILPOINT>&apos;"/>
+                  <entry key="SetPrompt" value="PS1='SAILPOINT>'"/>
                   <entry key="ShadowDBFormat">
                     <value>
                       <List>
@@ -11375,10 +11375,10 @@ on-premises directory</Description>
                   <entry key="SudoBasicErrorCode" value="127"/>
                   <entry key="SudoError" value="Sorry, try again."/>
                   <entry key="SudoErrorCode" value="1"/>
-                  <entry key="aggregation.account" value="cat /etc/passwd | grep -v &apos;^+&apos; | grep -v &apos;^-&apos;"/>
-                  <entry key="aggregation.group" value="cat /etc/group | grep -v &apos;^+&apos; | grep -v &apos;^-&apos;"/>
-                  <entry key="aggregation.lockstatus" value="faillog | awk &apos;{print $1} {print $2}&apos;"/>
-                  <entry key="aggregation.passwd" value="cat /etc/shadow | grep -v &apos;^+&apos; | grep -v &apos;^-&apos;"/>
+                  <entry key="aggregation.account" value="cat /etc/passwd | grep -v '^+' | grep -v '^-'"/>
+                  <entry key="aggregation.group" value="cat /etc/group | grep -v '^+' | grep -v '^-'"/>
+                  <entry key="aggregation.lockstatus" value="faillog | awk '{print $1} {print $2}'"/>
+                  <entry key="aggregation.passwd" value="cat /etc/shadow | grep -v '^+' | grep -v '^-'"/>
                   <entry key="change.password" value="passwd"/>
                   <entry key="change.password.noninteractive" value="printf &quot;%s\n&quot;"/>
                   <entry key="changepassword.resetmode" value="chage -d 0"/>
@@ -11419,7 +11419,7 @@ on-premises directory</Description>
                   <entry key="delete.account" value="userdel"/>
                   <entry key="delete.group" value="groupdel"/>
                   <entry key="disable.account" value="passwd -l"/>
-                  <entry key="echo &apos;TestConnection&apos;">
+                  <entry key="echo 'TestConnection'">
                     <value>
                       <Map>
                         <entry key="exitsts">
@@ -11559,7 +11559,7 @@ on-premises directory</Description>
                   <entry key="setDelay" value="1"/>
                   <entry key="sshTimeOut" value="120000"/>
                   <entry key="sshWaitTime" value="500"/>
-                  <entry key="testconnection" value="echo &apos;TestConnection&apos;"/>
+                  <entry key="testconnection" value="echo 'TestConnection'"/>
                   <entry key="unlock.account" value="faillog -u"/>
                   <entry key="useradd">
                     <value>
@@ -12076,45 +12076,45 @@ on-premises directory</Description>
                   <entry key="XpathAttributesMap">
                     <value>
                       <Map>
-                        <entry key="ADDITIONAL_EMAIL_ADDRESS_HOME" value="ns1:Worker_Data/ns1:Personal_Data/ns1:Contact_Data/ns1:Email_Address_Data[ns1:Usage_Data[@ns1:Public=&apos;true&apos;]/ns1:Type_Data[@ns1:Primary=&apos;false&apos;]/ns1:Type_Reference/ns1:ID[@ns1:type=&apos;Communication_Usage_Type_ID&apos;] =&apos;HOME&apos;]/ns1:Email_Address"/>
-                        <entry key="ADDITIONAL_EMAIL_ADDRESS_WORK" value="ns1:Worker_Data/ns1:Personal_Data/ns1:Contact_Data/ns1:Email_Address_Data[ns1:Usage_Data[@ns1:Public=&apos;true&apos;]/ns1:Type_Data[@ns1:Primary=&apos;false&apos;]/ns1:Type_Reference/ns1:ID[@ns1:type=&apos;Communication_Usage_Type_ID&apos;] =&apos;WORK&apos;]/ns1:Email_Address"/>
-                        <entry key="ADDRESS_HOME" value="ns1:Worker_Data/ns1:Personal_Data/ns1:Contact_Data/ns1:Address_Data[ns1:Usage_Data/ns1:Type_Data[@ns1:Primary=&apos;true&apos;]/ns1:Type_Reference/ns1:ID[@ns1:type=&apos;Communication_Usage_Type_ID&apos;] =&apos;HOME&apos;]/@ns1:Formatted_Address"/>
-                        <entry key="ADDRESS_LINE_1" value="ns1:Worker_Data/ns1:Employment_Data/ns1:Position_Data/ns1:Business_Site_Summary_Data/ns1:Address_Data/ns1:Address_Line_Data[@ns1:Type = &apos;ADDRESS_LINE_1&apos;]"/>
-                        <entry key="ADDRESS_WORK" value="ns1:Worker_Data/ns1:Personal_Data/ns1:Contact_Data/ns1:Address_Data[ns1:Usage_Data/ns1:Type_Data[@ns1:Primary=&apos;true&apos;]/ns1:Type_Reference/ns1:ID[@ns1:type=&apos;Communication_Usage_Type_ID&apos;] =&apos;WORK&apos;]/@ns1:Formatted_Address"/>
-                        <entry key="CHECK_LATEST_WORKER_RECORD" value="ns1:Worker_Data/ns1:Integration_Field_Override_Data[ns1:Field_Reference[ns1:ID[@ns1:type=&apos;Integration_Document_Field_Name&apos;]=&apos;LATEST_WORKER_RECORD&apos;]]"/>
-                        <entry key="CITY" value="ns1:Worker_Data/ns1:Personal_Data/ns1:Contact_Data/ns1:Address_Data[ns1:Usage_Data[@ns1:Public=&apos;true&apos;]/ns1:Type_Data[@ns1:Primary=&apos;true&apos;]/ns1:Type_Reference/ns1:ID[@ns1:type=&apos;Communication_Usage_Type_ID&apos;] =&apos;WORK&apos;]/ns1:Municipality"/>
-                        <entry key="CLASS" value="concat(ns1:Worker_Data/ns1:Employment_Data/ns1:Position_Data/ns1:Position_Title,ns1:Worker_Data/ns1:Employment_Data/ns1:Position_Data/ns1:Position_Time_Type_Reference/ns1:ID[@ns1:type=&apos;Position_Time_Type_ID&apos;],ns1:Worker_Data/ns1:Employment_Data/ns1:Position_Data/ns1:Worker_Type_Reference/ns1:ID[@ns1:type=&apos;Employee_Type_ID&apos;])"/>
-                        <entry key="COMPANY_NAME" value="ns1:Worker_Data/ns1:Organization_Data/ns1:Worker_Organization_Data/ns1:Organization_Data[ns1:Organization_Type_Reference/ns1:ID [@ns1:type=&apos;Organization_Type_ID&apos;]=&apos;COMPANY&apos;]/ns1:Organization_Name"/>
+                        <entry key="ADDITIONAL_EMAIL_ADDRESS_HOME" value="ns1:Worker_Data/ns1:Personal_Data/ns1:Contact_Data/ns1:Email_Address_Data[ns1:Usage_Data[@ns1:Public='true']/ns1:Type_Data[@ns1:Primary='false']/ns1:Type_Reference/ns1:ID[@ns1:type='Communication_Usage_Type_ID'] ='HOME']/ns1:Email_Address"/>
+                        <entry key="ADDITIONAL_EMAIL_ADDRESS_WORK" value="ns1:Worker_Data/ns1:Personal_Data/ns1:Contact_Data/ns1:Email_Address_Data[ns1:Usage_Data[@ns1:Public='true']/ns1:Type_Data[@ns1:Primary='false']/ns1:Type_Reference/ns1:ID[@ns1:type='Communication_Usage_Type_ID'] ='WORK']/ns1:Email_Address"/>
+                        <entry key="ADDRESS_HOME" value="ns1:Worker_Data/ns1:Personal_Data/ns1:Contact_Data/ns1:Address_Data[ns1:Usage_Data/ns1:Type_Data[@ns1:Primary='true']/ns1:Type_Reference/ns1:ID[@ns1:type='Communication_Usage_Type_ID'] ='HOME']/@ns1:Formatted_Address"/>
+                        <entry key="ADDRESS_LINE_1" value="ns1:Worker_Data/ns1:Employment_Data/ns1:Position_Data/ns1:Business_Site_Summary_Data/ns1:Address_Data/ns1:Address_Line_Data[@ns1:Type = 'ADDRESS_LINE_1']"/>
+                        <entry key="ADDRESS_WORK" value="ns1:Worker_Data/ns1:Personal_Data/ns1:Contact_Data/ns1:Address_Data[ns1:Usage_Data/ns1:Type_Data[@ns1:Primary='true']/ns1:Type_Reference/ns1:ID[@ns1:type='Communication_Usage_Type_ID'] ='WORK']/@ns1:Formatted_Address"/>
+                        <entry key="CHECK_LATEST_WORKER_RECORD" value="ns1:Worker_Data/ns1:Integration_Field_Override_Data[ns1:Field_Reference[ns1:ID[@ns1:type='Integration_Document_Field_Name']='LATEST_WORKER_RECORD']]"/>
+                        <entry key="CITY" value="ns1:Worker_Data/ns1:Personal_Data/ns1:Contact_Data/ns1:Address_Data[ns1:Usage_Data[@ns1:Public='true']/ns1:Type_Data[@ns1:Primary='true']/ns1:Type_Reference/ns1:ID[@ns1:type='Communication_Usage_Type_ID'] ='WORK']/ns1:Municipality"/>
+                        <entry key="CLASS" value="concat(ns1:Worker_Data/ns1:Employment_Data/ns1:Position_Data/ns1:Position_Title,ns1:Worker_Data/ns1:Employment_Data/ns1:Position_Data/ns1:Position_Time_Type_Reference/ns1:ID[@ns1:type='Position_Time_Type_ID'],ns1:Worker_Data/ns1:Employment_Data/ns1:Position_Data/ns1:Worker_Type_Reference/ns1:ID[@ns1:type='Employee_Type_ID'])"/>
+                        <entry key="COMPANY_NAME" value="ns1:Worker_Data/ns1:Organization_Data/ns1:Worker_Organization_Data/ns1:Organization_Data[ns1:Organization_Type_Reference/ns1:ID [@ns1:type='Organization_Type_ID']='COMPANY']/ns1:Organization_Name"/>
                         <entry key="CONTRACT_END_DATE" value="ns1:Worker_Data/ns1:Employment_Data/ns1:Worker_Contract_Data/ns1:Contract_End_Date"/>
-                        <entry key="COST_CENTER" value="ns1:Worker_Data/ns1:Organization_Data/ns1:Worker_Organization_Data/ns1:Organization_Data[ns1:Organization_Type_Reference[ns1:ID[@ns1:type=&apos;Organization_Type_ID&apos;]=&apos;COST_CENTER&apos;]]/ns1:Organization_Name | ns1:Worker_Data/ns1:Organization_Data/ns1:Worker_Organization_Data/ns1:Organization_Data[ns1:Organization_Type_Reference[ns1:ID[@ns1:type=&apos;Organization_Type_ID&apos;]=&apos;Cost_Center&apos;]]/ns1:Organization_Name"/>
-                        <entry key="COST_CENTER_HIERARCHY" value="ns1:Worker_Data/ns1:Organization_Data/ns1:Worker_Organization_Data/ns1:Organization_Data[ns1:Organization_Type_Reference[ns1:ID[@ns1:type=&apos;Organization_Type_ID&apos;]=&apos;COST_CENTER_HIERARCHY&apos;]]/ns1:Organization_Name"/>
-                        <entry key="COST_CENTER_REFERENCE_ID" value="ns1:Worker_Data/ns1:Organization_Data/ns1:Worker_Organization_Data/ns1:Organization_Data[ns1:Organization_Type_Reference[ns1:ID[@ns1:type=&apos;Organization_Type_ID&apos;]=&apos;COST_CENTER&apos;]]/ns1:Organization_Reference_ID | ns1:Worker_Data/ns1:Organization_Data/ns1:Worker_Organization_Data/ns1:Organization_Data[ns1:Organization_Type_Reference[ns1:ID[@ns1:type=&apos;Organization_Type_ID&apos;]=&apos;Cost_Center&apos;]]/ns1:Organization_Reference_ID"/>
-                        <entry key="COUNTRY" value="ns1:Worker_Data/ns1:Personal_Data/ns1:Contact_Data/ns1:Address_Data[ns1:Usage_Data/ns1:Type_Data/ns1:Type_Reference/ns1:ID[@ns1:type=&apos;Communication_Usage_Type_ID&apos;] =&apos;WORK&apos;]/ns1:Country_Reference/ns1:ID[@ns1:type=&apos;ISO_3166-1_Alpha-3_Code&apos;]"/>
-                        <entry key="DEPARTMENT" value="concat(ns1:Worker_Data/ns1:Organization_Data/ns1:Worker_Organization_Data/ns1:Organization_Data[ns1:Organization_Type_Reference/ns1:ID[@ns1:type=&apos;Organization_Type_ID&apos;] =&apos;COST_CENTER&apos;]/ns1:Organization_Code | ns1:Worker_Data/ns1:Organization_Data/ns1:Worker_Organization_Data/ns1:Organization_Data[ns1:Organization_Type_Reference/ns1:ID[@ns1:type=&apos;Organization_Type_ID&apos;] =&apos;Cost_Center&apos;]/ns1:Organization_Code,&apos;  &apos;,ns1:Worker_Data/ns1:Organization_Data/ns1:Worker_Organization_Data/ns1:Organization_Data[ns1:Organization_Type_Reference/ns1:ID[@ns1:type=&apos;Organization_Type_ID&apos;] =&apos;COST_CENTER&apos;]/ns1:Organization_Name | ns1:Worker_Data/ns1:Organization_Data/ns1:Worker_Organization_Data/ns1:Organization_Data[ns1:Organization_Type_Reference/ns1:ID[@ns1:type=&apos;Organization_Type_ID&apos;] =&apos;Cost_Center&apos;]/ns1:Organization_Name)"/>
-                        <entry key="DIVISION" value="ns1:Worker_Data/ns1:Organization_Data/ns1:Worker_Organization_Data/ns1:Organization_Data[ns1:Organization_Type_Reference[@ns1:Descriptor=&apos;Sales Channel&apos;]]/ns1:Organization_Name"/>
-                        <entry key="EMAIL_ADDRESS_HOME" value="ns1:Worker_Data/ns1:Personal_Data/ns1:Contact_Data/ns1:Email_Address_Data[ns1:Usage_Data[@ns1:Public=&apos;true&apos;]/ns1:Type_Data[@ns1:Primary=&apos;true&apos;]/ns1:Type_Reference/ns1:ID[@ns1:type=&apos;Communication_Usage_Type_ID&apos;] =&apos;HOME&apos;]/ns1:Email_Address"/>
-                        <entry key="EMAIL_ADDRESS_WORK" value="ns1:Worker_Data/ns1:Personal_Data/ns1:Contact_Data/ns1:Email_Address_Data[ns1:Usage_Data[@ns1:Public=&apos;true&apos;]/ns1:Type_Data[@ns1:Primary=&apos;true&apos;]/ns1:Type_Reference/ns1:ID[@ns1:type=&apos;Communication_Usage_Type_ID&apos;] =&apos;WORK&apos;]/ns1:Email_Address"/>
-                        <entry key="EMPLOYEE_TYPE" value="ns1:Worker_Data/ns1:Employment_Data/ns1:Position_Data/ns1:Worker_Type_Reference/ns1:ID[@ns1:type=&apos;Employee_Type_ID&apos;] | ns1:Worker_Data/ns1:Employment_Data/ns1:Position_Data/ns1:Worker_Type_Reference/ns1:ID[@ns1:type=&apos;Contingent_Worker_Type_ID&apos;]"/>
+                        <entry key="COST_CENTER" value="ns1:Worker_Data/ns1:Organization_Data/ns1:Worker_Organization_Data/ns1:Organization_Data[ns1:Organization_Type_Reference[ns1:ID[@ns1:type='Organization_Type_ID']='COST_CENTER']]/ns1:Organization_Name | ns1:Worker_Data/ns1:Organization_Data/ns1:Worker_Organization_Data/ns1:Organization_Data[ns1:Organization_Type_Reference[ns1:ID[@ns1:type='Organization_Type_ID']='Cost_Center']]/ns1:Organization_Name"/>
+                        <entry key="COST_CENTER_HIERARCHY" value="ns1:Worker_Data/ns1:Organization_Data/ns1:Worker_Organization_Data/ns1:Organization_Data[ns1:Organization_Type_Reference[ns1:ID[@ns1:type='Organization_Type_ID']='COST_CENTER_HIERARCHY']]/ns1:Organization_Name"/>
+                        <entry key="COST_CENTER_REFERENCE_ID" value="ns1:Worker_Data/ns1:Organization_Data/ns1:Worker_Organization_Data/ns1:Organization_Data[ns1:Organization_Type_Reference[ns1:ID[@ns1:type='Organization_Type_ID']='COST_CENTER']]/ns1:Organization_Reference_ID | ns1:Worker_Data/ns1:Organization_Data/ns1:Worker_Organization_Data/ns1:Organization_Data[ns1:Organization_Type_Reference[ns1:ID[@ns1:type='Organization_Type_ID']='Cost_Center']]/ns1:Organization_Reference_ID"/>
+                        <entry key="COUNTRY" value="ns1:Worker_Data/ns1:Personal_Data/ns1:Contact_Data/ns1:Address_Data[ns1:Usage_Data/ns1:Type_Data/ns1:Type_Reference/ns1:ID[@ns1:type='Communication_Usage_Type_ID'] ='WORK']/ns1:Country_Reference/ns1:ID[@ns1:type='ISO_3166-1_Alpha-3_Code']"/>
+                        <entry key="DEPARTMENT" value="concat(ns1:Worker_Data/ns1:Organization_Data/ns1:Worker_Organization_Data/ns1:Organization_Data[ns1:Organization_Type_Reference/ns1:ID[@ns1:type='Organization_Type_ID'] ='COST_CENTER']/ns1:Organization_Code | ns1:Worker_Data/ns1:Organization_Data/ns1:Worker_Organization_Data/ns1:Organization_Data[ns1:Organization_Type_Reference/ns1:ID[@ns1:type='Organization_Type_ID'] ='Cost_Center']/ns1:Organization_Code,'  ',ns1:Worker_Data/ns1:Organization_Data/ns1:Worker_Organization_Data/ns1:Organization_Data[ns1:Organization_Type_Reference/ns1:ID[@ns1:type='Organization_Type_ID'] ='COST_CENTER']/ns1:Organization_Name | ns1:Worker_Data/ns1:Organization_Data/ns1:Worker_Organization_Data/ns1:Organization_Data[ns1:Organization_Type_Reference/ns1:ID[@ns1:type='Organization_Type_ID'] ='Cost_Center']/ns1:Organization_Name)"/>
+                        <entry key="DIVISION" value="ns1:Worker_Data/ns1:Organization_Data/ns1:Worker_Organization_Data/ns1:Organization_Data[ns1:Organization_Type_Reference[@ns1:Descriptor='Sales Channel']]/ns1:Organization_Name"/>
+                        <entry key="EMAIL_ADDRESS_HOME" value="ns1:Worker_Data/ns1:Personal_Data/ns1:Contact_Data/ns1:Email_Address_Data[ns1:Usage_Data[@ns1:Public='true']/ns1:Type_Data[@ns1:Primary='true']/ns1:Type_Reference/ns1:ID[@ns1:type='Communication_Usage_Type_ID'] ='HOME']/ns1:Email_Address"/>
+                        <entry key="EMAIL_ADDRESS_WORK" value="ns1:Worker_Data/ns1:Personal_Data/ns1:Contact_Data/ns1:Email_Address_Data[ns1:Usage_Data[@ns1:Public='true']/ns1:Type_Data[@ns1:Primary='true']/ns1:Type_Reference/ns1:ID[@ns1:type='Communication_Usage_Type_ID'] ='WORK']/ns1:Email_Address"/>
+                        <entry key="EMPLOYEE_TYPE" value="ns1:Worker_Data/ns1:Employment_Data/ns1:Position_Data/ns1:Worker_Type_Reference/ns1:ID[@ns1:type='Employee_Type_ID'] | ns1:Worker_Data/ns1:Employment_Data/ns1:Position_Data/ns1:Worker_Type_Reference/ns1:ID[@ns1:type='Contingent_Worker_Type_ID']"/>
                         <entry key="FILENUMBER" value="ns1:Worker_Data/ns1:Worker_ID"/>
                         <entry key="FIRST_NAME" value="ns1:Worker_Data/ns1:Personal_Data/ns1:Name_Data/ns1:Legal_Name_Data/ns1:Name_Detail_Data/ns1:First_Name"/>
-                        <entry key="FULLPARTTIME" value="concat(ns1:Worker_Data/ns1:Employment_Data/ns1:Position_Data/ns1:Position_Title,&apos;  &apos;,ns1:Worker_Data/ns1:Employment_Data/ns1:Position_Data/ns1:Position_Time_Type_Reference/ns1:ID[@ns1:type=&apos;Position_Time_Type_ID&apos;])"/>
-                        <entry key="FUTURE_ACTION" value="ns1:Worker_Data/ns1:Transaction_Log_Entry_Data/ns1:Transaction_Log_Entry/ns1:Transaction_Log_Data/ns1:Transaction_Log_Type_Reference[ns1:ID[@ns1:type=&apos;Business_Process_Type&apos;]=&apos;Hire Employee&apos;]/ns1:ID[@ns1:type=&apos;Business_Process_Type&apos;] | ns1:Worker_Data/ns1:Transaction_Log_Entry_Data/ns1:Transaction_Log_Entry/ns1:Transaction_Log_Data/ns1:Transaction_Log_Type_Reference[ns1:ID[@ns1:type=&apos;Business_Process_Type&apos;]=&apos;Terminate Employee&apos;]/ns1:ID[@ns1:type=&apos;Business_Process_Type&apos;] |ns1:Worker_Data/ns1:Transaction_Log_Entry_Data/ns1:Transaction_Log_Entry/ns1:Transaction_Log_Data/ns1:Transaction_Log_Type_Reference[ns1:ID[@ns1:type=&apos;Business_Process_Type&apos;]=&apos;Onboarding&apos;]/ns1:ID[@ns1:type=&apos;Business_Process_Type&apos;] |ns1:Worker_Data/ns1:Transaction_Log_Entry_Data/ns1:Transaction_Log_Entry/ns1:Transaction_Log_Data/ns1:Transaction_Log_Type_Reference[ns1:ID[@ns1:type=&apos;Business_Process_Type&apos;]=&apos;End Contingent Worker Contract&apos;]/ns1:ID[@ns1:type=&apos;Business_Process_Type&apos;]"/>
-                        <entry key="FUTURE_DATE" value="ns1:Worker_Data/ns1:Transaction_Log_Entry_Data/ns1:Transaction_Log_Entry/ns1:Transaction_Log_Data[ns1:Transaction_Log_Type_Reference[ns1:ID[@ns1:type=&apos;Business_Process_Type&apos;]=&apos;Hire Employee&apos;]]/ns1:Transaction_Effective_Moment |ns1:Worker_Data/ns1:Transaction_Log_Entry_Data/ns1:Transaction_Log_Entry/ns1:Transaction_Log_Data[ns1:Transaction_Log_Type_Reference[ns1:ID[@ns1:type=&apos;Business_Process_Type&apos;]=&apos;Terminate Employee&apos;]]/ns1:Transaction_Effective_Moment |ns1:Worker_Data/ns1:Transaction_Log_Entry_Data/ns1:Transaction_Log_Entry/ns1:Transaction_Log_Data[ns1:Transaction_Log_Type_Reference[ns1:ID[@ns1:type=&apos;Business_Process_Type&apos;]=&apos;Onboarding&apos;]]/ns1:Transaction_Effective_Moment |ns1:Worker_Data/ns1:Transaction_Log_Entry_Data/ns1:Transaction_Log_Entry/ns1:Transaction_Log_Data[ns1:Transaction_Log_Type_Reference[ns1:ID[@ns1:type=&apos;Business_Process_Type&apos;]=&apos;End Contingent Worker Contract&apos;]]/ns1:Transaction_Effective_Moment"/>
+                        <entry key="FULLPARTTIME" value="concat(ns1:Worker_Data/ns1:Employment_Data/ns1:Position_Data/ns1:Position_Title,'  ',ns1:Worker_Data/ns1:Employment_Data/ns1:Position_Data/ns1:Position_Time_Type_Reference/ns1:ID[@ns1:type='Position_Time_Type_ID'])"/>
+                        <entry key="FUTURE_ACTION" value="ns1:Worker_Data/ns1:Transaction_Log_Entry_Data/ns1:Transaction_Log_Entry/ns1:Transaction_Log_Data/ns1:Transaction_Log_Type_Reference[ns1:ID[@ns1:type='Business_Process_Type']='Hire Employee']/ns1:ID[@ns1:type='Business_Process_Type'] | ns1:Worker_Data/ns1:Transaction_Log_Entry_Data/ns1:Transaction_Log_Entry/ns1:Transaction_Log_Data/ns1:Transaction_Log_Type_Reference[ns1:ID[@ns1:type='Business_Process_Type']='Terminate Employee']/ns1:ID[@ns1:type='Business_Process_Type'] |ns1:Worker_Data/ns1:Transaction_Log_Entry_Data/ns1:Transaction_Log_Entry/ns1:Transaction_Log_Data/ns1:Transaction_Log_Type_Reference[ns1:ID[@ns1:type='Business_Process_Type']='Onboarding']/ns1:ID[@ns1:type='Business_Process_Type'] |ns1:Worker_Data/ns1:Transaction_Log_Entry_Data/ns1:Transaction_Log_Entry/ns1:Transaction_Log_Data/ns1:Transaction_Log_Type_Reference[ns1:ID[@ns1:type='Business_Process_Type']='End Contingent Worker Contract']/ns1:ID[@ns1:type='Business_Process_Type']"/>
+                        <entry key="FUTURE_DATE" value="ns1:Worker_Data/ns1:Transaction_Log_Entry_Data/ns1:Transaction_Log_Entry/ns1:Transaction_Log_Data[ns1:Transaction_Log_Type_Reference[ns1:ID[@ns1:type='Business_Process_Type']='Hire Employee']]/ns1:Transaction_Effective_Moment |ns1:Worker_Data/ns1:Transaction_Log_Entry_Data/ns1:Transaction_Log_Entry/ns1:Transaction_Log_Data[ns1:Transaction_Log_Type_Reference[ns1:ID[@ns1:type='Business_Process_Type']='Terminate Employee']]/ns1:Transaction_Effective_Moment |ns1:Worker_Data/ns1:Transaction_Log_Entry_Data/ns1:Transaction_Log_Entry/ns1:Transaction_Log_Data[ns1:Transaction_Log_Type_Reference[ns1:ID[@ns1:type='Business_Process_Type']='Onboarding']]/ns1:Transaction_Effective_Moment |ns1:Worker_Data/ns1:Transaction_Log_Entry_Data/ns1:Transaction_Log_Entry/ns1:Transaction_Log_Data[ns1:Transaction_Log_Type_Reference[ns1:ID[@ns1:type='Business_Process_Type']='End Contingent Worker Contract']]/ns1:Transaction_Effective_Moment"/>
                         <entry key="HIREDATE" value="ns1:Worker_Data/ns1:Employment_Data/ns1:Worker_Status_Data/ns1:Hire_Date"/>
-                        <entry key="JOBCODE" value="ns1:Worker_Data/ns1:Employment_Data/ns1:Position_Data/ns1:Job_Profile_Summary_Data/ns1:Job_Profile_Reference/ns1:ID[@ns1:type=&apos;Job_Profile_ID&apos;]"/>
+                        <entry key="JOBCODE" value="ns1:Worker_Data/ns1:Employment_Data/ns1:Position_Data/ns1:Job_Profile_Summary_Data/ns1:Job_Profile_Reference/ns1:ID[@ns1:type='Job_Profile_ID']"/>
                         <entry key="JOBTITLE" value="ns1:Worker_Data/ns1:Employment_Data/ns1:Position_Data/ns1:Business_Title"/>
                         <entry key="LAST_DAY_OF_WORK" value="ns1:Worker_Data/ns1:Employment_Data/ns1:Worker_Status_Data/ns1:Termination_Last_Day_of_Work"/>
                         <entry key="LAST_NAME" value="ns1:Worker_Data/ns1:Personal_Data/ns1:Name_Data/ns1:Legal_Name_Data/ns1:Name_Detail_Data/ns1:Last_Name"/>
                         <entry key="LEGAL_MIDDLE_NAME" value="ns1:Worker_Data/ns1:Personal_Data/ns1:Name_Data/ns1:Legal_Name_Data/ns1:Name_Detail_Data/ns1:Middle_Name"/>
                         <entry key="LOCATION" value="ns1:Worker_Data/ns1:Employment_Data/ns1:Position_Data/ns1:Business_Site_Summary_Data/ns1:Name"/>
-                        <entry key="MANAGER_ID" value="ns1:Worker_Data/ns1:Management_Chain_Data/ns1:Worker_Supervisory_Management_Chain_Data/ns1:Management_Chain_Data[last()]/ns1:Manager_Reference/ns1:ID[@ns1:type=&apos;Employee_ID&apos;]"/>
+                        <entry key="MANAGER_ID" value="ns1:Worker_Data/ns1:Management_Chain_Data/ns1:Worker_Supervisory_Management_Chain_Data/ns1:Management_Chain_Data[last()]/ns1:Manager_Reference/ns1:ID[@ns1:type='Employee_ID']"/>
                         <entry key="MIDDLE_NAME" value="ns1:Worker_Data/ns1:Personal_Data/ns1:Name_Data/ns1:Legal_Name_Data/ns1:Name_Detail_Data/ns1:Middle_Name"/>
                         <entry key="ON_LEAVE" value="ns1:Worker_Data/ns1:Employment_Data/ns1:Worker_Status_Data/ns1:Leave_Status_Date[1]/@ns1:On_Leave"/>
-                        <entry key="ORGANIZATION_NAME" value="ns1:Worker_Data/ns1:Organization_Data/ns1:Worker_Organization_Data/ns1:Organization_Data[ns1:Organization_Type_Reference[@ns1:Descriptor =&apos;Business Unit&apos;]]/ns1:Organization_Name"/>
+                        <entry key="ORGANIZATION_NAME" value="ns1:Worker_Data/ns1:Organization_Data/ns1:Worker_Organization_Data/ns1:Organization_Data[ns1:Organization_Type_Reference[@ns1:Descriptor ='Business Unit']]/ns1:Organization_Name"/>
                         <entry key="POSITION" value="ns1:Worker_Data/ns1:Employment_Data/ns1:Position_Data/ns1:Position_Title"/>
-                        <entry key="POSTAL_CODE" value="ns1:Worker_Data/ns1:Personal_Data/ns1:Contact_Data/ns1:Address_Data[ns1:Usage_Data/ns1:Type_Data/ns1:Type_Reference/ns1:ID[@ns1:type=&apos;Communication_Usage_Type_ID&apos;] =&apos;WORK&apos;]/ns1:Postal_Code"/>
-                        <entry key="STATE" value="ns1:Worker_Data/ns1:Employment_Data/ns1:Position_Data/ns1:Business_Site_Summary_Data/ns1:Address_Data/ns1:Country_Region_Reference/ns1:ID[@ns1:type=&apos;Country_Region_ID&apos;]"/>
-                        <entry key="TEAM" value="ns1:Worker_Data/ns1:Organization_Data/ns1:Worker_Organization_Data/ns1:Organization_Data[ns1:Organization_Type_Reference[@ns1:Descriptor=&apos;TEAM&apos;]]/ns1:Organization_Name"/>
+                        <entry key="POSTAL_CODE" value="ns1:Worker_Data/ns1:Personal_Data/ns1:Contact_Data/ns1:Address_Data[ns1:Usage_Data/ns1:Type_Data/ns1:Type_Reference/ns1:ID[@ns1:type='Communication_Usage_Type_ID'] ='WORK']/ns1:Postal_Code"/>
+                        <entry key="STATE" value="ns1:Worker_Data/ns1:Employment_Data/ns1:Position_Data/ns1:Business_Site_Summary_Data/ns1:Address_Data/ns1:Country_Region_Reference/ns1:ID[@ns1:type='Country_Region_ID']"/>
+                        <entry key="TEAM" value="ns1:Worker_Data/ns1:Organization_Data/ns1:Worker_Organization_Data/ns1:Organization_Data[ns1:Organization_Type_Reference[@ns1:Descriptor='TEAM']]/ns1:Organization_Name"/>
                         <entry key="TERMINATION_DATE" value="ns1:Worker_Data/ns1:Employment_Data/ns1:Worker_Status_Data/ns1:Termination_Date"/>
                         <entry key="USERID" value="ns1:Worker_Data/ns1:User_ID"/>
                         <entry key="WORKER_DESCRIPTOR" value="ns1:Worker_Reference/@ns1:Descriptor"/>
@@ -14813,16 +14813,16 @@ on-premises directory</Description>
                   <AttributeDefinition name="_index" type="string"/>
                   <AttributeDefinition name="_type" type="string"/>
                   <AttributeDefinition name="_id" type="string"/>
-                  <AttributeDefinition internalName="_source.&apos;user full name&apos;" name="userFullName" type="string"/>
-                  <AttributeDefinition internalName="_source.&apos;alert rule names&apos;" multi="true" name="alertRuleNames" type="string"/>
-                  <AttributeDefinition internalName="_source.&apos;action type&apos;" name="actionType" type="string"/>
+                  <AttributeDefinition internalName="_source.'user full name'" name="userFullName" type="string"/>
+                  <AttributeDefinition internalName="_source.'alert rule names'" multi="true" name="alertRuleNames" type="string"/>
+                  <AttributeDefinition internalName="_source.'action type'" name="actionType" type="string"/>
                   <AttributeDefinition internalName="_source.path" name="path" type="string"/>
-                  <AttributeDefinition internalName="_source.&apos;application type&apos;" name="applicationType" type="string"/>
+                  <AttributeDefinition internalName="_source.'application type'" name="applicationType" type="string"/>
                   <AttributeDefinition internalName="_source.timestamp" name="timestamp" type="string"/>
-                  <AttributeDefinition internalName="_source.&apos;bam name&apos;" name="bamName" type="string"/>
-                  <AttributeDefinition internalName="_source.&apos;wpc data&apos;" name="wpc data" type="string"/>
+                  <AttributeDefinition internalName="_source.'bam name'" name="bamName" type="string"/>
+                  <AttributeDefinition internalName="_source.'wpc data'" name="wpc data" type="string"/>
                   <AttributeDefinition internalName="_source.creation_timestamp" name="creation_timestamp" type="string"/>
-                  <AttributeDefinition internalName="_source.&apos;object name&apos;" name="object name" type="string"/>
+                  <AttributeDefinition internalName="_source.'object name'" name="object name" type="string"/>
                 </Schema>
                 <Schema associationSchemaName="associations" displayAttribute="br_name" identityAttribute="br_id" objectType="unstructured">
                   <AttributeDefinition name="br_id" type="long"/>
@@ -14834,7 +14834,7 @@ on-premises directory</Description>
                     <Map>
                       <entry key="aggregateInherited">
                         <value>
-                          <Boolean></Boolean>
+                          <Boolean/>
                         </value>
                       </entry>
                       <entry key="associationAttribute" value="associations"/>
@@ -15759,7 +15759,7 @@ if (groupsSapr3 != null){
                       <String>user</String>
                     </AllowedValues>
                   </Field>
-                  <Field displayName="Language" helpKey="2 letter code the user&apos;s language" name="language" reviewRequired="true" section="" type="string"/>
+                  <Field displayName="Language" helpKey="2 letter code the user's language" name="language" reviewRequired="true" section="" type="string"/>
                   <Field displayName="Status" helpKey="Status as active/inactive" name="status" reviewRequired="true" section="" type="string">
                     <AllowedValues>
                       <String>active</String>
@@ -15769,12 +15769,12 @@ if (groupsSapr3 != null){
                   <Field displayName="Sync enabled" helpKey="Whether the user can use sync" name="sync_enabled" reviewRequired="true" section="" type="boolean"/>
                   <Field displayName="Tracking code" helpKey="The tracking code value for the nth tracking code" name="tracking_code_(0-4)" reviewRequired="true" section="" type="string"/>
                   <Field displayName="External id" helpKey="Tracking code value for the SSO external ID tracking code" name="external_id" reviewRequired="true" section="" type="string"/>
-                  <Field displayName="Job title" helpKey="The user&apos;s job title, displayed on their profile page" name="job_title" reviewRequired="true" section="" type="string"/>
-                  <Field displayName="Phone" helpKey="The user&apos;s phone number, displayed on their profile page" name="phone" reviewRequired="true" section="" type="string"/>
-                  <Field displayName="Address street" helpKey="The street part of the user&apos;s address" name="address_street" reviewRequired="true" section="" type="string"/>
-                  <Field displayName="Address city" helpKey="The city part of the user&apos;s address" name="address_city" reviewRequired="true" section="" type="string"/>
-                  <Field displayName="Address state" helpKey="The state part of the user&apos;s address" name="address_state" reviewRequired="true" section="" type="string"/>
-                  <Field displayName="Address postal code" helpKey="The postal code part of the user&apos;s address" name="address_postal_code" reviewRequired="true" section="" type="string"/>
+                  <Field displayName="Job title" helpKey="The user's job title, displayed on their profile page" name="job_title" reviewRequired="true" section="" type="string"/>
+                  <Field displayName="Phone" helpKey="The user's phone number, displayed on their profile page" name="phone" reviewRequired="true" section="" type="string"/>
+                  <Field displayName="Address street" helpKey="The street part of the user's address" name="address_street" reviewRequired="true" section="" type="string"/>
+                  <Field displayName="Address city" helpKey="The city part of the user's address" name="address_city" reviewRequired="true" section="" type="string"/>
+                  <Field displayName="Address state" helpKey="The state part of the user's address" name="address_state" reviewRequired="true" section="" type="string"/>
+                  <Field displayName="Address postal code" helpKey="The postal code part of the user's address" name="address_postal_code" reviewRequired="true" section="" type="string"/>
                 </Form>
               </ProvisioningForms>
               <Schemas>
@@ -16133,7 +16133,7 @@ if (groupsSapr3 != null){
                                                                     String user_ID = userID.getValue();
                                                                     String attname = "USER_OE_PR";
                                                                     int nCommaIndex = user_ID.indexOf(",");
-                                                                    if(nCommaIndex > 0)
+                                                                    if(nCommaIndex &gt; 0)
                                                                     {
                                                                         if(user_ID.charAt(nCommaIndex-1)=='/')
                                                                         {
@@ -16185,7 +16185,7 @@ if (groupsSapr3 != null){
                                                                     String group_ID = groupID.getValue();
                                                                     String attname = "GROUP_OE_PR";
                                                                     int nCommaIndex = group_ID.indexOf(",");
-                                                                    if(nCommaIndex > 0)
+                                                                    if(nCommaIndex &gt; 0)
                                                                     {
                                                                         if(group_ID.charAt(nCommaIndex-1)=='/')
                                                                         {
@@ -16205,18 +16205,18 @@ if (groupsSapr3 != null){
               </ProvisioningConfig>
               <ProvisioningForms>
                 <Form name="account" type="Create">
-                  <Field displayName="User ID" helpKey="Enter user distinguished name. For instance, &apos;uid=user1,cn=users,dc=sailpoint,dc=com&apos; for inetorgperson type of user." name="USER_ID" required="true" section="" type="string"/>
+                  <Field displayName="User ID" helpKey="Enter user distinguished name. For instance, 'uid=user1,cn=users,dc=sailpoint,dc=com' for inetorgperson type of user." name="USER_ID" required="true" section="" type="string"/>
                   <Field displayName="Password" helpKey="Enter user password" name="USER_PWD" required="true" section="" type="secret"/>
-                  <Field displayName="Parent OE" helpKey="Enter distinguished name of parent container. For instance, &apos;cn=users,dc=sailpoint,dc=com&apos;;" name="USER_OE_PR" required="true" section="" type="string"/>
-                  <Field displayName="CN" helpKey="Enter user CN. For instance, &apos;user1&apos;" name="LDAPIP_CN" required="true" section="" type="string"/>
+                  <Field displayName="Parent OE" helpKey="Enter distinguished name of parent container. For instance, 'cn=users,dc=sailpoint,dc=com';" name="USER_OE_PR" required="true" section="" type="string"/>
+                  <Field displayName="CN" helpKey="Enter user CN. For instance, 'user1'" name="LDAPIP_CN" required="true" section="" type="string"/>
                   <Field displayName="SN" helpKey="Enter user last name" name="LDAPIP_SN" required="true" section="" type="string"/>
                 </Form>
                 <Form name="group" objectType="group" type="Create">
-                  <Field displayName="Group ID" helpKey="Enter distinguished name of group. For instance, &apos;cn=group1,cn=groups,dc=sailpoint,dc=com&apos;" name="GROUP_ID" required="true" section="" type="string"/>
-                  <Field displayName="Description" helpKey="Enter description of group.For instance, &apos;group one&apos;" name="LDAPIP_DESCRIPTION" type="string"/>
+                  <Field displayName="Group ID" helpKey="Enter distinguished name of group. For instance, 'cn=group1,cn=groups,dc=sailpoint,dc=com'" name="GROUP_ID" required="true" section="" type="string"/>
+                  <Field displayName="Description" helpKey="Enter description of group.For instance, 'group one'" name="LDAPIP_DESCRIPTION" type="string"/>
                 </Form>
                 <Form name="group" objectType="group" type="Update">
-                  <Field displayName="Description" helpKey="Enter description of group.For instance, &apos;group one&apos;" name="LDAPIP_DESCRIPTION" type="string"/>
+                  <Field displayName="Description" helpKey="Enter description of group.For instance, 'group one'" name="LDAPIP_DESCRIPTION" type="string"/>
                 </Form>
               </ProvisioningForms>
               <Schemas>
@@ -18549,7 +18549,7 @@ if (groupsPsoft != null){
                                                     String user_ID = userID.getValue();
                                                     String attname = "USER_OE_PR";
                                                     int nCommaIndex = user_ID.indexOf(",");
-                                                    if(nCommaIndex > 0)
+                                                    if(nCommaIndex &gt; 0)
                                                     {
                                                         if(user_ID.charAt(nCommaIndex-1)=='/')
                                                         {
@@ -18599,7 +18599,7 @@ if (groupsPsoft != null){
                                                     String group_ID = groupID.getValue();
                                                     String attname = "GROUP_OE_PR";
                                                     int nCommaIndex = group_ID.indexOf(",");
-                                                    if(nCommaIndex > 0)
+                                                    if(nCommaIndex &gt; 0)
                                                     {
                                                         if(group_ID.charAt(nCommaIndex-1)=='/')
                                                         {
@@ -18620,15 +18620,15 @@ if (groupsPsoft != null){
               </ProvisioningConfig>
               <ProvisioningForms>
                 <Form name="account" type="Create">
-                  <Field displayName="User ID" helpKey="Enter distinguished name of user. For instance, &apos;cn=user1,cn=users,dc=sailpoint,dc=com&apos;" name="USER_ID" required="true" section="" type="string"/>
+                  <Field displayName="User ID" helpKey="Enter distinguished name of user. For instance, 'cn=user1,cn=users,dc=sailpoint,dc=com'" name="USER_ID" required="true" section="" type="string"/>
                   <Field displayName="Password" helpKey="Enter user password" name="USER_PWD" required="true" section="" type="secret"/>
                 </Form>
                 <Form name="group" objectType="group" type="Create">
-                  <Field displayName="Group ID" helpKey="Enter distinguished name of group. For instance, &apos;cn=group1,cn=groups,dc=sailpoint,dc=com&apos;" name="GROUP_ID" required="true" section="" type="string"/>
-                  <Field displayName="Description" helpKey="Enter description of group.For instance, &apos;group one&apos;" name="LDAPADAM_DESCRIPTION" type="string"/>
+                  <Field displayName="Group ID" helpKey="Enter distinguished name of group. For instance, 'cn=group1,cn=groups,dc=sailpoint,dc=com'" name="GROUP_ID" required="true" section="" type="string"/>
+                  <Field displayName="Description" helpKey="Enter description of group.For instance, 'group one'" name="LDAPADAM_DESCRIPTION" type="string"/>
                 </Form>
                 <Form name="group" objectType="group" type="Update">
-                  <Field displayName="Description" helpKey="Enter description of group.For instance, &apos;group one&apos;" name="LDAPADAM_DESCRIPTION" type="string"/>
+                  <Field displayName="Description" helpKey="Enter description of group.For instance, 'group one'" name="LDAPADAM_DESCRIPTION" type="string"/>
                 </Form>
               </ProvisioningForms>
               <Schemas>
@@ -19061,7 +19061,7 @@ if (groupsPsoft != null){
                 <Form name="LNAdd" type="Create">
                   <Field displayName="Mail Server" helpKey="Mail Server of the User for e.g. LOTUS/NOTES" name="REG_MAILSERVER" required="true" section="" type="string"/>
                   <Field displayName="UserID" helpKey="Name of the user.  It should be of the form Name/Certifier for e.g. FirstName LastName/CertifierName" name="USER_ID" required="true" section="" type="string"/>
-                  <Field displayName="Password" helpKey="Password of the user&apos;s id file" name="USER_PWD" required="true" section="" type="secret"/>
+                  <Field displayName="Password" helpKey="Password of the user's id file" name="USER_PWD" required="true" section="" type="secret"/>
                   <Field displayName="Parent Certifier" helpKey="Parent Certifier of the user for e.g. /ABC" name="USER_OE_PR" required="true" section="" type="string"/>
                   <Field displayName="Type" helpKey="Specifies if the document is of a Person or a Server" name="TYPE" required="true" reviewRequired="true" section="" type="string" value="Person">
                     <AllowedValues>
@@ -19103,7 +19103,7 @@ if (groupsPsoft != null){
                       <String>N</String>
                     </AllowedValues>
                   </Field>
-                  <Field displayName="Should be set for all ID&apos;s being created for use in the US or Canada" name="REGF_USA_OR_CANADA" required="true" reviewRequired="true" section="" type="string" value="N">
+                  <Field displayName="Should be set for all ID's being created for use in the US or Canada" name="REGF_USA_OR_CANADA" required="true" reviewRequired="true" section="" type="string" value="N">
                     <AllowedValues>
                       <String>Y</String>
                       <String>N</String>
@@ -19167,7 +19167,7 @@ if (groupsPsoft != null){
                       <String>Editor</String>
                     </AllowedValues>
                   </Field>
-                  <Field displayName="Check Password" name="CHECKPASSWORD" required="true" reviewRequired="true" section="" type="string" value="Don&apos;t check password">
+                  <Field displayName="Check Password" name="CHECKPASSWORD" required="true" reviewRequired="true" section="" type="string" value="Don't check password">
                     <AllowedValues>
                       <String>Don't check password</String>
                       <String>Check password</String>
@@ -20042,7 +20042,7 @@ List groupsOracleApplFull = plan.getObjectRequests();
                                                                     String user_ID = userID.getValue();
                                                                     String attname = "USER_OE_PR";
                                                                     int nCommaIndex = user_ID.indexOf(",");
-                                                                    if(nCommaIndex > 0)
+                                                                    if(nCommaIndex &gt; 0)
                                                                     {
                                                                         if(user_ID.charAt(nCommaIndex-1)=='/')
                                                                         {
@@ -20092,7 +20092,7 @@ List groupsOracleApplFull = plan.getObjectRequests();
                                                                     String group_ID = groupID.getValue();
                                                                     String attname = "GROUP_OE_PR";
                                                                     int nCommaIndex = group_ID.indexOf(",");
-                                                                    if(nCommaIndex > 0)
+                                                                    if(nCommaIndex &gt; 0)
                                                                     {
                                                                         if(group_ID.charAt(nCommaIndex-1)=='/')
                                                                         {
@@ -20112,19 +20112,19 @@ List groupsOracleApplFull = plan.getObjectRequests();
               </ProvisioningConfig>
               <ProvisioningForms>
                 <Form name="account" type="Create">
-                  <Field displayName="User ID" helpKey="Enter distinguished name of the user.For instance, &apos;cn=user5,cn=users,ou=orgunit1,o=sailpoint&apos;" name="USER_ID" required="true" section="" type="string"/>
+                  <Field displayName="User ID" helpKey="Enter distinguished name of the user.For instance, 'cn=user5,cn=users,ou=orgunit1,o=sailpoint'" name="USER_ID" required="true" section="" type="string"/>
                   <Field displayName="Password" helpKey="Enter user password" name="USER_PWD" required="true" section="" type="secret"/>
-                  <Field displayName="Parent Container" helpKey="Enter distinguished name of the parent container.For instance, &apos;cn=users,ou=orgunit1,o=sailpoint&apos;" name="USER_OE_PR" required="true" section="" type="string"/>
-                  <Field displayName="CN" helpKey="Enter common name of user.For instance, &apos;user1&apos;" name="LDAPTI6.0_CN" required="true" section="" type="string"/>
+                  <Field displayName="Parent Container" helpKey="Enter distinguished name of the parent container.For instance, 'cn=users,ou=orgunit1,o=sailpoint'" name="USER_OE_PR" required="true" section="" type="string"/>
+                  <Field displayName="CN" helpKey="Enter common name of user.For instance, 'user1'" name="LDAPTI6.0_CN" required="true" section="" type="string"/>
                   <Field displayName="SN" helpKey="Enter last name of user" name="LDAPTI6.0_SN" required="true" section="" type="string"/>
                 </Form>
                 <Form name="group" objectType="group" type="Create">
-                  <Field displayName="Group ID" helpKey="Enter distinguished name of group. For instance, &apos;cn=group1,cn=groups,dc=sailpoint,dc=com&apos;" name="GROUP_ID" required="true" section="" type="string"/>
-                  <Field displayName="Description" helpKey="Enter description of group.For instance, &apos;group one&apos;" name="LDAPTI6.0_DESCRIPTION" type="string"/>
-                  <Field displayName="Member" helpKey="The distinguished name of the member. For instance, &apos;uid=user1,cn=users,dc=sailpoint,dc=com&apos;" name="LDAPTI6.0_UNIQUE_MEMBER" required="true" type="string"/>
+                  <Field displayName="Group ID" helpKey="Enter distinguished name of group. For instance, 'cn=group1,cn=groups,dc=sailpoint,dc=com'" name="GROUP_ID" required="true" section="" type="string"/>
+                  <Field displayName="Description" helpKey="Enter description of group.For instance, 'group one'" name="LDAPTI6.0_DESCRIPTION" type="string"/>
+                  <Field displayName="Member" helpKey="The distinguished name of the member. For instance, 'uid=user1,cn=users,dc=sailpoint,dc=com'" name="LDAPTI6.0_UNIQUE_MEMBER" required="true" type="string"/>
                 </Form>
                 <Form name="group" objectType="group" type="Update">
-                  <Field displayName="Description" helpKey="Enter description of group.For instance, &apos;group one&apos;" name="LDAPTI6.0_DESCRIPTION" type="string"/>
+                  <Field displayName="Description" helpKey="Enter description of group.For instance, 'group one'" name="LDAPTI6.0_DESCRIPTION" type="string"/>
                 </Form>
               </ProvisioningForms>
               <Schemas>

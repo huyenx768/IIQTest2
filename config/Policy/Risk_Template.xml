@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Policy PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Policy certificationActions="Mitigated,Delegated" configPage="genericpolicy.xhtml" created="1571838748507" executor="sailpoint.policy.RiskPolicyExecutor" id="4028868c6df8e21a016df8e3e75b0115" modified="1573071388875" name="Risk Template" state="Inactive" template="true" type="Risk" typeKey="policy_type_risk" violationOwnerType="Manager">
+<Policy certificationActions="Mitigated,Delegated" configPage="genericpolicy.xhtml" executor="sailpoint.policy.RiskPolicyExecutor" name="Risk Template" state="Inactive" template="true" type="Risk" typeKey="policy_type_risk" violationOwnerType="Manager">
   <Attributes>
     <Map>
       <entry key="compositeThreshold" value="1000"/>

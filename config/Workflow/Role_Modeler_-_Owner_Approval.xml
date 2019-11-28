@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Workflow created="1571838758382" id="4028868c6df8e21a016df8e40dee017b" libraries="Role" modified="1573836236379" name="Role Modeler - Owner Approval" type="RoleModeler" workItemRenderer="workflow.xhtml">
+<Workflow libraries="Role" name="Role Modeler - Owner Approval" type="RoleModeler" workItemRenderer="workflow.xhtml">
   <Variable editable="true" name="doArchive" type="boolean">
     <Description>Set to true to enable archiving role versions.</Description>
     <Prompt>Enable Role Versioning</Prompt>
@@ -57,7 +57,7 @@
       <Arg name="workItemDescription" value="Review impact analysis of $(call:getObjectClass): $(call:getDisplayableRoleName)"/>
       <WorkItemConfig escalationStyle="none">
         <NotificationEmailTemplateRef>
-          <Reference class="sailpoint.object.EmailTemplate" id="4028868c6df8e21a016df8e40d420178" name="Role Modeler - Impact Analysis Review"/>
+          <Reference class="sailpoint.object.EmailTemplate" name="Role Modeler - Impact Analysis Review"/>
         </NotificationEmailTemplateRef>
       </WorkItemConfig>
     </Approval>
@@ -78,7 +78,7 @@
     <Approval owner="call:buildOwnerApproval">
       <WorkItemConfig escalationStyle="none">
         <NotificationEmailTemplateRef>
-          <Reference class="sailpoint.object.EmailTemplate" id="4028868c6df8e21a016df8e40dcf017a" name="Role Modeler - Approval"/>
+          <Reference class="sailpoint.object.EmailTemplate" name="Role Modeler - Approval"/>
         </NotificationEmailTemplateRef>
       </WorkItemConfig>
     </Approval>

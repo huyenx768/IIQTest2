@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Identity PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Identity created="1571839943113" id="4028868c6df8e807016df8f621c9001b" modified="1572888096949" name="SelfRegistrationWorkGroup" protected="true" workgroup="true">
+<Identity name="SelfRegistrationWorkGroup" protected="true" workgroup="true">
   <Attributes>
     <Map>
       <entry key="displayName" value="SelfRegistrationWorkGroup"/>

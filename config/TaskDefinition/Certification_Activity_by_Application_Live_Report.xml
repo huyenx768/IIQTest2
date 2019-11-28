@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838776914" executor="sailpoint.reporting.LiveReportExecutor" id="4028868c6df8e21a016df8e456520216" modified="1573836226828" name="Certification Activity by Application Live Report" progressMode="Percentage" resultAction="Rename" subType="Access Review and Certification Reports" template="true" type="LiveReport">
+<TaskDefinition executor="sailpoint.reporting.LiveReportExecutor" name="Certification Activity by Application Live Report" progressMode="Percentage" resultAction="Rename" subType="Access Review and Certification Reports" template="true" type="LiveReport">
   <Attributes>
     <Map>
       <entry key="report">
@@ -45,7 +45,7 @@
               </QueryParameters>
             </DataSource>
             <ReportForm>
-              <Reference class="sailpoint.object.Form" id="4028868c6df8e21a016df8e456230215" name="Certification Activity by Application Form"/>
+              <Reference class="sailpoint.object.Form" name="Certification Activity by Application Form"/>
             </ReportForm>
             <Columns>
               <ReportColumnConfig field="nativeIdentity" header="rept_cert_col_account_id" property="exceptionEntitlements.nativeIdentity" sortable="true" width="110"/>
@@ -120,7 +120,7 @@
                           if (value != null){
                             List archivedEntities = value.fetchArchivedEntities(context);
                             if (archivedEntities != null
-                                &amp;&amp; archivedEntities.size() > 0
+                                &amp;&amp; archivedEntities.size() &gt; 0
                                 &amp;&amp; archivedEntities.get(0) != null) {
                               return archivedEntities.get(0).getExplanation();
                             }
@@ -131,7 +131,7 @@
               </ReportColumnConfig>
             </Columns>
             <InitializationRule>
-              <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e453a3020c" name="Certification Report Customizer"/>
+              <Reference class="sailpoint.object.Rule" name="Certification Report Customizer"/>
             </InitializationRule>
             <ReportSummary title="rept_cert_summary_title">
               <DataSourceScript>
@@ -178,7 +178,7 @@
   </Attributes>
   <Description>Displays information about the activity on the certifications in the system in detailed format.</Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e382470055" name="FullAccessApplicationCentricCertificationReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessApplicationCentricCertificationReport"/>
   </RequiredRights>
   <Signature>
     <Inputs>

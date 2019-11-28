@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838766086" executor="sailpoint.task.ActivityAlertProcessorExecutor" id="4028868c6df8e21a016df8e42c0601ac" modified="1573836220234" name="Alert Processor" progressMode="String" resultAction="Delete" subType="task_item_type_activity_alerts" template="true" type="ActivityAlert">
+<TaskDefinition executor="sailpoint.task.ActivityAlertProcessorExecutor" name="Alert Processor" progressMode="String" resultAction="Delete" subType="task_item_type_activity_alerts" template="true" type="ActivityAlert">
   <Description>
       Process Alerts previously aggregated from Alert Aggregation.
     </Description>

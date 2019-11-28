@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Form PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Form created="1571838804528" hidden="true" id="4028868c6df8e21a016df8e4c23002a0" modified="1573836244474" name="Report Form Skeleton" type="Report">
+<Form hidden="true" name="Report Form Skeleton" type="Report">
   <Attributes>
     <Map>
       <entry key="isWizard" value="true"/>

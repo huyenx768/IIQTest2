@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Capability PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Capability created="1571839956254" displayName="capability_batch_request_administrator" id="4028868c6df8e807016df8f6551e005e" modified="1573836286704" name="BatchRequestAdministrator">
+<Capability displayName="capability_batch_request_administrator" name="BatchRequestAdministrator">
   <Description>capability_desc_batch_request_administrator</Description>
   <RightRefs>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e807016df8f65453005d" name="FullAccessBatchRequest"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessBatchRequest"/>
   </RightRefs>
 </Capability>

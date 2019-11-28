@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Workflow created="1571838757367" id="4028868c6df8e21a016df8e409f70172" libraries="Identity" modified="1573836234910" name="Do Provisioning Forms" type="Subprocess">
+<Workflow libraries="Identity" name="Do Provisioning Forms" type="Subprocess">
   <Variable input="true" name="identityName" required="true">
     <Description>
       The name of the identity object being modified.
@@ -193,7 +193,7 @@
       <Arg name="workItemPriority" value="ref:priority"/>
       <WorkItemConfig escalationStyle="none">
         <NotificationEmailTemplateRef>
-          <Reference class="sailpoint.object.EmailTemplate" id="4028868c6df8e21a016df8e4016b0166" name="Account Selection Notification"/>
+          <Reference class="sailpoint.object.EmailTemplate" name="Account Selection Notification"/>
         </NotificationEmailTemplateRef>
       </WorkItemConfig>
     </Approval>
@@ -259,7 +259,7 @@
       </ValidationScript>
       <WorkItemConfig escalationStyle="none">
         <NotificationEmailTemplateRef>
-          <Reference class="sailpoint.object.EmailTemplate" id="4028868c6df8e21a016df8e4016b0166" name="Account Selection Notification"/>
+          <Reference class="sailpoint.object.EmailTemplate" name="Account Selection Notification"/>
         </NotificationEmailTemplateRef>
       </WorkItemConfig>
     </Approval>
@@ -324,7 +324,7 @@
       <Arg name="workItemPriority" value="ref:priority"/>
       <WorkItemConfig escalationStyle="none">
         <NotificationEmailTemplateRef>
-          <Reference class="sailpoint.object.EmailTemplate" id="4028868c6df8e21a016df8e4014c0165" name="Provisioning Form Notification"/>
+          <Reference class="sailpoint.object.EmailTemplate" name="Provisioning Form Notification"/>
         </NotificationEmailTemplateRef>
       </WorkItemConfig>
     </Approval>

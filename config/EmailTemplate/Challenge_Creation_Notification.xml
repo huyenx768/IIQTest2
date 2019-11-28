@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<EmailTemplate created="1571838754804" id="4028868c6df8e21a016df8e3fff4015b" modified="1573836247162" name="Challenge Creation Notification">
+<EmailTemplate name="Challenge Creation Notification">
   <Body>It has been determined that your access to '$challengeItem' will be limited or removed
 completely.  You have $timeRemaining to challenge this decision.
 

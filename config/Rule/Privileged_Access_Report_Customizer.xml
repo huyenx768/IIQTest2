@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Rule created="1571838777508" id="4028868c6df8e21a016df8e458a40224" language="beanshell" modified="1573836269557" name="Privileged Access Report Customizer" type="ReportCustomizer">
+<Rule language="beanshell" name="Privileged Access Report Customizer" type="ReportCustomizer">
   <Description>
     This rule populates a form with fields for the standard and extended identity attributes as well as
     a form for defining the 'privileged' identity attribute.

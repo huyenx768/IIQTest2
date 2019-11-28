@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Rule created="1571838809715" id="4028868c6df8e21a016df8e4d67302a5" language="beanshell" modified="1573836270979" name="Task Completion Email Rule" type="TaskCompletion">
+<Rule language="beanshell" name="Task Completion Email Rule" type="TaskCompletion">
   <Description>
       Example rule to perform Post Action after Task Completion
     </Description>

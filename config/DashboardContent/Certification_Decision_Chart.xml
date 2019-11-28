@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE DashboardContent PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<DashboardContent created="1571838742772" id="4028868c6df8e21a016df8e3d0f400ef" modified="1573071398818" name="Certification Decision Chart" regionSize="0" source="dashboard/chart/chartCertificationDecisions.xhtml" title="dash_title_cert_decision_chart" type="Compliance">
+<DashboardContent name="Certification Decision Chart" regionSize="0" source="dashboard/chart/chartCertificationDecisions.xhtml" title="dash_title_cert_decision_chart" type="Compliance">
   <Attributes>
     <Map>
       <entry key="chartDateRange" value="Current"/>
@@ -11,6 +11,6 @@
   </Attributes>
   <Description>dash_description_cert_decision_chart</Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37ae5001f" name="ViewCertificationDecisionChart"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewCertificationDecisionChart"/>
   </RequiredRights>
 </DashboardContent>

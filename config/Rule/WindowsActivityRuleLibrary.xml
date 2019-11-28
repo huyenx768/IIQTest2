@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Rule created="1571838802026" id="4028868c6df8e21a016df8e4b86a029a" language="beanshell" modified="1573071345679" name="WindowsActivityRuleLibrary">
+<Rule language="beanshell" name="WindowsActivityRuleLibrary">
   <Source>
     
       import java.util.HashMap;
@@ -81,7 +81,7 @@
                   String access = st.nextToken();
                   if ( access != null ) {
                       String trimed = access.trim();
-                      if ( trimed.length() > 0 ) {
+                      if ( trimed.length() &gt; 0 ) {
 //System.out.println("access: '" + trimed + "'");
                           accesses.add(trimed);
                       }
@@ -89,7 +89,7 @@
               }
           }
 
-          if ( accesses.size() > 0 ) {
+          if ( accesses.size() &gt; 0 ) {
               extraInfo.put(ACCESSES, accesses);
           }
       }

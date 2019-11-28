@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Form PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Form created="1571838763992" hidden="true" id="4028868c6df8e21a016df8e423d8019d" modified="1573836273089" name="Provisioning Approval Step Form" type="WorkflowConfig">
+<Form hidden="true" name="Provisioning Approval Step Form" type="WorkflowConfig">
   <Section label="wf_config_provisioning_approval_setting">
     <Field displayName="wf_config_provisioning_approval_override" helpKey="help_wf_provisioning_reference_update" name="approvalOverride" postBack="true" type="boolean">
       <Attributes>
@@ -586,7 +586,7 @@
 
             String val = value;
             if ( workItemDaysBeforeReminderField == void &amp;&amp; value == null &amp;&amp; workItemHoursTillEscalation != void ) {
-                if ( Util.atoi(workItemHoursTillEscalation) > 0 ) {            
+                if ( Util.atoi(workItemHoursTillEscalation) &gt; 0 ) {            
                     val = FormUtil.convertHoursToDays(workItemHoursTillEscalation);
                 } else {
                     val = workItemHoursTillEscalation;
@@ -630,7 +630,7 @@
 
             String val = value;
             if ( workItemDaysBetweenRemindersField == void &amp;&amp; value == null &amp;&amp; workItemHoursBetweenReminders != void ) {
-                if ( Util.atoi(workItemHoursBetweenReminders) > 0 ) {            
+                if ( Util.atoi(workItemHoursBetweenReminders) &gt; 0 ) {            
                     val = FormUtil.convertHoursToDays(workItemHoursBetweenReminders);
                 } else {
                     val = workItemHoursBetweenReminders;
@@ -694,7 +694,7 @@
             
             String val = value;
             if ( workItemDaysBetweenRemindersField != void ) {
-                if ( Util.atoi(workItemDaysBetweenRemindersField) > 0 ) {            
+                if ( Util.atoi(workItemDaysBetweenRemindersField) &gt; 0 ) {            
                     val = FormUtil.convertDaysToHours(workItemDaysBetweenRemindersField);
                 }  else {
                     val = workItemDaysBetweenRemindersField;
@@ -792,7 +792,7 @@
             String val = value;
             if ( workItemDaysTillEscalationField == void ) {
                 if ( value == null &amp;&amp; workItemHoursTillEscalation != void ) {
-                    if ( Util.atoi(workItemHoursTillEscalation) > 0 ) {
+                    if ( Util.atoi(workItemHoursTillEscalation) &gt; 0 ) {
                         val = FormUtil.convertHoursToDays(workItemHoursTillEscalation);
                     } else {
                         val = workItemHoursTillEscalation;
@@ -857,7 +857,7 @@
                  if ( toConvert != null ) {
                      int i = Util.atoi(toConvert);
                      // If its negative leave it, can be used to convey seconds
-                     if ( i > 0 ) {
+                     if ( i &gt; 0 ) {
                          val = FormUtil.convertDaysToHours(toConvert);
                      } else {
                          val = toConvert;

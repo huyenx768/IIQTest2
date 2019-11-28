@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Form PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Form created="1571838778461" hidden="true" id="4028868c6df8e21a016df8e45c5d0233" modified="1573836245552" name="Account Attributes Live Options Form" type="Report">
+<Form hidden="true" name="Account Attributes Live Options Form" type="Report">
   <Section columns="2" label="rept_account_attrs_section_identity_attrs" name="Identity Attributes"/>
   <Section columns="2" label="rept_account_attrs_section_identity_extended" name="Identity Extended Attributes"/>
   <Section columns="2" label="rept_account_attrs_section_props" name="Identity Properties">

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838765758" executor="sailpoint.task.EncryptedDataSyncExecutor" id="4028868c6df8e21a016df8e42abe01a8" modified="1573836219999" name="Encrypted Data Synchronization Task" progressInterval="5000" progressMode="String" resultAction="Rename" subType="task_item_type_system" template="true" type="System">
+<TaskDefinition executor="sailpoint.task.EncryptedDataSyncExecutor" name="Encrypted Data Synchronization Task" progressInterval="5000" progressMode="String" resultAction="Rename" subType="task_item_type_system" template="true" type="System">
   <Description>A task that can be used to re-encrypt all encrypted data using the newest key in the keystore. 
                      It can be used to change the public/private keys that can be used for IQService comm.
                      It also can be used to convert all encrypted identity secrets to hashing, 
                      including Identity password, Identity and application password history, 
                      authentication question answers.</Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37e7e0039" name="SyncEncryptedDataTask"/>
+    <Reference class="sailpoint.object.SPRight" name="SyncEncryptedDataTask"/>
   </RequiredRights>
   <Signature>
     <Inputs>

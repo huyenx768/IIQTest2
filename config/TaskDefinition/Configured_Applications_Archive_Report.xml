@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838775383" executor="sailpoint.reporting.ApplicationReport" formPath="/analyze/reports/applicationreportargs.xhtml" id="4028868c6df8e21a016df8e4505701f9" modified="1573836229406" name="Configured Applications Archive Report" progressMode="Percentage" resultAction="Rename" subType="Configured Resource Reports" template="true" type="Report">
+<TaskDefinition executor="sailpoint.reporting.ApplicationReport" formPath="/analyze/reports/applicationreportargs.xhtml" name="Configured Applications Archive Report" progressMode="Percentage" resultAction="Rename" subType="Configured Resource Reports" template="true" type="Report">
   <Attributes>
     <Map>
       <entry key="jasperTemplate" value="ApplicationMainReport"/>
@@ -10,7 +10,7 @@
       Displays configured applications in archive format.
     </Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e382e30059" name="FullAccessApplicationReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessApplicationReport"/>
   </RequiredRights>
   <Signature>
     <Inputs>

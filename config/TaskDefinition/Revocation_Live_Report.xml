@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838776821" executor="sailpoint.reporting.LiveReportExecutor" id="4028868c6df8e21a016df8e455f50214" modified="1573836226687" name="Revocation Live Report" progressMode="Percentage" resultAction="Rename" subType="Administration Reports" template="true" type="LiveReport">
+<TaskDefinition executor="sailpoint.reporting.LiveReportExecutor" name="Revocation Live Report" progressMode="Percentage" resultAction="Rename" subType="Administration Reports" template="true" type="LiveReport">
   <Attributes>
     <Map>
       <entry key="report">
@@ -62,7 +62,7 @@
               </QueryParameters>
             </DataSource>
             <ReportForm>
-              <Reference class="sailpoint.object.Form" id="4028868c6df8e21a016df8e455c60213" name="Revocation Report Form"/>
+              <Reference class="sailpoint.object.Form" name="Revocation Report Form"/>
             </ReportForm>
             <Columns>
               <ReportColumnConfig field="status" header="rept_remediation_progress_grid_col_status" property="action.remediationCompleted" sortable="true" width="110">
@@ -197,7 +197,7 @@
   </Attributes>
   <Description>Displays information about all revocations in the system and how they have been handled in detailed format.</Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3817c004f" name="FullAccessRemediationProgressReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessRemediationProgressReport"/>
   </RequiredRights>
   <Signature>
     <Inputs>

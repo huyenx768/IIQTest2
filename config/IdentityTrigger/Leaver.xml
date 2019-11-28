@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE IdentityTrigger PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<IdentityTrigger attributeName="inactive" created="1571839942598" disabled="true" handler="sailpoint.api.WorkflowTriggerHandler" id="4028868c6df8e807016df8f61fc60018" modified="1572888096041" name="Leaver" newValueFilter="true" oldValueFilter="false" type="AttributeChange">
+<IdentityTrigger attributeName="inactive" disabled="true" handler="sailpoint.api.WorkflowTriggerHandler" name="Leaver" newValueFilter="true" oldValueFilter="false" type="AttributeChange">
   <Description>Disable all accounts when a user leaves.</Description>
   <HandlerParameters>
     <Attributes>

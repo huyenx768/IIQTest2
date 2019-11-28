@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Policy PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Policy certificationActions="Remediated,Mitigated,Delegated" configPage="entitlementPolicy.xhtml" created="1572551978770" executor="sailpoint.policy.EntitlementSODPolicyExecutor" id="4028868c6e13dfdc016e2366ef120738" modified="1573071389244" name="test Ent SOD" state="Active" type="EntitlementSOD" typeKey="policy_type_entitlement_sod" violationOwnerType="Manager">
+<Policy certificationActions="Remediated,Mitigated,Delegated" configPage="entitlementPolicy.xhtml" executor="sailpoint.policy.EntitlementSODPolicyExecutor" name="test Ent SOD" state="Active" type="EntitlementSOD" typeKey="policy_type_entitlement_sod" violationOwnerType="Manager">
   <PolicyAlert escalationStyle="none">
     <NotificationEmailTemplateRef>
-      <Reference class="sailpoint.object.EmailTemplate" id="4028868c6df8e21a016df8e3ff480157" name="Policy Violation"/>
+      <Reference class="sailpoint.object.EmailTemplate" name="Policy Violation"/>
     </NotificationEmailTemplateRef>
   </PolicyAlert>
   <Attributes>
@@ -19,10 +19,10 @@
     </Map>
   </Attributes>
   <Owner>
-    <Reference class="sailpoint.object.Identity" id="4028868c6df8e21a016df8e3d68200fc" name="spadmin"/>
+    <Reference class="sailpoint.object.Identity" name="spadmin"/>
   </Owner>
   <GenericConstraints>
-    <GenericConstraint created="1572551978770" id="4028868c6e13dfdc016e2366ef120739" modified="1573071389248" name="test Entitlement SOD" violationOwnerType="None">
+    <GenericConstraint name="test Entitlement SOD" violationOwnerType="None">
       <Description>bogus rule , just for testing; it is supposed to cause a violation</Description>
       <IdentitySelector>
         <MatchExpression>

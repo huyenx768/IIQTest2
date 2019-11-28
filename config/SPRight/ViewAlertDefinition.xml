@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE SPRight PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<SPRight created="1571838726038" displayName="right_view_alert_definition" id="4028868c6df8e21a016df8e38f9600b8" modified="1573836184406" name="ViewAlertDefinition">
+<SPRight displayName="right_view_alert_definition" name="ViewAlertDefinition">
   <Description>right_desc_view_alert_definition</Description>
 </SPRight>

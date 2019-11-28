@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838775977" executor="sailpoint.reporting.LiveReportExecutor" id="4028868c6df8e21a016df8e452a90208" modified="1573836226187" name="Mitigation Report" progressMode="Percentage" resultAction="Rename" subType="Administration Reports" template="true" type="LiveReport">
+<TaskDefinition executor="sailpoint.reporting.LiveReportExecutor" name="Mitigation Report" progressMode="Percentage" resultAction="Rename" subType="Administration Reports" template="true" type="LiveReport">
   <Attributes>
     <Map>
       <entry key="report">
@@ -27,7 +27,7 @@
               </QueryParameters>
             </DataSource>
             <ReportForm>
-              <Reference class="sailpoint.object.Form" id="4028868c6df8e21a016df8e452890207" name="Mitigation Report Form"/>
+              <Reference class="sailpoint.object.Form" name="Mitigation Report Form"/>
             </ReportForm>
             <Columns>
               <ReportColumnConfig field="identity" header="rept_mitigations_grid_col_identity" property="identity.name" sortable="true" width="110"/>
@@ -77,7 +77,7 @@
   </Attributes>
   <Description>Displays information about all current mitigations in detailed format.</Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3812e004d" name="FullAccessMitigationReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessMitigationReport"/>
   </RequiredRights>
   <Signature>
     <Inputs>

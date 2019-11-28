@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838768523" executor="sailpoint.task.CIBSyncTask" id="4028868c6df8e21a016df8e4358b01c8" modified="1573836222312" name="Identity IQ Cloud Gateway Synchronization Task" subType="task_item_type_system" template="true" type="System">
+<TaskDefinition executor="sailpoint.task.CIBSyncTask" name="Identity IQ Cloud Gateway Synchronization Task" subType="task_item_type_system" template="true" type="System">
   <Description>
                 Synchronize the specified objects to the Cloud Gateway.
         </Description>

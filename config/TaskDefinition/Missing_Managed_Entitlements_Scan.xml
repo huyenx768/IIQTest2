@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838766680" executor="sailpoint.task.MissingManagedEntitlementsTask" id="4028868c6df8e21a016df8e42e5801b6" modified="1573836220890" name="Missing Managed Entitlements Scan" progressInterval="5000" progressMode="String" subType="task_item_type_system" template="true" type="System">
+<TaskDefinition executor="sailpoint.task.MissingManagedEntitlementsTask" name="Missing Managed Entitlements Scan" progressInterval="5000" progressMode="String" subType="task_item_type_system" template="true" type="System">
   <Description>
             Creates missing managed entitlement objects for the applications specified. 
         </Description>

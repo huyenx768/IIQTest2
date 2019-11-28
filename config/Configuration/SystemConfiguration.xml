@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Configuration PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Configuration created="1571838743569" id="4028868c6df8e21a016df8e3d41100f9" modified="1573836276247" name="SystemConfiguration">
+<Configuration name="SystemConfiguration">
   <Attributes>
     <Map>
       <entry key="AccountGroupPermissions.challengeGenerationEmailTemplate" value="Account Group Challenge Creation Notification"/>
@@ -41,7 +41,7 @@
       </entry>
       <entry key="allowDuplicateAccounts">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="allowGeneratePasswordDelegated" value="true"/>
@@ -55,18 +55,18 @@
       <entry key="allowListViewSaveCustomEntityFields" value="false"/>
       <entry key="allowMultipleRoleAssignments">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="allowPopulationSearch" value="true"/>
       <entry key="allowProvisioningMissingRequirements">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="allowRolePropagation">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="allowSelfCertification">
@@ -79,7 +79,7 @@
       <entry key="applicationTemplateAccountUsages" value="Create,Update,Delete,Enable,Disable,Unlock,ChangePassword"/>
       <entry key="asyncCacheRefresh">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="audit_extension">
@@ -114,7 +114,7 @@
       </entry>
       <entry key="automaticClosingEnabled">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="automaticClosingRuleName"/>
@@ -180,7 +180,7 @@
       <entry key="certificationDecisionChallengedEmailTemplate" value="Certification Decision Challenged Notification"/>
       <entry key="certificationDelegationReview">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="certificationDetailedViewFilterSet" value="false"/>
@@ -195,7 +195,7 @@
       <entry key="certificationItemDelegationEnabled" value="false"/>
       <entry key="certificationLimitReassignments">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="certificationMaxAge" value="0"/>
@@ -206,12 +206,12 @@
       </entry>
       <entry key="certificationMitigationEnabled">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="certificationMitigationPopupEnabled">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="certificationPageListItems" value="true"/>
@@ -239,7 +239,7 @@
       </entry>
       <entry key="challengePeriodEnabled">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="challengePeriodEndEmailTemplate" value="Challenge Period End"/>
@@ -247,22 +247,22 @@
       <entry key="challengeRejectedEmailTemplate" value="Challenge Rejected"/>
       <entry key="checkCaseSensitive">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="checkPasswordTriviality">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="checkPasswordsAgainstDictionary">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="checkPasswordsAgainstIdentityAttributes">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="columnSuggestBlacklist">
@@ -275,7 +275,7 @@
       </entry>
       <entry key="completeCertificationHierarchy">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="confirmRiskyCertificationSchedules" value="false"/>
@@ -314,29 +314,29 @@
       <entry key="disableDefaultToAppOwnerRemediation" value="false"/>
       <entry key="disableRoleModelerTreeView">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="displayEntitlementDescriptions">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="emailNotifierType" value="redirectToFile"/>
       <entry key="emailRequestDefinition" value="Email Request"/>
       <entry key="enableAccountReassignAction">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="enableAccountRevokeAction">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="enableApproveAccountAction">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="enableAuthLockout" value="false"/>
@@ -362,7 +362,7 @@
       </entry>
       <entry key="enableModelerMultipleAssignments">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="enableModelerProfileView" value="true"/>
@@ -378,12 +378,12 @@
       </entry>
       <entry key="enableRoleSunActivate">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="enableRoleSunAssign">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="enableSyslog">
@@ -396,18 +396,18 @@
       <entry key="escalationEmailTemplate" value="Work Item Escalation"/>
       <entry key="excludeBaseAppAccounts">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="fallbackWorkItemForwardRule"/>
       <entry key="flattenCertificationManagerHierarchy">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="forceRoleMergeTemplate">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="formsTypeFilter">
@@ -422,7 +422,7 @@
       <entry key="groupIndexGranule" value="month"/>
       <entry key="hashIdentitySecrets">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="hashingIterations" value="1000"/>
@@ -530,7 +530,7 @@
       <entry key="mobileQuickLinkCards" value="Request Access, Manage Passwords, Manage Accounts, Mobile Access Reviews, Mobile Approvals, Forms, Mobile Violation Reviews"/>
       <entry key="notifyRemediation">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="numAuthQuestionAnswersRequired" value="3"/>
@@ -617,30 +617,30 @@
       <entry key="requestRolesPermittedSubordinateEnabled" value="true"/>
       <entry key="requireApprovalComments">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="requireBulkCertifyConfirmation" value="false"/>
       <entry key="requireDelegationCompletion" value="false"/>
       <entry key="requireMitigationComments">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="requireOldPasswordAtChange">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="requireReassignmentCompletion" value="true"/>
       <entry key="retainAssignedEntitlementsAssignedRole">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="retainAssignedEntitlementsDetectedRole">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="scimSearchMaxResults" value="1000"/>
@@ -930,12 +930,12 @@
       <entry key="workItemAssignmentEmailTemplate" value="Work Item Assignment"/>
       <entry key="workItemAssignmentNotification">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="workItemAssignmentNotificationRemoval">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="workItemAssignmentRemovalEmailTemplate" value="Work Item Assignment Removal"/>
@@ -950,7 +950,7 @@
       <entry key="workItemNotificationsInterval" value="300"/>
       <entry key="workItemPriorityEditingEnabled">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="workflowIdentityCorrelation"/>

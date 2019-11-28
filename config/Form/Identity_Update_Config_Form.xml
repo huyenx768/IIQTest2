@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Form PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Form created="1571838763945" hidden="true" id="4028868c6df8e21a016df8e423a9019c" modified="1573836273026" name="Identity Update Config Form" type="WorkflowConfig">
+<Form hidden="true" name="Identity Update Config Form" type="WorkflowConfig">
   <Section label="wf_config_provisioning_identity_update_section">
     <Field displayName="wf_config_provisioning_advanced_manual_actions" helpKey="help_wf_provisioning_manual_actions" name="doManualActions" type="boolean"/>
     <Field displayName="wf_config_provisioning_advanced_refresh" helpKey="help_wf_provisioning_refresh" name="doRefresh" type="boolean"/>

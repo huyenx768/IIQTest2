@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskSchedule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskSchedule id="16b643194d954fb4b25d16002190c1ab" name="16b643194d954fb4b25d16002190c1ab">
+<TaskSchedule name="16b643194d954fb4b25d16002190c1ab">
   <Arguments>
     <Map>
       <entry key="executor" value="Aggregate Employees and Contractors"/>

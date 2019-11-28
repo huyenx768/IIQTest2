@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838777383" executor="sailpoint.reporting.LiveReportExecutor" id="4028868c6df8e21a016df8e458270220" modified="1573836228016" name="Account Group Membership Totals Report" progressMode="Percentage" resultAction="Rename" subType="Account Group Reports" template="true" type="LiveReport">
+<TaskDefinition executor="sailpoint.reporting.LiveReportExecutor" name="Account Group Membership Totals Report" progressMode="Percentage" resultAction="Rename" subType="Account Group Reports" template="true" type="LiveReport">
   <Attributes>
     <Map>
       <entry key="report">
@@ -34,7 +34,7 @@
               <ReportColumnConfig field="accountGroupDisplayName" header="rept_app_account_grp_display_name" property="displayName" sortable="true" width="110"/>
               <ReportColumnConfig field="schemaObjectType" header="rept_cert_col_type" property="type" sortable="true" width="110"/>
               <ReportColumnConfig field="application" header="rept_app_account_grp_memb_app" property="application.name" sortable="true" width="110"/>
-              <ReportColumnConfig field="total" header="rept_app_account_grp_memb_col_members" property="(select count(*) from IdentityEntitlement ie where ie.value = m.value and ie.application = m.application and ie.name = m.attribute and ie.aggregationState = &apos;Connected&apos;)" width="110"/>
+              <ReportColumnConfig field="total" header="rept_app_account_grp_memb_col_members" property="(select count(*) from IdentityEntitlement ie where ie.value = m.value and ie.application = m.application and ie.name = m.attribute and ie.aggregationState = 'Connected')" width="110"/>
             </Columns>
           </LiveReport>
         </value>
@@ -43,7 +43,7 @@
   </Attributes>
   <Description>Displays Account Group membership information</Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e383af0060" name="FullAccessAccountGroupMembershipReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessAccountGroupMembershipReport"/>
   </RequiredRights>
   <Signature>
     <Inputs>

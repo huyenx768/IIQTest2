@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Workflow created="1571839951129" explicitTransitions="true" id="4028868c6df8e807016df8f641190042" modified="1573836294691" name="Identity Request Approve Identity Changes" type="Subprocess">
+<Workflow explicitTransitions="true" name="Identity Request Approve Identity Changes" type="Subprocess">
   <Variable input="true" name="identityName" required="true">
     <Description>
       The name of the identity object being modified.
@@ -135,8 +135,8 @@
      can be returned from the subprocess.
   </Description>
   <RuleLibraries>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e404f50170" name="Approval Library"/>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e410bd0183" name="LCM Workflow Library"/>
+    <Reference class="sailpoint.object.Rule" name="Approval Library"/>
+    <Reference class="sailpoint.object.Rule" name="LCM Workflow Library"/>
   </RuleLibraries>
   <Step icon="Start" name="Start" posX="14" posY="12">
     <Transition to="Build Approval Form"/>
@@ -235,7 +235,7 @@
 
           // djs: this is kind of a hack, do I have alternatives?
           // come back to this
-          // jsl: Yes, I think you want &lt;Return name='workItemForm' to='approvalForm'/>
+          // jsl: Yes, I think you want &lt;Return name='workItemForm' to='approvalForm'/&gt;
           Form form = (Form)item.get("workItemForm");
           if ( form != null ) {
               WorkflowCase c = wfcontext.getWorkflowCase();

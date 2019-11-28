@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Configuration PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Configuration created="1571838809450" id="4028868c6df8e21a016df8e4d56a02a4" modified="1573836278186" name="WebResource">
+<Configuration name="WebResource">
   <Attributes>
     <Map>
       <entry key="webResources">

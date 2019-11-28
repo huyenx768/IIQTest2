@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838773118" executor="sailpoint.reporting.LiveReportExecutor" id="4028868c6df8e21a016df8e4477e01e4" modified="1573836224015" name="Uncorrelated Accounts Report" progressMode="Percentage" resultAction="Rename" subType="Identity and User Reports" template="true" type="LiveReport">
+<TaskDefinition executor="sailpoint.reporting.LiveReportExecutor" name="Uncorrelated Accounts Report" progressMode="Percentage" resultAction="Rename" subType="Identity and User Reports" template="true" type="LiveReport">
   <Attributes>
     <Map>
       <entry key="report">
@@ -16,7 +16,7 @@
               </QueryParameters>
             </DataSource>
             <ReportForm>
-              <Reference class="sailpoint.object.Form" id="4028868c6df8e21a016df8e4473f01e3" name="Uncorrelated Accounts Report Form"/>
+              <Reference class="sailpoint.object.Form" name="Uncorrelated Accounts Report Form"/>
             </ReportForm>
             <Columns>
               <ReportColumnConfig field="identity" header="rept_uncorrelated_ids_grid_identity" property="identity.name" sortable="true" width="110"/>
@@ -95,7 +95,7 @@
   </Attributes>
   <Description>A detailed view of the uncorrelated user accounts in the system.</Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e382660056" name="FullAccessUncorrelatedIdentitiesReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessUncorrelatedIdentitiesReport"/>
   </RequiredRights>
   <Signature>
     <Inputs>

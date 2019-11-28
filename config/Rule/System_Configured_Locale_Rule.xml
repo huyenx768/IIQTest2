@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Rule created="1571838807155" id="4028868c6df8e21a016df8e4cc7302a1" language="beanshell" modified="1573836265010" name="System Configured Locale Rule" type="FieldValue">
+<Rule language="beanshell" name="System Configured Locale Rule" type="FieldValue">
   <Description>
     This rule returns the locales configured in the System Configuration.
   </Description>

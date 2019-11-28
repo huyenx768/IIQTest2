@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE DashboardContent PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<DashboardContent created="1571838742819" id="4028868c6df8e21a016df8e3d12300f0" modified="1573071398845" name="Application Status" regionSize="0" source="dashboard/contentApplicationStatus.xhtml" title="dash_title_app_status" type="Compliance">
+<DashboardContent name="Application Status" regionSize="0" source="dashboard/contentApplicationStatus.xhtml" title="dash_title_app_status" type="Compliance">
   <Description>dash_description_app_status</Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37b040020" name="ViewApplicationStatus"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewApplicationStatus"/>
   </RequiredRights>
 </DashboardContent>

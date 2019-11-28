@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE UIConfig PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<UIConfig created="1571838744772" id="4028868c6df8e21a016df8e3d8c400fd" modified="1573836296331" name="UIConfig">
+<UIConfig name="UIConfig">
   <Attributes>
     <Map>
       <entry key="accountGroupAccessTableColumns">

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Rule created="1571838762039" id="4028868c6df8e21a016df8e41c370197" language="beanshell" modified="1573836291472" name="Objects in Requestor&apos;s Authorized Scopes" type="RequestObjectSelector">
+<Rule language="beanshell" name="Objects in Requestor's Authorized Scopes" type="RequestObjectSelector">
   <Description>
     This rule returns either a Filter object that will be used to search for objects in the requestor's authorized scopes,
     the boolean value 'true' to indicate that everything should be returned (i.e. no restrictions) 

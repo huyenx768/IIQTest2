@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Workflow created="1571838764304" id="4028868c6df8e21a016df8e4251001a1" modified="1573071359242" name="IdentityProvisioningStepLibrary" template="true" type="StepLibrary">
+<Workflow name="IdentityProvisioningStepLibrary" template="true" type="StepLibrary">
   <Step configForm="Provisioning Approval Step Form" icon="Task" name="Account Approval">
     <Arg name="approvalMode"/>
     <Arg name="approvalScheme"/>
@@ -42,7 +42,7 @@
     <Return name="approvalSet"/>
     <Return name="workItemComments"/>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e21a016df8e424f101a0" name="Provisioning Approval Subprocess"/>
+      <Reference class="sailpoint.object.Workflow" name="Provisioning Approval Subprocess"/>
     </WorkflowRef>
   </Step>
   <Step action="call:sendMultipleNotifications" configForm="Provisioning Notification Step Form" icon="Email" name="Notify">

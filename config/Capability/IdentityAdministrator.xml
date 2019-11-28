@@ -1,36 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Capability PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Capability created="1571838728741" displayName="capability_identity_administrator" id="4028868c6df8e21a016df8e39a2500c9" modified="1573836187312" name="IdentityAdministrator">
+<Capability displayName="capability_identity_administrator" name="IdentityAdministrator">
   <Description>capability_desc_identity_administrator</Description>
   <InheritedCapabilities>
-    <Reference class="sailpoint.object.Capability" id="4028868c6df8e21a016df8e393db00bd" name="PasswordAdministrator"/>
+    <Reference class="sailpoint.object.Capability" name="PasswordAdministrator"/>
   </InheritedCapabilities>
   <RightRefs>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e375470008" name="SetIdentityForwarding"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3747c0006" name="SetIdentityAttribute"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e375c4000a" name="SetIdentityControlledScope"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e378730013" name="SetIdentityRole"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6e6ff1ce016e6ff227360001" name="EditIdentityEntDates"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37602000b" name="DeleteIdentityLink"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37680000c" name="MoveIdentityLink"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e376ae000d" name="DeleteIdentitySnapshot"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e377790010" name="MonitorIdentityActivity"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e378930014" name="UnlockIdentity"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e377990011" name="MonitorIdentityEvents"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37fa70041" name="FullAccessReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e380920048" name="FullAccessApplicationActivityReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e383af0060" name="FullAccessAccountGroupMembershipReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38303005a" name="FullAccessUserReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e382b50058" name="FullAccessApplicationUserReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3815d004e" name="FullAccessViolationReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38361005d" name="FullAccessIdentityRiskReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38380005e" name="FullAccessIdentityRoleReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3838f005f" name="FullAccessIdentityEntitlementReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e382860057" name="FullAccessIdentityApplicationRiskReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e3838f005f" name="FullAccessIdentityEntitlementReport"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37c4c0029" name="FullAccessGroup"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38600006e" name="FullAccessIdentityRisk"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e37f0b003d" name="ViewAccountGroups"/>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e380340045" name="ViewIdentityRequest"/>
+    <Reference class="sailpoint.object.SPRight" name="SetIdentityForwarding"/>
+    <Reference class="sailpoint.object.SPRight" name="SetIdentityAttribute"/>
+    <Reference class="sailpoint.object.SPRight" name="SetIdentityControlledScope"/>
+    <Reference class="sailpoint.object.SPRight" name="SetIdentityRole"/>
+    <Reference class="sailpoint.object.SPRight" name="EditIdentityEntDates"/>
+    <Reference class="sailpoint.object.SPRight" name="DeleteIdentityLink"/>
+    <Reference class="sailpoint.object.SPRight" name="MoveIdentityLink"/>
+    <Reference class="sailpoint.object.SPRight" name="DeleteIdentitySnapshot"/>
+    <Reference class="sailpoint.object.SPRight" name="MonitorIdentityActivity"/>
+    <Reference class="sailpoint.object.SPRight" name="UnlockIdentity"/>
+    <Reference class="sailpoint.object.SPRight" name="MonitorIdentityEvents"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessApplicationActivityReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessAccountGroupMembershipReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessUserReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessApplicationUserReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessViolationReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessIdentityRiskReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessIdentityRoleReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessIdentityEntitlementReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessIdentityApplicationRiskReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessIdentityEntitlementReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessGroup"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessIdentityRisk"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewAccountGroups"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewIdentityRequest"/>
   </RightRefs>
 </Capability>

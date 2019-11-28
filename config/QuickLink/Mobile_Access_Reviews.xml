@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE QuickLink PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<QuickLink action="viewCertifications" category="Tasks" created="1571838751242" cssClass="quicklink-access-reviews" hidden="true" id="4028868c6df8e21a016df8e3f20a0131" messageKey="quicklink_access_reviews" modified="1573071368742" name="Mobile Access Reviews">
+<QuickLink action="viewCertifications" category="Tasks" cssClass="quicklink-access-reviews" hidden="true" messageKey="quicklink_access_reviews" name="Mobile Access Reviews">
   <Attributes>
     <Map>
       <entry key="displayText" value="true"/>
@@ -28,9 +28,9 @@
     </Map>
   </Attributes>
   <Description>quicklink_access_reviews_desc</Description>
-  <QuickLinkOptions allowSelf="true" created="1573071368742" id="4028868c6e423c1c016e425c322600d0">
+  <QuickLinkOptions allowSelf="true">
     <DynamicScopeRef>
-      <Reference class="sailpoint.object.DynamicScope" id="4028868c6df8e21a016df8e3efb8012e" name="Everyone"/>
+      <Reference class="sailpoint.object.DynamicScope" name="Everyone"/>
     </DynamicScopeRef>
   </QuickLinkOptions>
 </QuickLink>

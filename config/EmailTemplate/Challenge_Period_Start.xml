@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<EmailTemplate created="1571838754710" id="4028868c6df8e21a016df8e3ff960159" modified="1573836247068" name="Challenge Period Start">
+<EmailTemplate name="Challenge Period Start">
   <Body>The challenge period has started for '$certificationName'.  You will be notified
 if any certification decisions are challenged by the affected user.
     </Body>

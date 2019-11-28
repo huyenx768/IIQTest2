@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Rule created="1571838762445" id="4028868c6df8e21a016df8e41dcd0198" language="beanshell" modified="1573836292003" name="Objects in Requestee&apos;s Assigned Scope" type="RequestObjectSelector">
+<Rule language="beanshell" name="Objects in Requestee's Assigned Scope" type="RequestObjectSelector">
   <Description>This rule returns a Filter that restricts objects to those in the requestee's assigned scope</Description>
   <Signature returnType="sailpoint.object.QueryInfo">
     <Inputs>

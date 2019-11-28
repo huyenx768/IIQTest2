@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Application PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Application authoritative="true" connector="sailpoint.connector.DelimitedFileConnector" created="1571847363288" featuresString="DIRECT_PERMISSIONS, NO_RANDOM_ACCESS, DISCOVER_SCHEMA" icon="enterpriseIcon" id="4028868c6df90c1d016df9675ad80036" modified="1573830554893" name="HR System - Employees" profileClass="" type="DelimitedFile">
+<Application authoritative="true" connector="sailpoint.connector.DelimitedFileConnector" featuresString="DIRECT_PERMISSIONS, NO_RANDOM_ACCESS, DISCOVER_SCHEMA" icon="enterpriseIcon" name="HR System - Employees" profileClass="" type="DelimitedFile">
   <ActivityDataSources>
-    <Reference class="sailpoint.object.ActivityDataSource" id="4028868c6e377172016e3c7603650246" name="fool"/>
+    <Reference class="sailpoint.object.ActivityDataSource" name="fool"/>
   </ActivityDataSources>
   <Attributes>
     <Map>
       <entry key="acctAggregationEnd">
         <value>
-          <Date>1573830553748</Date>
+          <Date>1574915289901</Date>
         </value>
       </entry>
       <entry key="acctAggregationStart">
         <value>
-          <Date>1573830537999</Date>
+          <Date>1574915283541</Date>
         </value>
       </entry>
       <entry key="buildMapRule" value="rule - buildmap - inactive"/>
@@ -40,12 +40,12 @@
       </entry>
       <entry key="isCaseInsensitiveMerge">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="isSortedByIndexColumn">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="managerCorrelationFilter">
@@ -55,14 +55,14 @@
       </entry>
       <entry key="mergeRows">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="nativeChangeDetectionAttributeScope" value="entitlements"/>
       <entry key="nativeChangeDetectionAttributes"/>
       <entry key="nativeChangeDetectionEnabled">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="nativeChangeDetectionOperations"/>
@@ -70,7 +70,7 @@
       <entry key="partitionMode" value="auto"/>
       <entry key="stopIfLineHasWrongColumnLength">
         <value>
-          <Boolean></Boolean>
+          <Boolean/>
         </value>
       </entry>
       <entry key="sysDescriptions">
@@ -86,20 +86,20 @@
     </Map>
   </Attributes>
   <CreationRule>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df90c1d016df9a279870058" name="Creation Rule - Set Password"/>
+    <Reference class="sailpoint.object.Rule" name="Creation Rule - Set Password"/>
   </CreationRule>
   <Owner>
-    <Reference class="sailpoint.object.Identity" id="4028868c6df90c1d016df9c1ca860093" name="Bertha Beck"/>
+    <Reference class="sailpoint.object.Identity" name="Bertha Beck"/>
   </Owner>
   <PasswordPolicies>
-    <PasswordPolicyHolder created="1573071364695" id="4028868c6e423c1c016e425c225700c0" modified="1573071364774">
+    <PasswordPolicyHolder>
       <PolicyRef>
-        <Reference class="sailpoint.object.PasswordPolicy" id="4028868c6e377172016e3c7a1915024a" name="huyenpasswordpolicy"/>
+        <Reference class="sailpoint.object.PasswordPolicy" name="huyenpasswordpolicy"/>
       </PolicyRef>
     </PasswordPolicyHolder>
   </PasswordPolicies>
   <Schemas>
-    <Schema created="1573071364695" displayAttribute="fullName" id="4028868c6e423c1c016e425c225700c2" identityAttribute="employeeId" instanceAttribute="" nativeObjectType="account" objectType="account" permissionsRemediationModificationType="None">
+    <Schema displayAttribute="fullName" identityAttribute="employeeId" instanceAttribute="" nativeObjectType="account" objectType="account" permissionsRemediationModificationType="None">
       <AttributeDefinition name="employeeId" type="string"/>
       <AttributeDefinition name="firstName" type="string"/>
       <AttributeDefinition name="lastName" type="string"/>
@@ -114,5 +114,5 @@
       <AttributeDefinition multi="true" name="costcenter" type="string"/>
     </Schema>
   </Schemas>
-  <ApplicationScorecard created="1573071364695" id="4028868c6e423c1c016e425c225700c1"/>
+  <ApplicationScorecard/>
 </Application>

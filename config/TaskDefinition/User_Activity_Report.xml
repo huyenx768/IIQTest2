@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838775508" executor="sailpoint.reporting.LiveReportExecutor" id="4028868c6df8e21a016df8e450d401fc" modified="1573836225687" name="User Activity Report" progressMode="Percentage" resultAction="Rename" subType="Activity Reports" template="true" type="LiveReport">
+<TaskDefinition executor="sailpoint.reporting.LiveReportExecutor" name="User Activity Report" progressMode="Percentage" resultAction="Rename" subType="Activity Reports" template="true" type="LiveReport">
   <Attributes>
     <Map>
       <entry key="report">
@@ -40,7 +40,7 @@
               </QueryParameters>
             </DataSource>
             <ReportForm>
-              <Reference class="sailpoint.object.Form" id="4028868c6df8e21a016df8e450b501fb" name="User Activity Report Form"/>
+              <Reference class="sailpoint.object.Form" name="User Activity Report Form"/>
             </ReportForm>
             <Columns>
               <ReportColumnConfig field="identity" header="rept_app_activity_col_identity" property="identityName" sortable="true" width="110"/>
@@ -57,7 +57,7 @@
   </Attributes>
   <Description>Displays information about user activity on each application in detailed format.</Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e380920048" name="FullAccessApplicationActivityReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessApplicationActivityReport"/>
   </RequiredRights>
   <Signature>
     <Inputs>

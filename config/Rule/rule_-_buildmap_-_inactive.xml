@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Rule created="1572527050689" id="4028868c6e13dfdc016e21ea8fc1064f" language="beanshell" modified="1573071350038" name="rule - buildmap - inactive" type="BuildMap">
+<Rule language="beanshell" name="rule - buildmap - inactive" type="BuildMap">
   <Description>convert inactiveIdentity to true or false  from "Y"/"N"
 
-/* This is a "BuildMap" rule (Application > Rules > BuildMap) to convert the
+/* This is a "BuildMap" rule (Application &gt; Rules &gt; BuildMap) to convert the
         isActive attribute from Y/N to true/false, since the IC's expect true/false
         for this attribute
 

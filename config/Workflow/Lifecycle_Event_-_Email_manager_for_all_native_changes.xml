@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Workflow created="1571839952989" explicitTransitions="true" id="4028868c6df8e807016df8f6485d004c" libraries="Identity" modified="1573836284516" name="Lifecycle Event - Email manager for all native changes" type="IdentityLifecycle">
+<Workflow explicitTransitions="true" libraries="Identity" name="Lifecycle Event - Email manager for all native changes" type="IdentityLifecycle">
   <Variable input="true" name="trigger">
     <Description>The IdentityTrigger</Description>
   </Variable>
@@ -96,8 +96,8 @@
     changes.
   </Description>
   <RuleLibraries>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e404f50170" name="Approval Library"/>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e410bd0183" name="LCM Workflow Library"/>
+    <Reference class="sailpoint.object.Rule" name="Approval Library"/>
+    <Reference class="sailpoint.object.Rule" name="LCM Workflow Library"/>
   </RuleLibraries>
   <Step name="start" posX="28" posY="10">
     <Script>

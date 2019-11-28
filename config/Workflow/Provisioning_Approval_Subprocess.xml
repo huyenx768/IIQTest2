@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Workflow created="1571838764273" explicitTransitions="true" id="4028868c6df8e21a016df8e424f101a0" libraries="Identity" modified="1573836284844" name="Provisioning Approval Subprocess" type="Subprocess">
+<Workflow explicitTransitions="true" libraries="Identity" name="Provisioning Approval Subprocess" type="Subprocess">
   <Variable initializer="serial" input="true" name="approvalMode">
     <Description>
         A string that specifies how we should handle the approvals.
@@ -225,7 +225,7 @@
     from the Business Process Editor.
   </Description>
   <RuleLibraries>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e410bd0183" name="LCM Workflow Library"/>
+    <Reference class="sailpoint.object.Rule" name="LCM Workflow Library"/>
   </RuleLibraries>
   <Step icon="Start" name="Start" posX="20" posY="22">
     <Transition to="Approval"/>

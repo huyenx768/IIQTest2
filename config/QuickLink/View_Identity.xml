@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE QuickLink PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<QuickLink action="viewIdentity" category="Manage" created="1571839945254" cssClass="quicklink-view-identity" id="4028868c6df8e807016df8f62a260035" messageKey="quicklink_view_identity" modified="1573071371133" name="View Identity" ordering="7">
+<QuickLink action="viewIdentity" category="Manage" cssClass="quicklink-view-identity" messageKey="quicklink_view_identity" name="View Identity" ordering="7">
   <Description>quicklink_view_identity_desc</Description>
-  <QuickLinkOptions allowSelf="true" created="1573071371117" id="4028868c6e423c1c016e425c3b6d00e7">
+  <QuickLinkOptions allowSelf="true">
     <DynamicScopeRef>
-      <Reference class="sailpoint.object.DynamicScope" id="4028868c6df8e807016df8f6245a001d" name="Self Service"/>
+      <Reference class="sailpoint.object.DynamicScope" name="Self Service"/>
     </DynamicScopeRef>
   </QuickLinkOptions>
-  <QuickLinkOptions allowOther="true" created="1573071371133" id="4028868c6e423c1c016e425c3b7d00e8">
+  <QuickLinkOptions allowOther="true">
     <DynamicScopeRef>
-      <Reference class="sailpoint.object.DynamicScope" id="4028868c6df8e807016df8f625d1001e" name="Manager"/>
+      <Reference class="sailpoint.object.DynamicScope" name="Manager"/>
     </DynamicScopeRef>
   </QuickLinkOptions>
-  <QuickLinkOptions allowOther="true" created="1573071371133" id="4028868c6e423c1c016e425c3b7d00e9">
+  <QuickLinkOptions allowOther="true">
     <DynamicScopeRef>
-      <Reference class="sailpoint.object.DynamicScope" id="4028868c6df8e807016df8f625ff001f" name="Help Desk"/>
+      <Reference class="sailpoint.object.DynamicScope" name="Help Desk"/>
     </DynamicScopeRef>
   </QuickLinkOptions>
 </QuickLink>

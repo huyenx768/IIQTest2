@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Rule created="1388673847625" id="4028868c6df8e21a016df8e4d98102a7" language="beanshell" modified="1573836271870" name="CEFActivityCorrelation" type="ActivityCorrelation">
+<Rule language="beanshell" name="CEFActivityCorrelation" type="ActivityCorrelation">
   <Description>Rule to show how an CEF activity might be correlated back to an identity. In most cases, this rule will be providing enought information to the correlator so that it can find the Application link. In some cases, it might also be desireable to return something that points back to an Identity, which is also supported.</Description>
   <Signature returnType="Map">
     <Inputs>

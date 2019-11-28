@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Rule created="1571838761757" id="4028868c6df8e21a016df8e41b1d0196" language="beanshell" modified="1573836291113" name="LCM Build Identity ApprovalSet">
+<Rule language="beanshell" name="LCM Build Identity ApprovalSet">
   <ReferencedRules>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e404f50170" name="Approval Library"/>
+    <Reference class="sailpoint.object.Rule" name="Approval Library"/>
   </ReferencedRules>
   <Source>
     
@@ -43,7 +43,7 @@
               AccountRequest iiqRequest = plan.getAccountRequest("IIQ");    
               if ( iiqRequest != null ) {
                   List attributeRequests = iiqRequest.getAttributeRequests();
-                  if ( Util.size(attributeRequests) > 0 ) {
+                  if ( Util.size(attributeRequests) &gt; 0 ) {
                       Identity id = context.getObject(Identity.class, identityName);
                       if ( id != null )  {
                           for ( AttributeRequest req : attributeRequests ) {
@@ -64,13 +64,13 @@
                                       }
                                       else  if(prevValue instanceof List) {
                                           /* Thanks to type erasure there is no way for us to write something like
-                                           * prevValue instanceof List&lt;Identity> so break it into steps.  Check if
+                                           * prevValue instanceof List&lt;Identity&gt; so break it into steps.  Check if
                                            * prevValue is a List.  If it has any elements get the first one. If that
                                            * is an instance of Identity then assume the rest of the elements are too
                                            * and then build a List of displayable names, because that is what we do
                                            * with Identitys. */
                                           List prevValueList = (List) prevValue;
-                                          if(prevValueList.size() > 0) {
+                                          if(prevValueList.size() &gt; 0) {
                                               if(prevValueList.get(0) instanceof Identity) {
                                                   List identityIds = new ArrayList(prevValueList.size());
                                                   for (Object value : prevValueList) {

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<EmailTemplate created="1571838755226" id="4028868c6df8e21a016df8e4019a0167" modified="1573836247833" name="Work Item Assignment">
+<EmailTemplate name="Work Item Assignment">
   <Body>#if ($requesterName) $requesterName #{else} The system #{end} has assigned the following work item to you: $workItemName.
     </Body>
   <Description>

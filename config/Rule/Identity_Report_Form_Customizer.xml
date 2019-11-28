@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Rule created="1571838773617" id="4028868c6df8e21a016df8e4497101ed" language="beanshell" modified="1573836268557" name="Identity Report Form Customizer" type="ReportCustomizer">
+<Rule language="beanshell" name="Identity Report Form Customizer" type="ReportCustomizer">
   <Description>
     This rule populates a form with fields for the standard and extended identity attributes.
   </Description>

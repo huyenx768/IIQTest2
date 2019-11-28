@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<EmailTemplate created="1571838760039" id="4028868c6df8e21a016df8e41467018d" modified="1573836280719" name="LCM Registration Security Officer Notification">
+<EmailTemplate name="LCM Registration Security Officer Notification">
   <Body>
       
 #if ( $approvalSet )

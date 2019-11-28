@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Configuration PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Configuration created="1571838740069" id="4028868c6df8e21a016df8e3c66500d9" modified="1573836273401" name="SCIMConfiguration">
+<Configuration name="SCIMConfiguration">
   <Attributes>
     <Map>
       <entry key="schemaPropertyMappings">

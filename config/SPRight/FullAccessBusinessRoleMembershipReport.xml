@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE SPRight PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<SPRight created="1571838722287" displayName="right_business_role_membership_report" id="4028868c6df8e21a016df8e380ef004b" modified="1573836177234" name="FullAccessBusinessRoleMembershipReport">
+<SPRight displayName="right_business_role_membership_report" name="FullAccessBusinessRoleMembershipReport">
   <Description>right_desc_business_role_membership_report</Description>
 </SPRight>

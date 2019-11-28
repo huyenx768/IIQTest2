@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Rule created="1571838763070" id="4028868c6df8e21a016df8e4203e019b" language="beanshell" modified="1573836293159" name="All Objects" type="RequestObjectSelector">
+<Rule language="beanshell" name="All Objects" type="RequestObjectSelector">
   <Description>Allows all objects to be selected (no filtering)</Description>
   <Signature returnType="sailpoint.object.Filter">
     <Inputs>

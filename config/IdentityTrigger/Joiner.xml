@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE IdentityTrigger PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<IdentityTrigger created="1571839942520" disabled="true" handler="sailpoint.api.WorkflowTriggerHandler" id="4028868c6df8e807016df8f61f780017" modified="1572888095994" name="Joiner" type="Create">
+<IdentityTrigger disabled="true" handler="sailpoint.api.WorkflowTriggerHandler" name="Joiner" type="Create">
   <Description>Process a new employee.</Description>
   <HandlerParameters>
     <Attributes>

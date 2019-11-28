@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Workflow created="1571838757882" id="4028868c6df8e21a016df8e40bfa0177" libraries="Identity,IdentityRequest,Group" modified="1573836235676" name="Manage Ticket" type="Subprocess">
+<Workflow libraries="Identity,IdentityRequest,Group" name="Manage Ticket" type="Subprocess">
   <Variable input="true" name="project" required="true">
     <Description>
       Project that is being provisioninged.
@@ -122,7 +122,7 @@
     <Return name="retries" to="retries"/>
     <Return name="project" to="ticketProject"/>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e21a016df8e40b8d0175" name="Provision with retries"/>
+      <Reference class="sailpoint.object.Workflow" name="Provision with retries"/>
     </WorkflowRef>
     <Transition to="Update IdentityRequest External ID"/>
   </Step>

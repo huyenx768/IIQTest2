@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Workflow created="1571838758539" id="4028868c6df8e21a016df8e40e8b017c" libraries="Identity" modified="1573836236519" name="Identity Refresh" resultExpiration="-1" type="IdentityRefresh">
+<Workflow libraries="Identity" name="Identity Refresh" resultExpiration="-1" type="IdentityRefresh">
   <Variable input="true" name="identitizer" transient="true" type="object">
     <Description>
       Instance of sailpoint.object.Identitizer that launched this workflow.
@@ -94,7 +94,7 @@
     </Description>
     <Return name="project" to="project"/>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e21a016df8e409f70172" name="Do Provisioning Forms"/>
+      <Reference class="sailpoint.object.Workflow" name="Do Provisioning Forms"/>
     </WorkflowRef>
     <Transition to="Finish Refresh"/>
   </Step>
@@ -119,7 +119,7 @@
       to an integrated IDM system.
     </Description>
     <WorkflowRef>
-      <Reference class="sailpoint.object.Workflow" id="4028868c6df8e21a016df8e40ad10174" name="Do Manual Actions"/>
+      <Reference class="sailpoint.object.Workflow" name="Do Manual Actions"/>
     </WorkflowRef>
     <Transition to="end"/>
   </Step>

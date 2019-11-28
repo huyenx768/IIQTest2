@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Form PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Form created="1571838778134" hidden="true" id="4028868c6df8e21a016df8e45b16022f" modified="1573836245490" name="Identity Entitlements Report Search Fields" type="Report">
+<Form hidden="true" name="Identity Entitlements Report Search Fields" type="Report">
   <Section columns="2" label="rept_identity_entitlement_arguments" name="customProperties">
     <Field displayName="identities" helpKey="help_rept_identity_entitlement_identities" multi="true" name="identity" type="Identity" value="ref:identity"/>
     <Field displayName="applications" helpKey="help_rept_identity_entitlement_applications" multi="true" name="application" type="Application" value="ref:application"/>

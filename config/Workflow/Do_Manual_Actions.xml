@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Workflow created="1571838757585" id="4028868c6df8e21a016df8e40ad10174" libraries="Identity" modified="1573836235519" name="Do Manual Actions" type="Subprocess">
+<Workflow libraries="Identity" name="Do Manual Actions" type="Subprocess">
   <Variable input="true" name="identityName" required="true">
     <Description>
       The name of the identity object being modified.
@@ -45,7 +45,7 @@
      same subprocess.
    </Description>
   <RuleLibraries>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e404f50170" name="Approval Library"/>
+    <Reference class="sailpoint.object.Rule" name="Approval Library"/>
   </RuleLibraries>
   <Step icon="Approval" name="Manual Actions">
     <Approval mode="parallelPoll" owner="rule:Build Manual Action Approvals" renderer="lcmManualActionsRenderer.xhtml" send="identityDisplayName,identityName">
@@ -85,7 +85,7 @@
       <Arg name="workItemType" value="ManualAction"/>
       <WorkItemConfig escalationStyle="none">
         <NotificationEmailTemplateRef>
-          <Reference class="sailpoint.object.EmailTemplate" id="4028868c6df8e21a016df8e40ab20173" name="Pending Manual Changes"/>
+          <Reference class="sailpoint.object.EmailTemplate" name="Pending Manual Changes"/>
         </NotificationEmailTemplateRef>
       </WorkItemConfig>
     </Approval>

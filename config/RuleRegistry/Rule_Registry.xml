@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE RuleRegistry PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<RuleRegistry created="1571838752366" id="4028868c6df8e21a016df8e3f66e0145" modified="1573836229986" name="Rule Registry">
+<RuleRegistry name="Rule Registry">
   <List>
     <Rule language="beanshell" name="Default Arguments Template">
       <Description>
@@ -820,7 +820,7 @@
         <Returns>
           <Argument name="certifiers">
             <Description>
-          A String, List&lt;String>, Identity, or a List&lt;Identity>.
+          A String, List&lt;String&gt;, Identity, or a List&lt;Identity&gt;.
           When returning strings, the string must be the name or id
           of an Identity.  When returning a single string, the string
           may be formatted as a CSV of Identity names or ids.
@@ -2062,8 +2062,8 @@ Just like identity correlation, the rule needs to return a map that contains som
        ou
            String - identity name;
            Identity - identity object;
-           List&lt;String> - list of identity names;
-           List&lt;identity> - list of identity objects;
+           List&lt;String&gt; - list of identity names;
+           List&lt;identity&gt; - list of identity objects;
            Map containing key "identity" whose value is an Identity object;
            Map containing key "identityName" whose value is a String         
         </Description>

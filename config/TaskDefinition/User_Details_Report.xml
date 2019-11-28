@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838774383" executor="sailpoint.reporting.LiveReportExecutor" id="4028868c6df8e21a016df8e44c6f01ef" modified="1573836224812" name="User Details Report" progressMode="Percentage" resultAction="Rename" subType="Identity and User Reports" template="true" type="LiveReport">
+<TaskDefinition executor="sailpoint.reporting.LiveReportExecutor" name="User Details Report" progressMode="Percentage" resultAction="Rename" subType="Identity and User Reports" template="true" type="LiveReport">
   <Attributes>
     <Map>
       <entry key="report">
@@ -47,7 +47,7 @@
               </QueryParameters>
             </DataSource>
             <ReportForm>
-              <Reference class="sailpoint.object.Form" id="4028868c6df8e21a016df8e44bf201ee" name="Base Identity Report Form"/>
+              <Reference class="sailpoint.object.Form" name="Base Identity Report Form"/>
             </ReportForm>
             <Columns>
               <ReportColumnConfig field="identity" header="rept_user_details_col_identity" property="name" sortable="true" width="110"/>
@@ -82,7 +82,7 @@
               <ReportColumnConfig field="applications" header="rept_user_details_col_applications" property="links.application.name" subQueryKey="id" width="110"/>
             </Columns>
             <InitializationRule>
-              <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e4497101ed" name="Identity Report Form Customizer"/>
+              <Reference class="sailpoint.object.Rule" name="Identity Report Form Customizer"/>
             </InitializationRule>
           </LiveReport>
         </value>
@@ -91,7 +91,7 @@
   </Attributes>
   <Description>A detailed view of users currently detected by IdentityIQ.</Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e38303005a" name="FullAccessUserReport"/>
+    <Reference class="sailpoint.object.SPRight" name="FullAccessUserReport"/>
   </RequiredRights>
   <Signature>
     <Inputs>

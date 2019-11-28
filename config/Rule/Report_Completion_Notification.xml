@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Rule created="1571838807559" id="4028868c6df8e21a016df8e4ce0702a2" language="beanshell" modified="1573836268229" name="Report Completion Notification" type="TaskEventRule">
+<Rule language="beanshell" name="Report Completion Notification" type="TaskEventRule">
   <Description>
     This rule sends a notification email when a report is completed.
   </Description>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<TaskDefinition created="1571838767117" executor="sailpoint.connector.nidm.NIDMApplicationGenerator" formPath="/monitor/tasks/novellApplicationGeneratorTask.xhtml" id="4028868c6df8e21a016df8e4300d01b9" modified="1573836221187" name="Novell Application Creator" subType="task_item_type_system" template="true" type="System">
+<TaskDefinition executor="sailpoint.connector.nidm.NIDMApplicationGenerator" formPath="/monitor/tasks/novellApplicationGeneratorTask.xhtml" name="Novell Application Creator" subType="task_item_type_system" template="true" type="System">
   <Description>
             Automatically creates Novell IDM account applications using connection
             information from an authoritative ITIM application.

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE SPRight PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<SPRight created="1571838724209" displayName="right_full_access_meters_page" id="4028868c6df8e21a016df8e388710082" modified="1573836180640" name="FullAccessMetersPage">
+<SPRight displayName="right_full_access_meters_page" name="FullAccessMetersPage">
   <Description>right_desc_full_access_meters_page</Description>
 </SPRight>

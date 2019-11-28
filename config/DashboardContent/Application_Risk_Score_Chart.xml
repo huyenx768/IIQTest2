@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE DashboardContent PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<DashboardContent created="1571838742132" id="4028868c6df8e21a016df8e3ce7400e6" modified="1573071398552" name="Application Risk Score Chart" regionSize="0" source="dashboard/chart/chartApplicationRiskScores.xhtml" title="dash_title_app_risk_score_chart" type="Compliance">
+<DashboardContent name="Application Risk Score Chart" regionSize="0" source="dashboard/chart/chartApplicationRiskScores.xhtml" title="dash_title_app_risk_score_chart" type="Compliance">
   <Attributes>
     <Map>
       <entry key="chartDateRange" value="Current"/>
@@ -11,6 +11,6 @@
   </Attributes>
   <Description>dash_description_app_risk_score_chart</Description>
   <RequiredRights>
-    <Reference class="sailpoint.object.SPRight" id="4028868c6df8e21a016df8e379100017" name="ViewApplicationRiskScoreChart"/>
+    <Reference class="sailpoint.object.SPRight" name="ViewApplicationRiskScoreChart"/>
   </RequiredRights>
 </DashboardContent>

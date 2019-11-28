@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Workflow created="1571838759382" handler="sailpoint.api.StandardWorkflowHandler" id="4028868c6df8e21a016df8e411d60185" modified="1573836238239" name="Identity Correlation" type="IdentityCorrelation">
+<Workflow handler="sailpoint.api.StandardWorkflowHandler" name="Identity Correlation" type="IdentityCorrelation">
   <Variable input="true" name="identityName">
     <Description>The name of the identity we're supposed to update.</Description>
   </Variable>
@@ -178,8 +178,8 @@
     </Description>
   </Variable>
   <RuleLibraries>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e404f50170" name="Approval Library"/>
-    <Reference class="sailpoint.object.Rule" id="4028868c6df8e21a016df8e410bd0183" name="LCM Workflow Library"/>
+    <Reference class="sailpoint.object.Rule" name="Approval Library"/>
+    <Reference class="sailpoint.object.Rule" name="LCM Workflow Library"/>
   </RuleLibraries>
   <Step icon="Start" name="start" posX="2" posY="19">
     <Transition to="Build Approval Set"/>
@@ -310,7 +310,7 @@
       <Arg name="workItemForm" value="ref:approvalForm"/>
       <WorkItemConfig escalationStyle="none">
         <NotificationEmailTemplateRef>
-          <Reference class="sailpoint.object.EmailTemplate" id="4028868c6df8e21a016df8e411690184" name="LCM Identity Update Approval"/>
+          <Reference class="sailpoint.object.EmailTemplate" name="LCM Identity Update Approval"/>
         </NotificationEmailTemplateRef>
       </WorkItemConfig>
     </Approval>

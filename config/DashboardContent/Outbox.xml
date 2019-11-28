@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE DashboardContent PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<DashboardContent created="1571838741960" id="4028868c6df8e21a016df8e3cdc800e4" modified="1573071398488" name="Outbox" regionSize="0" source="dashboard/contentOutbox.xhtml" title="dash_title_outbox" type="My">
+<DashboardContent name="Outbox" regionSize="0" source="dashboard/contentOutbox.xhtml" title="dash_title_outbox" type="My">
   <Description>dash_description_outbox</Description>
 </DashboardContent>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<EmailTemplate created="1571838755070" id="4028868c6df8e21a016df8e400fe0163" modified="1573836247662" name="Task Result Signoff">
+<EmailTemplate name="Task Result Signoff">
   <Body>Dear $owner,
 
 You have been requested to signoff on a $objectType result named: $objectName.
