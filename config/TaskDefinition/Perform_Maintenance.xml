@@ -4,8 +4,8 @@
   <Attributes>
     <Map>
       <entry key="TaskDefinition.runLengthAverage" value="1"/>
-      <entry key="TaskDefinition.runLengthTotal" value="2682"/>
-      <entry key="TaskDefinition.runs" value="2531"/>
+      <entry key="TaskDefinition.runLengthTotal" value="2688"/>
+      <entry key="TaskDefinition.runs" value="2535"/>
       <entry key="automaticallyCloseCertifications" value="true"/>
       <entry key="denormalizeScopes" value="true"/>
       <entry key="finishCertifications" value="true"/>

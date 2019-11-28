@@ -3,9 +3,9 @@
 <TaskDefinition name="Export Objects to XML" resultAction="Delete" subType="task_item_type_generic" type="Generic">
   <Attributes>
     <Map>
-      <entry key="TaskDefinition.runLengthAverage" value="54"/>
-      <entry key="TaskDefinition.runLengthTotal" value="216"/>
-      <entry key="TaskDefinition.runs" value="4"/>
+      <entry key="TaskDefinition.runLengthAverage" value="45"/>
+      <entry key="TaskDefinition.runLengthTotal" value="272"/>
+      <entry key="TaskDefinition.runs" value="6"/>
       <entry key="TaskSchedule.host"/>
       <entry key="addCData" value="false"/>
       <entry key="basePath" value="C:\SailPoint\SSD-6.1\config"/>
