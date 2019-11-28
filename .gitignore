@@ -56,6 +56,5 @@ config/TaskSchedule/
 config/Workflow/Importer.xml
 config/TaskDefinition/Export_Objects_to_XML.xml
 config/TaskDefinition/Perform_Maintenance.xml
-config/TaskSchedule/Perform_maintenance.xml
 
 
