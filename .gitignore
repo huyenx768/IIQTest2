@@ -52,4 +52,6 @@ scripts/
 servicestools/
 src/
 web/
+config/TaskSchedule/
+config/Workflow/Importer.xml
 
