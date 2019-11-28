@@ -3,9 +3,6 @@
 <TaskDefinition formPath="/monitor/tasks/sequentialTask.xhtml" name="Aggregate Authoritative Apps and Refresh" resultAction="Delete" subType="task_item_type_generic" type="Generic">
   <Attributes>
     <Map>
-      <entry key="TaskDefinition.runLengthAverage" value="37"/>
-      <entry key="TaskDefinition.runLengthTotal" value="447"/>
-      <entry key="TaskDefinition.runs" value="12"/>
       <entry key="exitOnError" value="false"/>
       <entry key="taskCompletionEmailNotify" value="Disabled"/>
       <entry key="taskCompletionEmailRecipients"/>

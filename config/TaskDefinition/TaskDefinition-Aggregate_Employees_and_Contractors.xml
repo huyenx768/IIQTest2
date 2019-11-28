@@ -3,9 +3,6 @@
 <TaskDefinition formPath="/monitor/tasks/accountAggregationTask.xhtml" name="Aggregate Employees and Contractors" resultAction="Delete" subType="task_item_type_acct_aggregation" type="AccountAggregation">
   <Attributes>
     <Map>
-      <entry key="TaskDefinition.runLengthAverage" value="14"/>
-      <entry key="TaskDefinition.runLengthTotal" value="175"/>
-      <entry key="TaskDefinition.runs" value="12"/>
       <entry key="applications" value="HR System - Employees, Contractor Feed"/>
       <entry key="checkDeleted" value="true"/>
       <entry key="checkHistory" value="false"/>

@@ -3,9 +3,6 @@
 <TaskDefinition name="Refresh Identity Cube" subType="task_item_type_identity" type="Identity">
   <Attributes>
     <Map>
-      <entry key="TaskDefinition.runLengthAverage" value="13"/>
-      <entry key="TaskDefinition.runLengthTotal" value="160"/>
-      <entry key="TaskDefinition.runs" value="12"/>
       <entry key="checkPolicies" value="true"/>
       <entry key="correlateEntitlements" value="true"/>
       <entry key="promoteAttributes" value="true"/>
